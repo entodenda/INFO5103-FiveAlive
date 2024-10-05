@@ -4247,9 +4247,7 @@
         "unit": "cup"
       }
     ],
-    "steps": [
-      " Pour beer into a pint glass; top with lemon-lime soda.\n"
-    ],
+    "steps": [" Pour beer into a pint glass; top with lemon-lime soda.\n"],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
