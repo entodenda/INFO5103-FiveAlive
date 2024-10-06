@@ -6,7 +6,7 @@ import { ExternalLink } from "@/components/ExternalLink";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
-import { RecipeImport } from "@/components/RecipeImport";
+import { AllRecipesToString, RecipeImport } from "@/components/RecipeImport";
 
 export default function RecipesScreen() {
   return (
@@ -21,7 +21,7 @@ export default function RecipesScreen() {
       </ThemedView>
       <ThemedText>This is to test recipe import functionality</ThemedText>
       <ThemedText>
-        <RecipeImport></RecipeImport>
+        <AllRecipesToString></AllRecipesToString>
       </ThemedText>
     </ParallaxScrollView>
   );
