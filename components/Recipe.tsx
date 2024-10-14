@@ -74,7 +74,7 @@ export class Ingredient {
     id: number,
     name: string | null,
     quantity: number,
-    unit: string | null
+    unit: string | null,
   ) {
     this.id = id;
     this.name = name;
