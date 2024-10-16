@@ -1,0 +1,2356 @@
+[
+  {
+    "name": "1% milk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 42.0,
+      "carbs": 4.99,
+      "fat": 0.97,
+      "protein": 3.37
+    },
+    "id": 1
+  },
+  {
+    "name": "all-purpose flour",
+    "dietTag": [1],
+    "macros": {
+      "calories": 364.0,
+      "carbs": 71.42,
+      "fat": 2.49,
+      "protein": 12.08
+    },
+    "id": 2
+  },
+  {
+    "name": "almonds",
+    "dietTag": [5],
+    "macros": {
+      "calories": 598.0,
+      "carbs": 21.01,
+      "fat": 52.54,
+      "protein": 20.96
+    },
+    "id": 3
+  },
+  {
+    "name": "amber ale",
+    "dietTag": [1],
+    "macros": {
+      "calories": 43.0,
+      "carbs": 3.55,
+      "fat": 0.0,
+      "protein": 0.46
+    },
+    "id": 4
+  },
+  {
+    "name": "angel food cake",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 258.0,
+      "carbs": 57.8,
+      "fat": 0.8,
+      "protein": 5.9
+    },
+    "id": 5
+  },
+  {
+    "name": "apple cider vinegar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 22.0,
+      "carbs": 0.93,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 6
+  },
+  {
+    "name": "apple juice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 46.0,
+      "carbs": 11.3,
+      "fat": 0.13,
+      "protein": 0.1
+    },
+    "id": 7
+  },
+  {
+    "name": "apricot jam",
+    "dietTag": [6],
+    "macros": {
+      "calories": 242.0,
+      "carbs": 64.4,
+      "fat": 0.2,
+      "protein": 0.7
+    },
+    "id": 8
+  },
+  {
+    "name": "asparagus",
+    "dietTag": [6],
+    "macros": {
+      "calories": 20.0,
+      "carbs": 3.88,
+      "fat": 0.12,
+      "protein": 2.2
+    },
+    "id": 9
+  },
+  {
+    "name": "baby spinach",
+    "dietTag": [6],
+    "macros": {
+      "calories": 23.0,
+      "carbs": 3.63,
+      "fat": 0.39,
+      "protein": 2.86
+    },
+    "id": 10
+  },
+  {
+    "name": "bacon",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 417.0,
+      "carbs": 1.28,
+      "fat": 39.69,
+      "protein": 12.62
+    },
+    "id": 11
+  },
+  {
+    "name": "bacon bits",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 498.0,
+      "carbs": 0.6,
+      "fat": 39.0,
+      "protein": 33.6
+    },
+    "id": 12
+  },
+  {
+    "name": "bacon drippings",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 898.0,
+      "carbs": 0.0,
+      "fat": 99.5,
+      "protein": 0.07
+    },
+    "id": 13
+  },
+  {
+    "name": "baking spray",
+    "dietTag": [6],
+    "macros": {
+      "calories": 792.0,
+      "carbs": 20.69,
+      "fat": 78.69,
+      "protein": 0.26
+    },
+    "id": 14
+  },
+  {
+    "name": "banana",
+    "dietTag": [6],
+    "macros": {
+      "calories": 89.0,
+      "carbs": 22.84,
+      "fat": 0.33,
+      "protein": 1.09
+    },
+    "id": 15
+  },
+  {
+    "name": "basil leaves",
+    "dietTag": [6],
+    "macros": {
+      "calories": 22.0,
+      "carbs": 2.65,
+      "fat": 0.64,
+      "protein": 3.15
+    },
+    "id": 16
+  },
+  {
+    "name": "basmati rice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 370.0,
+      "carbs": 81.68,
+      "fat": 0.55,
+      "protein": 6.81
+    },
+    "id": 17
+  },
+  {
+    "name": "bbq sauce",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 172.0,
+      "carbs": 40.77,
+      "fat": 0.63,
+      "protein": 0.82
+    },
+    "id": 18
+  },
+  {
+    "name": "bean sprouts",
+    "dietTag": [6],
+    "macros": {
+      "calories": 30.0,
+      "carbs": 5.94,
+      "fat": 0.18,
+      "protein": 3.04
+    },
+    "id": 19
+  },
+  {
+    "name": "beef bouillon",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 213.0,
+      "carbs": 17.4,
+      "fat": 8.89,
+      "protein": 15.97
+    },
+    "id": 20
+  },
+  {
+    "name": "beef sirloin",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 132.0,
+      "carbs": 0.0,
+      "fat": 3.97,
+      "protein": 22.51
+    },
+    "id": 21
+  },
+  {
+    "name": "beef tri-tip roast",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 162.0,
+      "carbs": 0.0,
+      "fat": 6.99,
+      "protein": 22.52
+    },
+    "id": 22
+  },
+  {
+    "name": "beer",
+    "dietTag": [1],
+    "macros": {
+      "calories": 29.0,
+      "carbs": 1.64,
+      "fat": 0.0,
+      "protein": 0.24
+    },
+    "id": 23
+  },
+  {
+    "name": "beet",
+    "dietTag": [6],
+    "macros": {
+      "calories": 43.0,
+      "carbs": 9.56,
+      "fat": 0.17,
+      "protein": 1.61
+    },
+    "id": 24
+  },
+  {
+    "name": "black olives",
+    "dietTag": [6],
+    "macros": {
+      "calories": 115.0,
+      "carbs": 6.26,
+      "fat": 10.68,
+      "protein": 0.84
+    },
+    "id": 25
+  },
+  {
+    "name": "blueberries",
+    "dietTag": [6],
+    "macros": {
+      "calories": 57.0,
+      "carbs": 14.49,
+      "fat": 0.33,
+      "protein": 0.74
+    },
+    "id": 26
+  },
+  {
+    "name": "bow tie pasta",
+    "dietTag": [1],
+    "macros": {
+      "calories": 371.0,
+      "carbs": 74.67,
+      "fat": 1.51,
+      "protein": 13.04
+    },
+    "id": 27
+  },
+  {
+    "name": "bread",
+    "dietTag": [1],
+    "macros": {
+      "calories": 288.0,
+      "carbs": 54.28,
+      "fat": 2.93,
+      "protein": 10.08
+    },
+    "id": 28
+  },
+  {
+    "name": "brisket",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 155.0,
+      "carbs": 0.0,
+      "fat": 7.37,
+      "protein": 20.72
+    },
+    "id": 29
+  },
+  {
+    "name": "broccoli",
+    "dietTag": [6],
+    "macros": {
+      "calories": 34.0,
+      "carbs": 6.64,
+      "fat": 0.37,
+      "protein": 2.82
+    },
+    "id": 30
+  },
+  {
+    "name": "brussels sprouts",
+    "dietTag": [6],
+    "macros": {
+      "calories": 43.0,
+      "carbs": 8.95,
+      "fat": 0.3,
+      "protein": 3.38
+    },
+    "id": 31
+  },
+  {
+    "name": "butter",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 717.0,
+      "carbs": 0.06,
+      "fat": 81.11,
+      "protein": 0.85
+    },
+    "id": 32
+  },
+  {
+    "name": "buttermilk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 40.0,
+      "carbs": 4.79,
+      "fat": 0.88,
+      "protein": 3.31
+    },
+    "id": 33
+  },
+  {
+    "name": "buttery crackers",
+    "dietTag": [1],
+    "macros": {
+      "calories": 510.0,
+      "carbs": 61.3,
+      "fat": 26.43,
+      "protein": 6.64
+    },
+    "id": 34
+  },
+  {
+    "name": "cake flour",
+    "dietTag": [1],
+    "macros": {
+      "calories": 368.0,
+      "carbs": 74.79,
+      "fat": 2.55,
+      "protein": 9.46
+    },
+    "id": 35
+  },
+  {
+    "name": "cake mix",
+    "dietTag": [1, 2, 4],
+    "macros": {
+      "calories": 423.0,
+      "carbs": 80.9,
+      "fat": 9.5,
+      "protein": 3.9
+    },
+    "id": 36
+  },
+  {
+    "name": "calves liver",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 140.0,
+      "carbs": 2.91,
+      "fat": 4.85,
+      "protein": 19.93
+    },
+    "id": 37
+  },
+  {
+    "name": "cantaloupe",
+    "dietTag": [6],
+    "macros": {
+      "calories": 34.0,
+      "carbs": 8.16,
+      "fat": 0.19,
+      "protein": 0.84
+    },
+    "id": 38
+  },
+  {
+    "name": "carrots",
+    "dietTag": [6],
+    "macros": {
+      "calories": 41.0,
+      "carbs": 9.58,
+      "fat": 0.24,
+      "protein": 0.93
+    },
+    "id": 39
+  },
+  {
+    "name": "cashews",
+    "dietTag": [5],
+    "macros": {
+      "calories": 574.0,
+      "carbs": 32.69,
+      "fat": 46.35,
+      "protein": 15.31
+    },
+    "id": 40
+  },
+  {
+    "name": "celery",
+    "dietTag": [6],
+    "macros": {
+      "calories": 16.0,
+      "carbs": 2.97,
+      "fat": 0.17,
+      "protein": 0.69
+    },
+    "id": 41
+  },
+  {
+    "name": "cheddar cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 406.0,
+      "carbs": 1.33,
+      "fat": 32.82,
+      "protein": 24.04
+    },
+    "id": 42
+  },
+  {
+    "name": "chicken",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 133.0,
+      "carbs": 0.0,
+      "fat": 4.02,
+      "protein": 24.31
+    },
+    "id": 43
+  },
+  {
+    "name": "chicken broth",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 4.0,
+      "carbs": 0.34,
+      "fat": 0.03,
+      "protein": 0.55
+    },
+    "id": 44
+  },
+  {
+    "name": "chicken stock",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 36.0,
+      "carbs": 3.53,
+      "fat": 1.2,
+      "protein": 2.52
+    },
+    "id": 45
+  },
+  {
+    "name": "chili beans",
+    "dietTag": [6],
+    "macros": {
+      "calories": 124.0,
+      "carbs": 22.41,
+      "fat": 0.09,
+      "protein": 9.13
+    },
+    "id": 46
+  },
+  {
+    "name": "chocolate milk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 83.0,
+      "carbs": 10.34,
+      "fat": 3.39,
+      "protein": 3.17
+    },
+    "id": 47
+  },
+  {
+    "name": "chocolate-hazelnut spread",
+    "dietTag": [2, 4, 5],
+    "macros": {
+      "calories": 541.0,
+      "carbs": 62.16,
+      "fat": 29.73,
+      "protein": 5.41
+    },
+    "id": 48
+  },
+  {
+    "name": "chow mein noodles",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 475.0,
+      "carbs": 72.8,
+      "fat": 15.43,
+      "protein": 8.11
+    },
+    "id": 49
+  },
+  {
+    "name": "cider vinegar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 22.0,
+      "carbs": 0.93,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 50
+  },
+  {
+    "name": "cinnamon red hot candies",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 14.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 51
+  },
+  {
+    "name": "coconut",
+    "dietTag": [5],
+    "macros": {
+      "calories": 592.0,
+      "carbs": 44.4,
+      "fat": 47.0,
+      "protein": 5.3
+    },
+    "id": 52
+  },
+  {
+    "name": "coconut milk",
+    "dietTag": [5],
+    "macros": {
+      "calories": 230.0,
+      "carbs": 5.54,
+      "fat": 23.84,
+      "protein": 2.29
+    },
+    "id": 53
+  },
+  {
+    "name": "coconut-flavored rum",
+    "dietTag": [5],
+    "macros": {
+      "calories": 231.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 54
+  },
+  {
+    "name": "confectioners sugar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 389.0,
+      "carbs": 99.77,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 55
+  },
+  {
+    "name": "corn",
+    "dietTag": [6],
+    "macros": {
+      "calories": 96.0,
+      "carbs": 20.98,
+      "fat": 1.5,
+      "protein": 3.41
+    },
+    "id": 56
+  },
+  {
+    "name": "corn chips",
+    "dietTag": [6],
+    "macros": {
+      "calories": 497.0,
+      "carbs": 67.38,
+      "fat": 22.33,
+      "protein": 6.62
+    },
+    "id": 57
+  },
+  {
+    "name": "corn on the cob",
+    "dietTag": [6],
+    "macros": {
+      "calories": 98.0,
+      "carbs": 23.5,
+      "fat": 0.78,
+      "protein": 3.28
+    },
+    "id": 58
+  },
+  {
+    "name": "corn tortillas",
+    "dietTag": [6],
+    "macros": {
+      "calories": 218.0,
+      "carbs": 44.64,
+      "fat": 2.85,
+      "protein": 5.7
+    },
+    "id": 59
+  },
+  {
+    "name": "cornbread mix",
+    "dietTag": [1, 2, 4],
+    "macros": {
+      "calories": 418.0,
+      "carbs": 69.5,
+      "fat": 12.2,
+      "protein": 7.0
+    },
+    "id": 60
+  },
+  {
+    "name": "corned beef",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 198.0,
+      "carbs": 0.2,
+      "fat": 10.0,
+      "protein": 13.75
+    },
+    "id": 61
+  },
+  {
+    "name": "crabmeat",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 79.0,
+      "carbs": 1.43,
+      "fat": 0.94,
+      "protein": 15.05
+    },
+    "id": 62
+  },
+  {
+    "name": "crawfish tails",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 112.0,
+      "carbs": 2.43,
+      "fat": 1.51,
+      "protein": 20.6
+    },
+    "id": 63
+  },
+  {
+    "name": "cream cheese",
+    "dietTag": [4],
+    "macros": {
+      "calories": 342.0,
+      "carbs": 4.07,
+      "fat": 34.24,
+      "protein": 5.93
+    },
+    "id": 64
+  },
+  {
+    "name": "cream of tartar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 258.0,
+      "carbs": 61.5,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 65
+  },
+  {
+    "name": "cream-style corn",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 72.0,
+      "carbs": 18.13,
+      "fat": 0.42,
+      "protein": 1.74
+    },
+    "id": 66
+  },
+  {
+    "name": "cucumbers",
+    "dietTag": [6],
+    "macros": {
+      "calories": 16.0,
+      "carbs": 3.63,
+      "fat": 0.11,
+      "protein": 0.65
+    },
+    "id": 67
+  },
+  {
+    "name": "dark brown sugar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 380.0,
+      "carbs": 98.09,
+      "fat": 0.0,
+      "protein": 0.12
+    },
+    "id": 68
+  },
+  {
+    "name": "dijon mustard",
+    "dietTag": [6],
+    "macros": {
+      "calories": 91.0,
+      "carbs": 5.3,
+      "fat": 6.3,
+      "protein": 5.9
+    },
+    "id": 69
+  },
+  {
+    "name": "dry sherry",
+    "dietTag": [6],
+    "macros": {
+      "calories": 83.0,
+      "carbs": 2.72,
+      "fat": 0.0,
+      "protein": 0.07
+    },
+    "id": 70
+  },
+  {
+    "name": "egg",
+    "dietTag": [2],
+    "macros": {
+      "calories": 145.0,
+      "carbs": 0.98,
+      "fat": 10.01,
+      "protein": 11.8
+    },
+    "id": 71
+  },
+  {
+    "name": "egg whites",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 48.0,
+      "carbs": 1.18,
+      "fat": 0.0,
+      "protein": 9.99
+    },
+    "id": 72
+  },
+  {
+    "name": "evaporated milk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 134.0,
+      "carbs": 10.04,
+      "fat": 7.8,
+      "protein": 6.81
+    },
+    "id": 73
+  },
+  {
+    "name": "fish sauce",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 35.0,
+      "carbs": 3.64,
+      "fat": 0.01,
+      "protein": 5.06
+    },
+    "id": 74
+  },
+  {
+    "name": "flaked coconut",
+    "dietTag": [5],
+    "macros": {
+      "calories": 456.0,
+      "carbs": 51.85,
+      "fat": 27.99,
+      "protein": 3.13
+    },
+    "id": 75
+  },
+  {
+    "name": "flour",
+    "dietTag": [1],
+    "macros": {
+      "calories": 354.0,
+      "carbs": 74.22,
+      "fat": 0.97,
+      "protein": 9.89
+    },
+    "id": 76
+  },
+  {
+    "name": "fontina cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 389.0,
+      "carbs": 1.55,
+      "fat": 31.14,
+      "protein": 25.6
+    },
+    "id": 77
+  },
+  {
+    "name": "freeze-dried strawberries",
+    "dietTag": [6],
+    "macros": {
+      "calories": 78.0,
+      "carbs": 21.0,
+      "fat": 0.14,
+      "protein": 0.52
+    },
+    "id": 78
+  },
+  {
+    "name": "fusilli pasta",
+    "dietTag": [1],
+    "macros": {
+      "calories": 371.0,
+      "carbs": 74.67,
+      "fat": 1.51,
+      "protein": 13.04
+    },
+    "id": 79
+  },
+  {
+    "name": "ghee",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 876.0,
+      "carbs": 0.0,
+      "fat": 99.48,
+      "protein": 0.28
+    },
+    "id": 80
+  },
+  {
+    "name": "gin",
+    "dietTag": [6],
+    "macros": {
+      "calories": 263.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 81
+  },
+  {
+    "name": "ginger root",
+    "dietTag": [6],
+    "macros": {
+      "calories": 80.0,
+      "carbs": 17.77,
+      "fat": 0.75,
+      "protein": 1.82
+    },
+    "id": 82
+  },
+  {
+    "name": "goat-milk feta cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 264.0,
+      "carbs": 4.09,
+      "fat": 21.28,
+      "protein": 14.21
+    },
+    "id": 83
+  },
+  {
+    "name": "gorgonzola cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 353.0,
+      "carbs": 2.34,
+      "fat": 28.74,
+      "protein": 21.4
+    },
+    "id": 84
+  },
+  {
+    "name": "graham cracker",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 430.0,
+      "carbs": 77.66,
+      "fat": 10.6,
+      "protein": 6.69
+    },
+    "id": 85
+  },
+  {
+    "name": "graham cracker crumbs",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 430.0,
+      "carbs": 77.66,
+      "fat": 10.6,
+      "protein": 6.69
+    },
+    "id": 86
+  },
+  {
+    "name": "granny smith apple",
+    "dietTag": [6],
+    "macros": {
+      "calories": 58.0,
+      "carbs": 13.61,
+      "fat": 0.19,
+      "protein": 0.44
+    },
+    "id": 87
+  },
+  {
+    "name": "grape tomatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 18.0,
+      "carbs": 3.89,
+      "fat": 0.2,
+      "protein": 0.88
+    },
+    "id": 88
+  },
+  {
+    "name": "green beans",
+    "dietTag": [6],
+    "macros": {
+      "calories": 31.0,
+      "carbs": 6.97,
+      "fat": 0.22,
+      "protein": 1.83
+    },
+    "id": 89
+  },
+  {
+    "name": "green bell pepper",
+    "dietTag": [6],
+    "macros": {
+      "calories": 20.0,
+      "carbs": 4.64,
+      "fat": 0.17,
+      "protein": 0.86
+    },
+    "id": 90
+  },
+  {
+    "name": "green chile peppers",
+    "dietTag": [6],
+    "macros": {
+      "calories": 40.0,
+      "carbs": 9.46,
+      "fat": 0.2,
+      "protein": 2.0
+    },
+    "id": 91
+  },
+  {
+    "name": "green grapes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 69.0,
+      "carbs": 18.1,
+      "fat": 0.16,
+      "protein": 0.72
+    },
+    "id": 92
+  },
+  {
+    "name": "green onion",
+    "dietTag": [6],
+    "macros": {
+      "calories": 27.0,
+      "carbs": 5.74,
+      "fat": 0.47,
+      "protein": 0.97
+    },
+    "id": 93
+  },
+  {
+    "name": "grenadine syrup",
+    "dietTag": [6],
+    "macros": {
+      "calories": 268.0,
+      "carbs": 66.91,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 94
+  },
+  {
+    "name": "ground beef",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 207.0,
+      "carbs": 0.0,
+      "fat": 13.68,
+      "protein": 19.58
+    },
+    "id": 95
+  },
+  {
+    "name": "ground beef chuck",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 147.0,
+      "carbs": 0.0,
+      "fat": 6.73,
+      "protein": 20.56
+    },
+    "id": 96
+  },
+  {
+    "name": "ham",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 157.0,
+      "carbs": 0.0,
+      "fat": 5.5,
+      "protein": 25.05
+    },
+    "id": 97
+  },
+  {
+    "name": "hash brown potatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 82.0,
+      "carbs": 17.72,
+      "fat": 0.62,
+      "protein": 2.06
+    },
+    "id": 98
+  },
+  {
+    "name": "heavy cream",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 258.0,
+      "carbs": 12.49,
+      "fat": 22.22,
+      "protein": 3.2
+    },
+    "id": 99
+  },
+  {
+    "name": "heavy whipping cream",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 258.0,
+      "carbs": 12.49,
+      "fat": 22.22,
+      "protein": 3.2
+    },
+    "id": 100
+  },
+  {
+    "name": "hoagie rolls",
+    "dietTag": [1, 2],
+    "macros": {
+      "calories": 287.0,
+      "carbs": 54.44,
+      "fat": 2.77,
+      "protein": 9.73
+    },
+    "id": 101
+  },
+  {
+    "name": "honey",
+    "dietTag": [2],
+    "macros": {
+      "calories": 304.0,
+      "carbs": 82.4,
+      "fat": 0.0,
+      "protein": 0.3
+    },
+    "id": 102
+  },
+  {
+    "name": "horseradish",
+    "dietTag": [6],
+    "macros": {
+      "calories": 48.0,
+      "carbs": 11.29,
+      "fat": 0.69,
+      "protein": 1.18
+    },
+    "id": 103
+  },
+  {
+    "name": "hot chile paste",
+    "dietTag": [6],
+    "macros": {
+      "calories": 21.0,
+      "carbs": 5.1,
+      "fat": 0.1,
+      "protein": 0.9
+    },
+    "id": 104
+  },
+  {
+    "name": "hot pepper sauce",
+    "dietTag": [6],
+    "macros": {
+      "calories": 21.0,
+      "carbs": 3.9,
+      "fat": 0.6,
+      "protein": 0.9
+    },
+    "id": 105
+  },
+  {
+    "name": "hot sauce",
+    "dietTag": [6],
+    "macros": {
+      "calories": 11.0,
+      "carbs": 1.75,
+      "fat": 0.37,
+      "protein": 0.51
+    },
+    "id": 106
+  },
+  {
+    "name": "instant espresso powder",
+    "dietTag": [6],
+    "macros": {
+      "calories": 9.0,
+      "carbs": 1.67,
+      "fat": 0.18,
+      "protein": 0.12
+    },
+    "id": 107
+  },
+  {
+    "name": "instant vanilla pudding mix",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 92.0,
+      "carbs": 13.12,
+      "fat": 3.06,
+      "protein": 2.91
+    },
+    "id": 108
+  },
+  {
+    "name": "italian sausage",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 263.0,
+      "carbs": 10.7,
+      "fat": 17.58,
+      "protein": 14.85
+    },
+    "id": 109
+  },
+  {
+    "name": "italian-seasoned panko",
+    "dietTag": [1],
+    "macros": {
+      "calories": 384.0,
+      "carbs": 68.49,
+      "fat": 5.48,
+      "protein": 14.13
+    },
+    "id": 110
+  },
+  {
+    "name": "Italian-style salad dressing",
+    "dietTag": [6],
+    "macros": {
+      "calories": 240.0,
+      "carbs": 12.12,
+      "fat": 21.12,
+      "protein": 0.41
+    },
+    "id": 111
+  },
+  {
+    "name": "jalapeno pepper",
+    "dietTag": [6],
+    "macros": {
+      "calories": 29.0,
+      "carbs": 6.5,
+      "fat": 0.37,
+      "protein": 0.91
+    },
+    "id": 112
+  },
+  {
+    "name": "jellybeans",
+    "dietTag": [2],
+    "macros": {
+      "calories": 375.0,
+      "carbs": 93.55,
+      "fat": 0.05,
+      "protein": 0.0
+    },
+    "id": 113
+  },
+  {
+    "name": "ketchup",
+    "dietTag": [6],
+    "macros": {
+      "calories": 101.0,
+      "carbs": 27.4,
+      "fat": 0.1,
+      "protein": 1.04
+    },
+    "id": 114
+  },
+  {
+    "name": "lager-style beer",
+    "dietTag": [1],
+    "macros": {
+      "calories": 43.0,
+      "carbs": 3.55,
+      "fat": 0.0,
+      "protein": 0.46
+    },
+    "id": 115
+  },
+  {
+    "name": "leek",
+    "dietTag": [6],
+    "macros": {
+      "calories": 61.0,
+      "carbs": 14.15,
+      "fat": 0.3,
+      "protein": 1.5
+    },
+    "id": 116
+  },
+  {
+    "name": "lemon",
+    "dietTag": [6],
+    "macros": {
+      "calories": 29.0,
+      "carbs": 9.32,
+      "fat": 0.3,
+      "protein": 1.1
+    },
+    "id": 117
+  },
+  {
+    "name": "lemon juice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 22.0,
+      "carbs": 6.9,
+      "fat": 0.24,
+      "protein": 0.35
+    },
+    "id": 118
+  },
+  {
+    "name": "lemon-lime soda",
+    "dietTag": [6],
+    "macros": {
+      "calories": 40.0,
+      "carbs": 10.14,
+      "fat": 0.02,
+      "protein": 0.05
+    },
+    "id": 119
+  },
+  {
+    "name": "light corn syrup",
+    "dietTag": [6],
+    "macros": {
+      "calories": 281.0,
+      "carbs": 76.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 120
+  },
+  {
+    "name": "light cream",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 292.0,
+      "carbs": 2.96,
+      "fat": 32.0,
+      "protein": 2.07
+    },
+    "id": 121
+  },
+  {
+    "name": "light rum",
+    "dietTag": [6],
+    "macros": {
+      "calories": 231.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 122
+  },
+  {
+    "name": "lime juice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 25.0,
+      "carbs": 8.42,
+      "fat": 0.07,
+      "protein": 0.42
+    },
+    "id": 123
+  },
+  {
+    "name": "lobster tails",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 77.0,
+      "carbs": 0.0,
+      "fat": 0.75,
+      "protein": 16.52
+    },
+    "id": 124
+  },
+  {
+    "name": "mandarin oranges",
+    "dietTag": [6],
+    "macros": {
+      "calories": 53.0,
+      "carbs": 13.34,
+      "fat": 0.31,
+      "protein": 0.81
+    },
+    "id": 125
+  },
+  {
+    "name": "mangos",
+    "dietTag": [6],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 14.98,
+      "fat": 0.38,
+      "protein": 0.82
+    },
+    "id": 126
+  },
+  {
+    "name": "maple syrup",
+    "dietTag": [6],
+    "macros": {
+      "calories": 260.0,
+      "carbs": 66.89,
+      "fat": 0.24,
+      "protein": 0.04
+    },
+    "id": 127
+  },
+  {
+    "name": "margarine",
+    "dietTag": [6],
+    "macros": {
+      "calories": 719.0,
+      "carbs": 1.39,
+      "fat": 80.65,
+      "protein": 0.16
+    },
+    "id": 128
+  },
+  {
+    "name": "mayonnaise",
+    "dietTag": [2],
+    "macros": {
+      "calories": 250.0,
+      "carbs": 14.78,
+      "fat": 21.6,
+      "protein": 0.65
+    },
+    "id": 129
+  },
+  {
+    "name": "medium shrimp",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 71.0,
+      "carbs": 0.91,
+      "fat": 1.01,
+      "protein": 13.61
+    },
+    "id": 130
+  },
+  {
+    "name": "mixed vegetables",
+    "dietTag": [6],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 13.09,
+      "fat": 0.15,
+      "protein": 2.86
+    },
+    "id": 131
+  },
+  {
+    "name": "mozzarella cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 319.0,
+      "carbs": 2.47,
+      "fat": 24.64,
+      "protein": 21.6
+    },
+    "id": 132
+  },
+  {
+    "name": "mushrooms",
+    "dietTag": [6],
+    "macros": {
+      "calories": 22.0,
+      "carbs": 3.28,
+      "fat": 0.34,
+      "protein": 3.09
+    },
+    "id": 133
+  },
+  {
+    "name": "mustard",
+    "dietTag": [6],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 5.83,
+      "fat": 3.34,
+      "protein": 3.74
+    },
+    "id": 134
+  },
+  {
+    "name": "onion",
+    "dietTag": [6],
+    "macros": {
+      "calories": 40.0,
+      "carbs": 9.34,
+      "fat": 0.1,
+      "protein": 1.1
+    },
+    "id": 135
+  },
+  {
+    "name": "orange",
+    "dietTag": [6],
+    "macros": {
+      "calories": 49.0,
+      "carbs": 12.54,
+      "fat": 0.15,
+      "protein": 0.91
+    },
+    "id": 136
+  },
+  {
+    "name": "orange juice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 45.0,
+      "carbs": 10.4,
+      "fat": 0.2,
+      "protein": 0.7
+    },
+    "id": 137
+  },
+  {
+    "name": "oreo cookies",
+    "dietTag": [1],
+    "macros": {
+      "calories": 436.0,
+      "carbs": 76.17,
+      "fat": 13.24,
+      "protein": 2.94
+    },
+    "id": 138
+  },
+  {
+    "name": "oyster sauce",
+    "dietTag": [1, 2, 3],
+    "macros": {
+      "calories": 51.0,
+      "carbs": 10.92,
+      "fat": 0.25,
+      "protein": 1.35
+    },
+    "id": 139
+  },
+  {
+    "name": "parmesan cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 420.0,
+      "carbs": 13.91,
+      "fat": 27.84,
+      "protein": 28.42
+    },
+    "id": 140
+  },
+  {
+    "name": "peach",
+    "dietTag": [6],
+    "macros": {
+      "calories": 39.0,
+      "carbs": 9.54,
+      "fat": 0.25,
+      "protein": 0.91
+    },
+    "id": 141
+  },
+  {
+    "name": "peanut butter",
+    "dietTag": [5],
+    "macros": {
+      "calories": 589.0,
+      "carbs": 21.57,
+      "fat": 49.94,
+      "protein": 24.06
+    },
+    "id": 142
+  },
+  {
+    "name": "peanut butter chips",
+    "dietTag": [5],
+    "macros": {
+      "calories": 529.0,
+      "carbs": 46.88,
+      "fat": 29.8,
+      "protein": 18.3
+    },
+    "id": 143
+  },
+  {
+    "name": "peanuts",
+    "dietTag": [5],
+    "macros": {
+      "calories": 587.0,
+      "carbs": 21.26,
+      "fat": 49.66,
+      "protein": 24.35
+    },
+    "id": 144
+  },
+  {
+    "name": "pecans",
+    "dietTag": [5],
+    "macros": {
+      "calories": 691.0,
+      "carbs": 13.86,
+      "fat": 71.97,
+      "protein": 9.17
+    },
+    "id": 145
+  },
+  {
+    "name": "penne pasta",
+    "dietTag": [1],
+    "macros": {
+      "calories": 375.0,
+      "carbs": 67.56,
+      "fat": 2.23,
+      "protein": 19.86
+    },
+    "id": 146
+  },
+  {
+    "name": "pesto sauce",
+    "dietTag": [4, 5],
+    "macros": {
+      "calories": 68.0,
+      "carbs": 17.0,
+      "fat": 0.2,
+      "protein": 0.2
+    },
+    "id": 147
+  },
+  {
+    "name": "pineapple",
+    "dietTag": [6],
+    "macros": {
+      "calories": 50.0,
+      "carbs": 13.12,
+      "fat": 0.12,
+      "protein": 0.54
+    },
+    "id": 148
+  },
+  {
+    "name": "pineapple juice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 53.0,
+      "carbs": 12.87,
+      "fat": 0.12,
+      "protein": 0.36
+    },
+    "id": 149
+  },
+  {
+    "name": "pinto beans",
+    "dietTag": [6],
+    "macros": {
+      "calories": 347.0,
+      "carbs": 62.55,
+      "fat": 1.23,
+      "protein": 21.42
+    },
+    "id": 150
+  },
+  {
+    "name": "pita bread pockets",
+    "dietTag": [1],
+    "macros": {
+      "calories": 266.0,
+      "carbs": 55.0,
+      "fat": 2.6,
+      "protein": 9.8
+    },
+    "id": 151
+  },
+  {
+    "name": "pork loin",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 198.0,
+      "carbs": 0.0,
+      "fat": 12.58,
+      "protein": 19.74
+    },
+    "id": 152
+  },
+  {
+    "name": "pork sausage",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 286.0,
+      "carbs": 9.48,
+      "fat": 21.6,
+      "protein": 12.69
+    },
+    "id": 153
+  },
+  {
+    "name": "potato",
+    "dietTag": [6],
+    "macros": {
+      "calories": 86.0,
+      "carbs": 20.01,
+      "fat": 0.1,
+      "protein": 1.71
+    },
+    "id": 154
+  },
+  {
+    "name": "provolone cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 352.0,
+      "carbs": 2.14,
+      "fat": 26.62,
+      "protein": 25.58
+    },
+    "id": 155
+  },
+  {
+    "name": "raspberry-flavored liqueur",
+    "dietTag": [6],
+    "macros": {
+      "calories": 287.0,
+      "carbs": 71.6,
+      "fat": 0.01,
+      "protein": 0.08
+    },
+    "id": 156
+  },
+  {
+    "name": "red bell pepper",
+    "dietTag": [6],
+    "macros": {
+      "calories": 31.0,
+      "carbs": 6.03,
+      "fat": 0.3,
+      "protein": 0.99
+    },
+    "id": 157
+  },
+  {
+    "name": "red cabbage",
+    "dietTag": [6],
+    "macros": {
+      "calories": 31.0,
+      "carbs": 7.37,
+      "fat": 0.16,
+      "protein": 1.43
+    },
+    "id": 158
+  },
+  {
+    "name": "red chiles",
+    "dietTag": [6],
+    "macros": {
+      "calories": 40.0,
+      "carbs": 9.46,
+      "fat": 0.2,
+      "protein": 2.0
+    },
+    "id": 159
+  },
+  {
+    "name": "red licorice",
+    "dietTag": [2],
+    "macros": {
+      "calories": 350.0,
+      "carbs": 79.74,
+      "fat": 2.32,
+      "protein": 2.56
+    },
+    "id": 160
+  },
+  {
+    "name": "red wine",
+    "dietTag": [6],
+    "macros": {
+      "calories": 85.0,
+      "carbs": 2.61,
+      "fat": 0.0,
+      "protein": 0.07
+    },
+    "id": 161
+  },
+  {
+    "name": "red wine vinegar",
+    "dietTag": [6],
+    "macros": {
+      "calories": 19.0,
+      "carbs": 0.27,
+      "fat": 0.0,
+      "protein": 0.04
+    },
+    "id": 162
+  },
+  {
+    "name": "rolled oats",
+    "dietTag": [6],
+    "macros": {
+      "calories": 389.0,
+      "carbs": 66.27,
+      "fat": 6.9,
+      "protein": 16.89
+    },
+    "id": 163
+  },
+  {
+    "name": "russet potatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 98.0,
+      "carbs": 21.44,
+      "fat": 0.13,
+      "protein": 2.63
+    },
+    "id": 164
+  },
+  {
+    "name": "rye bread",
+    "dietTag": [1],
+    "macros": {
+      "calories": 251.0,
+      "carbs": 48.78,
+      "fat": 1.99,
+      "protein": 9.04
+    },
+    "id": 165
+  },
+  {
+    "name": "salmon",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 160.0,
+      "carbs": 0.0,
+      "fat": 7.67,
+      "protein": 21.27
+    },
+    "id": 166
+  },
+  {
+    "name": "salsa",
+    "dietTag": [6],
+    "macros": {
+      "calories": 29.0,
+      "carbs": 6.72,
+      "fat": 0.17,
+      "protein": 1.54
+    },
+    "id": 167
+  },
+  {
+    "name": "self-rising flour",
+    "dietTag": [1],
+    "macros": {
+      "calories": 354.0,
+      "carbs": 74.22,
+      "fat": 0.97,
+      "protein": 9.89
+    },
+    "id": 168
+  },
+  {
+    "name": "semi-sweet chocolate chips",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 539.0,
+      "carbs": 67.1,
+      "fat": 29.05,
+      "protein": 2.2
+    },
+    "id": 169
+  },
+  {
+    "name": "shallots",
+    "dietTag": [6],
+    "macros": {
+      "calories": 72.0,
+      "carbs": 16.8,
+      "fat": 0.1,
+      "protein": 2.5
+    },
+    "id": 170
+  },
+  {
+    "name": "shelled cranberry beans",
+    "dietTag": [6],
+    "macros": {
+      "calories": 335.0,
+      "carbs": 60.05,
+      "fat": 1.23,
+      "protein": 23.03
+    },
+    "id": 171
+  },
+  {
+    "name": "shortening",
+    "dietTag": [6],
+    "macros": {
+      "calories": 885.0,
+      "carbs": 0.0,
+      "fat": 100.0,
+      "protein": 0.0
+    },
+    "id": 172
+  },
+  {
+    "name": "short-grain white rice",
+    "dietTag": [6],
+    "macros": {
+      "calories": 358.0,
+      "carbs": 79.15,
+      "fat": 0.52,
+      "protein": 6.5
+    },
+    "id": 173
+  },
+  {
+    "name": "sour cream",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 85.0,
+      "carbs": 8.88,
+      "fat": 3.44,
+      "protein": 4.69
+    },
+    "id": 174
+  },
+  {
+    "name": "sour mix",
+    "dietTag": [6],
+    "macros": {
+      "calories": 87.0,
+      "carbs": 21.4,
+      "fat": 0.1,
+      "protein": 0.1
+    },
+    "id": 175
+  },
+  {
+    "name": "soy sauce",
+    "dietTag": [1],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 5.57,
+      "fat": 0.1,
+      "protein": 10.51
+    },
+    "id": 176
+  },
+  {
+    "name": "spanish serrano ham",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 173.0,
+      "carbs": 0.21,
+      "fat": 9.17,
+      "protein": 22.45
+    },
+    "id": 177
+  },
+  {
+    "name": "spiced rum",
+    "dietTag": [6],
+    "macros": {
+      "calories": 231.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 178
+  },
+  {
+    "name": "spinach",
+    "dietTag": [6],
+    "macros": {
+      "calories": 23.0,
+      "carbs": 3.63,
+      "fat": 0.39,
+      "protein": 2.86
+    },
+    "id": 179
+  },
+  {
+    "name": "strawberries",
+    "dietTag": [6],
+    "macros": {
+      "calories": 33.0,
+      "carbs": 7.68,
+      "fat": 0.3,
+      "protein": 0.67
+    },
+    "id": 180
+  },
+  {
+    "name": "strawberry jam",
+    "dietTag": [6],
+    "macros": {
+      "calories": 278.0,
+      "carbs": 68.86,
+      "fat": 0.07,
+      "protein": 0.37
+    },
+    "id": 181
+  },
+  {
+    "name": "strawberry pie filling",
+    "dietTag": [6],
+    "macros": {
+      "calories": 316.0,
+      "carbs": 42.6,
+      "fat": 16.1,
+      "protein": 3.0
+    },
+    "id": 182
+  },
+  {
+    "name": "sun-dried tomato pesto",
+    "dietTag": [6],
+    "macros": {
+      "calories": 213.0,
+      "carbs": 23.33,
+      "fat": 14.8,
+      "protein": 5.06
+    },
+    "id": 183
+  },
+  {
+    "name": "sun-dried tomatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 213.0,
+      "carbs": 23.33,
+      "fat": 14.08,
+      "protein": 5.06
+    },
+    "id": 184
+  },
+  {
+    "name": "sweet onion",
+    "dietTag": [6],
+    "macros": {
+      "calories": 32.0,
+      "carbs": 7.55,
+      "fat": 0.08,
+      "protein": 0.8
+    },
+    "id": 185
+  },
+  {
+    "name": "sweet potatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 86.0,
+      "carbs": 20.12,
+      "fat": 0.05,
+      "protein": 1.57
+    },
+    "id": 186
+  },
+  {
+    "name": "sweet spanish onion",
+    "dietTag": [6],
+    "macros": {
+      "calories": 2.0,
+      "carbs": 2.0,
+      "fat": 2.0,
+      "protein": 2.0
+    },
+    "id": 187
+  },
+  {
+    "name": "sweetened condensed milk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 321.0,
+      "carbs": 54.4,
+      "fat": 8.7,
+      "protein": 7.91
+    },
+    "id": 188
+  },
+  {
+    "name": "swiss cheese",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 380.0,
+      "carbs": 5.38,
+      "fat": 27.8,
+      "protein": 26.93
+    },
+    "id": 189
+  },
+  {
+    "name": "taco seasoning",
+    "dietTag": [1],
+    "macros": {
+      "calories": 322.0,
+      "carbs": 58.0,
+      "fat": 0.0,
+      "protein": 4.5
+    },
+    "id": 190
+  },
+  {
+    "name": "tamari",
+    "dietTag": [6],
+    "macros": {
+      "calories": 60.0,
+      "carbs": 5.57,
+      "fat": 0.1,
+      "protein": 10.51
+    },
+    "id": 191
+  },
+  {
+    "name": "tart apples",
+    "dietTag": [6],
+    "macros": {
+      "calories": 56.0,
+      "carbs": 14.41,
+      "fat": 0.42,
+      "protein": 0.28
+    },
+    "id": 192
+  },
+  {
+    "name": "tequila",
+    "dietTag": [6],
+    "macros": {
+      "calories": 134.0,
+      "carbs": 5.0,
+      "fat": 0.0,
+      "protein": 0.5
+    },
+    "id": 193
+  },
+  {
+    "name": "teriyaki sauce",
+    "dietTag": [1],
+    "macros": {
+      "calories": 89.0,
+      "carbs": 15.56,
+      "fat": 0.02,
+      "protein": 5.93
+    },
+    "id": 194
+  },
+  {
+    "name": "toasted sesame seeds",
+    "dietTag": [5],
+    "macros": {
+      "calories": 565.0,
+      "carbs": 25.74,
+      "fat": 48.0,
+      "protein": 16.96
+    },
+    "id": 195
+  },
+  {
+    "name": "tomato paste",
+    "dietTag": [6],
+    "macros": {
+      "calories": 82.0,
+      "carbs": 18.91,
+      "fat": 0.47,
+      "protein": 4.32
+    },
+    "id": 196
+  },
+  {
+    "name": "tomato sauce",
+    "dietTag": [6],
+    "macros": {
+      "calories": 38.0,
+      "carbs": 8.98,
+      "fat": 0.21,
+      "protein": 1.65
+    },
+    "id": 197
+  },
+  {
+    "name": "tomatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 15.0,
+      "carbs": 3.62,
+      "fat": 0.08,
+      "protein": 0.69
+    },
+    "id": 198
+  },
+  {
+    "name": "turkey bacon",
+    "dietTag": [2, 3],
+    "macros": {
+      "calories": 368.0,
+      "carbs": 4.24,
+      "fat": 25.87,
+      "protein": 29.5
+    },
+    "id": 199
+  },
+  {
+    "name": "vanilla frosting",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 413.0,
+      "carbs": 74.28,
+      "fat": 12.74,
+      "protein": 0.34
+    },
+    "id": 200
+  },
+  {
+    "name": "vodka",
+    "dietTag": [6],
+    "macros": {
+      "calories": 231.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 201
+  },
+  {
+    "name": "walnuts",
+    "dietTag": [5],
+    "macros": {
+      "calories": 619.0,
+      "carbs": 9.58,
+      "fat": 49.33,
+      "protein": 24.06
+    },
+    "id": 202
+  },
+  {
+    "name": "wheat germ",
+    "dietTag": [1],
+    "macros": {
+      "calories": 382.0,
+      "carbs": 49.6,
+      "fat": 10.7,
+      "protein": 29.1
+    },
+    "id": 203
+  },
+  {
+    "name": "whipped topping",
+    "dietTag": [4],
+    "macros": {
+      "calories": 332.0,
+      "carbs": 8.59,
+      "fat": 32.93,
+      "protein": 1.97
+    },
+    "id": 204
+  },
+  {
+    "name": "white chocolate",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 384.0,
+      "carbs": 80.99,
+      "fat": 7.17,
+      "protein": 2.19
+    },
+    "id": 205
+  },
+  {
+    "name": "white chocolate chips",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 385.0,
+      "carbs": 80.99,
+      "fat": 7.17,
+      "protein": 2.19
+    },
+    "id": 206
+  },
+  {
+    "name": "white frosting",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 244.0,
+      "carbs": 62.6,
+      "fat": 0.0,
+      "protein": 1.5
+    },
+    "id": 207
+  },
+  {
+    "name": "white potatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 94.0,
+      "carbs": 21.08,
+      "fat": 0.15,
+      "protein": 2.1
+    },
+    "id": 208
+  },
+  {
+    "name": "whole milk",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 61.0,
+      "carbs": 4.8,
+      "fat": 3.25,
+      "protein": 3.15
+    },
+    "id": 209
+  },
+  {
+    "name": "worcestershire sauce",
+    "dietTag": [1, 2, 3],
+    "macros": {
+      "calories": 78.0,
+      "carbs": 19.46,
+      "fat": 0.0,
+      "protein": 0.0
+    },
+    "id": 210
+  },
+  {
+    "name": "yellow onion",
+    "dietTag": [6],
+    "macros": {
+      "calories": 342.0,
+      "carbs": 79.12,
+      "fat": 1.04,
+      "protein": 10.41
+    },
+    "id": 211
+  },
+  {
+    "name": "yogurt",
+    "dietTag": [2, 4],
+    "macros": {
+      "calories": 75.0,
+      "carbs": 13.31,
+      "fat": 1.42,
+      "protein": 2.62
+    },
+    "id": 212
+  },
+  {
+    "name": "yukon gold potatoes",
+    "dietTag": [6],
+    "macros": {
+      "calories": 71.0,
+      "carbs": 15.9,
+      "fat": 0.14,
+      "protein": 1.89
+    },
+    "id": 213
+  },
+  {
+    "name": "zucchini",
+    "dietTag": [6],
+    "macros": {
+      "calories": 17.0,
+      "carbs": 3.11,
+      "fat": 0.32,
+      "protein": 1.21
+    },
+    "id": 214
+  }
+]
