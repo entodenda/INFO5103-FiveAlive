@@ -2352,5 +2352,16 @@
       "protein": 1.21
     },
     "id": 214
+  },
+  {
+    "name": "garlic",
+    "dietTag": [6],
+    "macros": {
+      "calories": 4.5,
+      "carbs": 3.11,
+      "fat": 0.0,
+      "protein": 0.2
+    },
+    "id": 215
   }
 ]

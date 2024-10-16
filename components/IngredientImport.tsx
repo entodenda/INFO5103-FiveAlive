@@ -1,7 +1,8 @@
-import { Ingredient } from "./Ingredient";
+import { Ingredient, DietTag } from "./Ingredient";
 import { Nutrition } from "./Recipe";
 
-export function IngredientImport(): Ingredient[] {
+//to import all ingredients
+export function AllIngredientsImport(): Ingredient[] {
   const ingredients: Ingredient[] = [];
 
   let ingredfile = require("../assets/ingredientsUpdated.json");
@@ -9,7 +10,7 @@ export function IngredientImport(): Ingredient[] {
     (ingred: {
       id: number;
       name: string;
-      dietTag: number[];
+      dietTag: DietTag[];
       macros: Nutrition;
     }) => {
       let nutrition: Nutrition = new Nutrition(
@@ -27,6 +28,27 @@ export function IngredientImport(): Ingredient[] {
   return ingredients;
 }
 
+//to import just name and ids if we want this for ingredient autocomplete
+export function IngredientNamesImport(): Ingredient[] {
+  const ingredients: Ingredient[] = [];
+
+  let ingredfile = require("../assets/ingredientsUpdated.json");
+  ingredfile.forEach(
+    (ingred: {
+      id: number;
+      name: string;
+      dietTag?: DietTag[];
+      macros?: Nutrition;
+    }) => {
+      ingredients.push(new Ingredient(ingred.id, ingred.name));
+    }
+  );
+
+  return ingredients;
+}
+
+//for testing
+/*
 export function AllIngredsToString(): string[] {
   const ingredients: Ingredient[] = IngredientImport();
   const ingredString: string[] = [];
@@ -35,7 +57,7 @@ export function AllIngredsToString(): string[] {
     (ingred: {
       id: number;
       name: string;
-      dietTag: number[];
+      dietTag: DietTag[];
       macros: Nutrition;
     }) => {
       ingredString.push(
@@ -61,3 +83,4 @@ export function AllIngredsToString(): string[] {
   console.log(ingredString);
   return ingredString;
 }
+*/

@@ -1,34 +1,36 @@
+import { DietTag } from "./Ingredient";
+
 export class Recipe {
   id: number;
   name: string;
   time: Time;
   serving: Serving;
-  ingredients: Ingredient[];
+  recipeIngredients: RecipeIngredient[];
   nutrition: Nutrition;
   instructions: string[];
   url: string;
   image: string | null; //(base64)
   ingredTag: number[];
-  dietTag: number[];
+  dietTag: DietTag[];
 
   public constructor(
     id: number,
     name: string,
     time: Time,
     serving: Serving,
-    ingredients: Ingredient[],
+    ingredients: RecipeIngredient[],
     nutrition: Nutrition,
     instructions: string[],
     url: string,
     image: string | null,
     ingredTag: number[],
-    dietTag: number[]
+    dietTag: DietTag[]
   ) {
     this.id = id;
     this.name = name;
     this.time = time;
     this.serving = serving;
-    this.ingredients = ingredients;
+    this.recipeIngredients = ingredients;
     this.nutrition = nutrition;
     this.instructions = instructions;
     this.url = url;
@@ -70,7 +72,7 @@ export class Serving {
   }
 } // Serving class
 
-export class Ingredient {
+export class RecipeIngredient {
   id: number;
   name: string | null;
   quantity: number;
@@ -90,16 +92,16 @@ export class Ingredient {
 } // Ingredient class
 
 export class Nutrition {
-  calories: string | null;
-  carbs: string | null;
-  fat: string | null;
-  protein: string | null;
+  calories?: string | null;
+  carbs?: string | null;
+  fat?: string | null;
+  protein?: string | null;
 
   public constructor(
-    calories: string | null,
-    carbs: string | null,
-    fat: string | null,
-    protein: string | null
+    calories?: string | null,
+    carbs?: string | null,
+    fat?: string | null,
+    protein?: string | null
   ) {
     this.calories = calories;
     this.carbs = carbs;
