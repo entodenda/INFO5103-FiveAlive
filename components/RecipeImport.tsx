@@ -1,4 +1,5 @@
-import { Recipe, Time, Serving, Ingredient, Nutrition } from "./Recipe";
+import { Recipe, Time, Serving, RecipeIngredient, Nutrition } from "./Recipe";
+import { DietTag } from "./Ingredient";
 
 export function RecipeImport(): Recipe[] {
   const recipes: Recipe[] = [];
@@ -28,7 +29,7 @@ export function RecipeImport(): Recipe[] {
       url: string;
       picture_url: string;
       ingredTag: number[];
-      dietTag: number[];
+      dietTag: DietTag[];
     }) => {
       ++recNum;
 
@@ -48,19 +49,19 @@ export function RecipeImport(): Recipe[] {
         element.nutrition_facts.fat,
         element.nutrition_facts.protein
       );
-      let ingredients: Ingredient[] = [];
+      let recipeIngredients: RecipeIngredient[] = [];
       let numIng: number = 0;
       //let ingjson: string[] = JSON.parse(element.ingredients);
       element.ingredients.forEach(
         (ing: { name: string; quantity: number; unit: string }) => {
           ++numIng;
-          let ingredient: Ingredient = new Ingredient(
+          let recipeIngredient: RecipeIngredient = new RecipeIngredient(
             numIng,
             ing.name,
             ing.quantity,
             ing.unit
           );
-          ingredients.push(ingredient);
+          recipeIngredients.push(recipeIngredient);
         }
       );
       recipes.push(
@@ -69,7 +70,7 @@ export function RecipeImport(): Recipe[] {
           element.name,
           time,
           servings,
-          ingredients,
+          recipeIngredients,
           nutrition,
           element.steps,
           element.url,
@@ -94,16 +95,16 @@ export function AllRecipesToString(): string[] {
       name: string;
       time: Time;
       serving: Serving;
-      ingredients: Ingredient[];
+      recipeIngredients: RecipeIngredient[];
       nutrition: Nutrition;
       instructions: string[];
       url: string;
       image: string | null;
       ingredTag: number[];
-      dietTag: number[];
+      dietTag: DietTag[];
     }) => {
       let ingstring: string[] = [];
-      recipe.ingredients.forEach((ing: Ingredient) => {
+      recipe.recipeIngredients.forEach((ing: RecipeIngredient) => {
         ingstring.push(
           "\n\t\t" +
             ing.id +
@@ -159,6 +160,5 @@ export function AllRecipesToString(): string[] {
       );
     }
   );
-
   return recipeString;
 }
