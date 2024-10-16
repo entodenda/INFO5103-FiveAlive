@@ -4,7 +4,7 @@ export function RecipeImport(): Recipe[] {
   const recipes: Recipe[] = [];
   let recNum: number = 0;
 
-  let recipefile = require("../assets/first100recipes.json");
+  let recipefile = require("../assets/recipesUpdated.json");
   recipefile.forEach(
     (element: {
       //id: number;
@@ -27,6 +27,8 @@ export function RecipeImport(): Recipe[] {
       steps: string[];
       url: string;
       picture_url: string;
+      ingredTag: number[];
+      dietTag: number[];
     }) => {
       ++recNum;
 
@@ -71,7 +73,9 @@ export function RecipeImport(): Recipe[] {
           nutrition,
           element.steps,
           element.url,
-          element.picture_url
+          element.picture_url,
+          element.ingredTag,
+          element.dietTag
         )
       );
     }
@@ -95,6 +99,8 @@ export function AllRecipesToString(): string[] {
       instructions: string[];
       url: string;
       image: string | null;
+      ingredTag: number[];
+      dietTag: number[];
     }) => {
       let ingstring: string[] = [];
       recipe.ingredients.forEach((ing: Ingredient) => {
@@ -145,6 +151,10 @@ export function AllRecipesToString(): string[] {
           ingstring +
           "\n\n\tInstructions: \n" +
           recipe.instructions +
+          "\n\nIngredient Tags: \n" +
+          recipe.ingredTag +
+          "\n\nDiet Tags: \n" +
+          recipe.dietTag +
           "\n"
       );
     }

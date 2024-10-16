@@ -94,13 +94,15 @@
     "cooks_note": "If there is a meat cap over the fat (as is usually the case with the point cut), I trim off that point and rub and grill it separately. I also trim off the fat after I cook the corned beef and before I apply the rub.",
     "editors_note": "Nutrition data for this recipe includes the full amount of ale, onion, and seasonings. The actual amount consumed will vary.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "251",
+      "carbs": "16g",
+      "fat": "13g",
+      "protein": "13g"
     },
     "url": "https://www.allrecipes.com/recipe/267704/dutch-oven-crunchy-corned-beef/",
-    "picture_url": "https://www.allrecipes.com/thmb/x1RsisXrLaVp3L7lt384QxeBvHw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/267704dutch-oven-crunchy-corned-beef4x3-79f7c98dde714489aa338d28e9dc2473.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/x1RsisXrLaVp3L7lt384QxeBvHw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/267704dutch-oven-crunchy-corned-beef4x3-79f7c98dde714489aa338d28e9dc2473.jpg",
+    "ingredTag": [29, 4, 135, 159, 56, 68, 81, 134, 41],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Spicy Spicy Ranch Dressing",
@@ -146,13 +148,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "192",
+      "carbs": "2g",
+      "fat": "20g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/82153/spicy-spicy-ranch-dressing/",
-    "picture_url": "https://www.allrecipes.com/thmb/MYEeLKdEOqbnpg-aVzFXVacegzQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/82153-Spicy-Ranch-Dressing-ddmfs-Step1-4x3-0690-1932caeddd1a4769a643517d72ab5cc9.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/MYEeLKdEOqbnpg-aVzFXVacegzQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/82153-Spicy-Ranch-Dressing-ddmfs-Step1-4x3-0690-1932caeddd1a4769a643517d72ab5cc9.jpg",
+    "ingredTag": [105],
+    "dietTag": [6]
   },
   {
     "name": "Amazing Oven-Roasted Potatoes",
@@ -200,13 +204,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "205",
+      "carbs": "38g",
+      "fat": "5g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/228682/amazing-oven-roasted-potatoes/",
-    "picture_url": "https://www.allrecipes.com/thmb/524wwU2zk2cJQPSsl133yWKx2a0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AmazingOvenRoastedPotatoesRecipe_228682_ingredients1_0188-edc295e79c954efeb0d46150418f3398.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/524wwU2zk2cJQPSsl133yWKx2a0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AmazingOvenRoastedPotatoesRecipe_228682_ingredients1_0188-edc295e79c954efeb0d46150418f3398.jpg",
+    "ingredTag": [154],
+    "dietTag": [6]
   },
   {
     "name": "Easy Curry Sauce",
@@ -301,10 +307,10 @@
     ],
     "steps": [
       " Gather all ingredients.\n",
-      " Heat oil and margarine in a small skillet or wok over medium-high heat. Add onion and saut\u00E9 until very brown, 10 to 15 minutes; do not undercook or sauce will taste funny.\n",
-      " Add garlic and ginger to onions; saut\u00E9 for an additional 2 minutes.\n",
+      " Heat oil and margarine in a small skillet or wok over medium-high heat. Add onion and saut\u00e9 until very brown, 10 to 15 minutes; do not undercook or sauce will taste funny.\n",
+      " Add garlic and ginger to onions; saut\u00e9 for an additional 2 minutes.\n",
       " Transfer mixture to a food processor and blend until smooth. Do not rinse the food processor. Place blended onion mixture in a large saucepan. Stir in coriander, cumin, cinnamon, black pepper, cayenne pepper, and turmeric; cook over low heat until mixture is thick and has a paste-like consistency.\n",
-      " Pur\u00E9e tomatoes, chile peppers, and cilantro in the food processor until smooth.\n",
+      " Pur\u00e9e tomatoes, chile peppers, and cilantro in the food processor until smooth.\n",
       " Add to onion mixture and stir over low heat, cooking off moisture from tomatoes and peppers.\n",
       " Add yogurt a little bit at a time, stirring constantly to avoid curdling.\n",
       " Blend mixture in the food processor until smooth\n",
@@ -314,13 +320,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "75",
+      "carbs": "6g",
+      "fat": "6g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/25881/basic-curry-sauce/",
-    "picture_url": "https://www.allrecipes.com/thmb/GZfB25OwJBqN2kpa-TBf5n7jD8U=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-25881-basic-curry-sauce-DDMFS-4x3-cb46f4a05f67478598c9437fe313d9e8.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/GZfB25OwJBqN2kpa-TBf5n7jD8U=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-25881-basic-curry-sauce-DDMFS-4x3-cb46f4a05f67478598c9437fe313d9e8.jpg",
+    "ingredTag": [128, 135, 81, 88, 212],
+    "dietTag": [2, 4]
   },
   {
     "name": "Lemon Ginger Water",
@@ -367,13 +375,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
+      "calories": "8",
+      "carbs": "2g",
       "fat": null,
       "protein": null
     },
     "url": "https://www.allrecipes.com/recipe/270414/lemon-ginger-water/",
-    "picture_url": "https://www.allrecipes.com/thmb/FW11gVoXyNFs_fPGqnL6VcAkfso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/270414-lemon-ginger-water-DDMFS-80-step1-f573a6a546614d7fb23483473c6b21ea.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/FW11gVoXyNFs_fPGqnL6VcAkfso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/270414-lemon-ginger-water-DDMFS-80-step1-f573a6a546614d7fb23483473c6b21ea.jpg",
+    "ingredTag": [117, 81, 102],
+    "dietTag": [2]
   },
   {
     "name": "Chicken Wing Dip",
@@ -421,13 +431,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "240",
+      "carbs": "2g",
+      "fat": "22g",
+      "protein": "9g"
     },
     "url": "https://www.allrecipes.com/recipe/90544/chicken-wing-dip/",
-    "picture_url": "https://www.allrecipes.com/thmb/J_Yvq8aVTANqYgeRg3OkRkv5Ig8=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-90544-chicken-wing-dip-DDMFS-4x3-0e1b8fcf978b4560830381508f58e981.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/J_Yvq8aVTANqYgeRg3OkRkv5Ig8=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-90544-chicken-wing-dip-DDMFS-4x3-0e1b8fcf978b4560830381508f58e981.jpg",
+    "ingredTag": [64, 105, 43, 42],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Italian Mac and Cheese",
@@ -514,20 +526,22 @@
       " Bring a large pot of lightly salted water to a boil. Add penne and cook, stirring occasionally, until penne start to get tender, about 8 minutes. Drain and reserve 1/4 cup pasta water.\n",
       " Preheat the oven to 375 degrees F (190 degrees C).\n",
       " Meanwhile, cook Italian sausage in a heavy skillet over medium-high heat until brown and crumbly, about 5 minutes. Transfer to a paper towel lined plate.\n",
-      " Melt butter in a skillet over medium heat. Saut\u00E9 minced garlic and red pepper flakes until garlic is fragrant, 30 to 45 seconds. Sprinkle flour over mixture and stir to combine, making sure there are no lumps.\n",
+      " Melt butter in a skillet over medium heat. Saut\u00e9 minced garlic and red pepper flakes until garlic is fragrant, 30 to 45 seconds. Sprinkle flour over mixture and stir to combine, making sure there are no lumps.\n",
       " Pour in milk, cream, and reserved pasta water. Mix mozzarella, provolone, Fontina, and Parmesan cheeses in a bowl and stir in about 4/5th of the cheese mixture. Stir to combine. Add penne, cooked Italian sausage, and julienned sun dried tomatoes to the cheese sauce. Mix to combine and pour into an 8x8 inch casserole dish. Sprinkle with remaining cheese mixture.\n",
       " Bake in the preheated oven until cheese is melted and lightly browned, about 25 minutes.\n"
     ],
     "cooks_note": "I selected the cheese in this recipe for their melting properties.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "603",
+      "carbs": "40g",
+      "fat": "39g",
+      "protein": "25g"
     },
     "url": "https://www.allrecipes.com/recipe/8502503/italian-mac-and-cheese/",
-    "picture_url": "https://www.allrecipes.com/thmb/FiEntw4NNgrKO-Wt26qZqoN3OlA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/6776510-fda9069a636a412b9ca051acbf137228.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/FiEntw4NNgrKO-Wt26qZqoN3OlA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/6776510-fda9069a636a412b9ca051acbf137228.jpg",
+    "ingredTag": [146, 109, 32, 2, 1, 100, 132, 155, 77, 140, 184],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Crab-Stuffed Lobster Tail",
@@ -599,19 +613,21 @@
       " Gather the ingredients and preheat the oven to 425 degrees F (220 degrees C).\n",
       " Pull the edges of the split lobster shells apart and gently lift tail meat to rest above the shells. Place tails onto a baking sheet and brush meat with melted butter.\n",
       " Gently mix crabmeat, clarified butter, crushed crackers, parsley, lemon juice, seafood seasoning, lemon zest, garlic, salt, and pepper together in a bowl until thoroughly combined.\n",
-      " Spoon 1/2 of the mixture into each tail; press gently to pack mixture so it doesn\u0027t fall off.\n",
+      " Spoon 1/2 of the mixture into each tail; press gently to pack mixture so it doesn't fall off.\n",
       " Bake in the preheated oven until meat is opaque and the stuffing is golden brown on top, 10 to 12 minutes. An instant-read thermometer inserted into the thickest part of the lobster tail should read 145 degrees F (65 degrees C).\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "596",
+      "carbs": "19g",
+      "fat": "41g",
+      "protein": "36g"
     },
     "url": "https://www.allrecipes.com/recipe/219981/crab-stuffed-lobster-tail/",
-    "picture_url": "https://www.allrecipes.com/thmb/Aw4qXyRUMiwIGqtYJ5sLt6n61YI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/219981_Crab-StuffedLobsterTailRecipe_ddmfs_ingredients_step1_4x3_0388-2ebffaf5f9c249879faf95140467d6e5.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/Aw4qXyRUMiwIGqtYJ5sLt6n61YI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/219981_Crab-StuffedLobsterTailRecipe_ddmfs_ingredients_step1_4x3_0388-2ebffaf5f9c249879faf95140467d6e5.jpg",
+    "ingredTag": [124, 32, 62, 32, 117, 117],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Strawberry Dump Cake",
@@ -670,13 +686,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "314",
+      "carbs": "33g",
+      "fat": "19g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/8359551/strawberry-dump-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/E1nxlaDF3icfM6quz8ENIW9AtEk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberry-Sheet-Cake-2000-f5fbf5a225b4433194c01278e42d461d.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/E1nxlaDF3icfM6quz8ENIW9AtEk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberry-Sheet-Cake-2000-f5fbf5a225b4433194c01278e42d461d.jpg",
+    "ingredTag": [180, 55, 64, 36, 32, 182],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Liver and Onions",
@@ -704,7 +722,7 @@
         "unit": "teaspoons"
       },
       {
-        "name": "calves\u0027 livers",
+        "name": "calves' livers",
         "quantity": "1",
         "unit": "pound"
       },
@@ -721,7 +739,7 @@
     ],
     "steps": [
       " Gather the ingredients.\n",
-      " Melt 3 tablespoons butter in a medium skillet over medium heat. Add onion and saut\u00E9 until soft, about 5 minutes. Stir in sugar, reduce the heat to low, and continue to cook and stir until onion is very tender and brown, about 25 to 30 minutes; transfer onions into a small bowl and reserve skillet.\n",
+      " Melt 3 tablespoons butter in a medium skillet over medium heat. Add onion and saut\u00e9 until soft, about 5 minutes. Stir in sugar, reduce the heat to low, and continue to cook and stir until onion is very tender and brown, about 25 to 30 minutes; transfer onions into a small bowl and reserve skillet.\n",
       " While the onions are cooking, rinse liver and remove the thin outer membrane. Slice liver into 1/4- to 1/2-inch-thick slices.\n",
       " Dredge liver in flour.\n",
       " Heat remaining 1 tablespoon butter in the same skillet over medium heat. Add liver and cook until browned, 1 to 1 1/2 minutes per side.\n",
@@ -730,13 +748,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "303",
+      "carbs": "15g",
+      "fat": "16g",
+      "protein": "24g"
     },
     "url": "https://www.allrecipes.com/recipe/14673/liver-and-onions/",
-    "picture_url": "https://www.allrecipes.com/thmb/HxWJjqZPioxZwO5b2pubgoFtwNY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/14673-liver-onions-ingredients-0259-d4e4ec5759064974aca96f7079829062.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/HxWJjqZPioxZwO5b2pubgoFtwNY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/14673-liver-onions-ingredients-0259-d4e4ec5759064974aca96f7079829062.jpg",
+    "ingredTag": [32, 135, 2],
+    "dietTag": [2, 4]
   },
   {
     "name": "Easy Tamale Casserole",
@@ -809,13 +829,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "515",
+      "carbs": "57g",
+      "fat": "21g",
+      "protein": "28g"
     },
     "url": "https://www.allrecipes.com/recipe/237983/easy-tamale-casserole/",
-    "picture_url": "https://www.allrecipes.com/thmb/XIR1Tr-f8TuTM3zGMoqn72pg4YE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-237983-easy-tamale-casserole-DDMFS-Step-01-e14dc07ea18d4a7cbc41e2688385e3f5.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/XIR1Tr-f8TuTM3zGMoqn72pg4YE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-237983-easy-tamale-casserole-DDMFS-Step-01-e14dc07ea18d4a7cbc41e2688385e3f5.jpg",
+    "ingredTag": [95, 135, 150, 198, 56, 28, 71, 42],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Carrot Hummus",
@@ -874,13 +896,15 @@
     "cooks_note": "If you want a vegan version, use vegan mayonnaise.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "199",
+      "carbs": "18g",
+      "fat": "14g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/283948/carrot-hummus/",
-    "picture_url": "https://www.allrecipes.com/thmb/IW9SBjI67lyx1dOkGMWAsqMxWk4=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/barbara-sauermann-f202782d4dd5458ebee88357d0c6fea2.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/IW9SBjI67lyx1dOkGMWAsqMxWk4=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/barbara-sauermann-f202782d4dd5458ebee88357d0c6fea2.jpg",
+    "ingredTag": [40, 39, 117, 191, 129],
+    "dietTag": [2, 5]
   },
   {
     "name": "Red-Hot Cinnamon Pickles",
@@ -956,7 +980,7 @@
     "steps": [
       " Put cucumber spears in a large container. Stir pickling lime into 1 gallon of water in a large pitcher until lime is dissolved; pour over cucumbers. Refrigerate for 24 hours.\n",
       " Drain cucumbers and rinse well; return to large container. Pour enough cold water over the drained cucumbers to cover. Soak at least 3 hours; drain. Transfer cucumbers to a large pot.\n",
-      " Stir 1 \u00BC cups of vinegar and 1 \u00BC cups of water together in a bowl; add cinnamon red hot candies. Set aside to soak, stirring occasionally.\n",
+      " Stir 1 \u00bc cups of vinegar and 1 \u00bc cups of water together in a bowl; add cinnamon red hot candies. Set aside to soak, stirring occasionally.\n",
       " Stir 1/2 cup vinegar, red food coloring, and alum together in a bowl until alum is dissolved; pour over cucumbers and add enough water to cover. Put a lid on the pot, place the pot over medium heat, and bring to a boil. Reduce heat to low and simmer for 2 hours; drain and return cucumbers to the pot.\n",
       " Pour cinnamon candy mixture into a saucepan; add sugar and cinnamon sticks. Bring the mixture to a boil; cook and stir until the candies and sugar are dissolved completely into a syrupy liquid. Pour the liquid over the drained cucumbers. Refrigerate 8 hours to overnight.\n",
       " Drain liquid from the cucumbers into a heavy saucepan; bring to a boil and pour again over the cucumbers. Refrigerate 24 hours.\n",
@@ -967,13 +991,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "63",
+      "carbs": "16g",
+      "fat": "0g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/228064/red-hot-cinnamon-pickles/",
-    "picture_url": "https://www.allrecipes.com/thmb/cYPogs5vb-oe7ToTNrx0QIvWYWI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/692063-1448c277a2084169b01ae03c2e87bd8e.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/cYPogs5vb-oe7ToTNrx0QIvWYWI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/692063-1448c277a2084169b01ae03c2e87bd8e.jpg",
+    "ingredTag": [67, 51],
+    "dietTag": [2, 3]
   },
   {
     "name": "Indian Style Basmati Rice",
@@ -1040,13 +1066,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "216",
+      "carbs": "39g",
+      "fat": "5g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/72349/indian-style-basmati-rice/",
-    "picture_url": "https://www.allrecipes.com/thmb/SvlCAbSTwK2r3ue0KApVXZGXBTA=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-72349-Indian-Style-Basmati-Rice-DDMFS-4x3-795ff404c246454d93094c2191d0983b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/SvlCAbSTwK2r3ue0KApVXZGXBTA=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-72349-Indian-Style-Basmati-Rice-DDMFS-4x3-795ff404c246454d93094c2191d0983b.jpg",
+    "ingredTag": [17, 135],
+    "dietTag": [6]
   },
   {
     "name": "Easy Beer Batter",
@@ -1075,13 +1103,15 @@
     "cooks_note": "unknown",
     "editors_note": "To fry fish and vegetables: Heat oil in a deep fryer or large saucepan to 350 degrees F (175 degrees C). Working in batches, lower fish or vegetables into beer batter to coat, then into hot oil; cook until golden brown. Drain on paper towels and season with salt to taste.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "260",
+      "carbs": "50g",
+      "fat": "1g",
+      "protein": "7g"
     },
     "url": "https://www.allrecipes.com/recipe/236101/easy-beer-batter/",
-    "picture_url": "https://www.allrecipes.com/thmb/KkVPQ4JM1Ly2uWk3PBED2s_c3kY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/AR-12824-beer-batter-DDMFS-4x3-f7201106e72d49de93815c168fb746e4.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/KkVPQ4JM1Ly2uWk3PBED2s_c3kY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/AR-12824-beer-batter-DDMFS-4x3-f7201106e72d49de93815c168fb746e4.jpg",
+    "ingredTag": [76, 23],
+    "dietTag": [1]
   },
   {
     "name": "Slow-Cooker Chicken Tortilla Soup",
@@ -1191,13 +1221,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "262",
+      "carbs": "25g",
+      "fat": "11g",
+      "protein": "18g"
     },
     "url": "https://www.allrecipes.com/recipe/89539/slow-cooker-chicken-tortilla-soup/",
-    "picture_url": "https://www.allrecipes.com/thmb/eC3jCvnx3Dl-amRFC9UT5XQokY4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-89539-slow-cooker-chicken-tortilla-soup-DDMFS-4x3-27437114db5b46afb7ad139e0a6fbffe.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/eC3jCvnx3Dl-amRFC9UT5XQokY4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-89539-slow-cooker-chicken-tortilla-soup-DDMFS-4x3-27437114db5b46afb7ad139e0a6fbffe.jpg",
+    "ingredTag": [43, 198, 91, 135, 43, 56, 56],
+    "dietTag": [2, 3]
   },
   {
     "name": "Best Beer Can Chicken",
@@ -1260,18 +1292,20 @@
       " Preheat an outdoor grill for indirect medium heat, about 350 degrees F (175 degrees C).\n",
       " Mix dark brown sugar, kosher salt, paprika, ground black pepper, and cayenne pepper together in a small bowl. Place two half full cans of beer on a baking sheet. Spoon 1 teaspoon seasoning mix into each can. Be careful, this will make the beer foam up and out of the can.\n",
       " Rub each chicken with 2 tablespoons vegetable oil. Rub remaining seasoning mix over entire chicken, inside and out. Fit each chicken over a can of beer with the legs on the bottom; keep upright.\n",
-      " Drain the wood chips and place them with the coals or in an aluminum pan on or under the grill grate as directed by the grill\u0027s manual. Place two chickens, standing on their cans directly on the grill. Close the lid and grill chicken until no longer pink at the bone and the juices run clear, about 1 hour 30 minutes. An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C). Remove the chickens from the grill and discard the beer cans. Cover chicken with a doubled sheet of aluminum foil, and allow to rest in a warm area for 10 minutes before slicing.\n"
+      " Drain the wood chips and place them with the coals or in an aluminum pan on or under the grill grate as directed by the grill's manual. Place two chickens, standing on their cans directly on the grill. Close the lid and grill chicken until no longer pink at the bone and the juices run clear, about 1 hour 30 minutes. An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C). Remove the chickens from the grill and discard the beer cans. Cover chicken with a doubled sheet of aluminum foil, and allow to rest in a warm area for 10 minutes before slicing.\n"
     ],
     "cooks_note": "Check the chickens after an hour on the grill, if they are beginning to brown too much, loosely cover the tops of the birds with aluminum foil and continue to cook with the lid closed.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "627",
+      "carbs": "23g",
+      "fat": "33g",
+      "protein": "53g"
     },
     "url": "https://www.allrecipes.com/recipe/214619/bbq-beer-can-chicken/",
-    "picture_url": "https://www.allrecipes.com/thmb/5AifsGX3CCkiRqNzeuYkMnK_QhY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/214618-beer-can-chicken-ddmfs-1X1-0353-1-6f527d0574364c5f8242728e51355b1f.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/5AifsGX3CCkiRqNzeuYkMnK_QhY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/214618-beer-can-chicken-ddmfs-1X1-0353-1-6f527d0574364c5f8242728e51355b1f.jpg",
+    "ingredTag": [23, 68, 43],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Curry Stand Chicken Tikka Masala Sauce",
@@ -1376,13 +1410,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "328",
+      "carbs": "13g",
+      "fat": "23g",
+      "protein": "18g"
     },
     "url": "https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/",
-    "picture_url": "https://www.allrecipes.com/thmb/lNNB9aQD2VYAiZSXnh6BQHkpAxY=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228293-curry-stand-chicken-tikka-masala-sauce-DDMFS-4x3-4917c70633354b8784b14bae8c3a22a5.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/lNNB9aQD2VYAiZSXnh6BQHkpAxY=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228293-curry-stand-chicken-tikka-masala-sauce-DDMFS-4x3-4917c70633354b8784b14bae8c3a22a5.jpg",
+    "ingredTag": [32, 135, 81, 197, 100, 43],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Pizza on the Grill",
@@ -1493,13 +1529,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "212",
+      "carbs": "22g",
+      "fat": "11g",
+      "protein": "6g"
     },
     "url": "https://www.allrecipes.com/recipe/14522/pizza-on-the-grill-i/",
-    "picture_url": "https://www.allrecipes.com/thmb/BrKqfdWxeQBqk9I6Eq6daZuXLcw=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/14522-Pizza-On-The-Grill100-4x3-cd872c310ad243c2b39917186df83d77.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/BrKqfdWxeQBqk9I6Eq6daZuXLcw=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/14522-Pizza-On-The-Grill100-4x3-cd872c310ad243c2b39917186df83d77.jpg",
+    "ingredTag": [2, 197, 198, 25, 132],
+    "dietTag": [2, 4]
   },
   {
     "name": "Puerto Rican Canned Corned Beef Stew",
@@ -1577,16 +1615,18 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "354",
+      "carbs": "15g",
+      "fat": "21g",
+      "protein": "26g"
     },
     "url": "https://www.allrecipes.com/recipe/246392/puerto-rican-canned-corned-beef-stew/",
-    "picture_url": "https://www.allrecipes.com/thmb/ZYS7dKiYruNlk8JoaPEaAbiVQOw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/236392-PuertoRican-Canned-Corned-Beef-Stew-ddmfs-Step1-4x3-0741-08cb62829c034bde938a908e4f594b1a.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/ZYS7dKiYruNlk8JoaPEaAbiVQOw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/236392-PuertoRican-Canned-Corned-Beef-Stew-ddmfs-Step1-4x3-0741-08cb62829c034bde938a908e4f594b1a.jpg",
+    "ingredTag": [154, 56, 197, 56],
+    "dietTag": [6]
   },
   {
-    "name": "Tortilla Espa\u00F1ola",
+    "name": "Tortilla Espa\u00f1ola",
     "meta": {
       "cook_time": "25 mins",
       "bake_time": null,
@@ -1652,13 +1692,15 @@
     "cooks_note": "You can use chives instead of parsley.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "340",
+      "carbs": "37g",
+      "fat": "16g",
+      "protein": "14g"
     },
     "url": "https://www.allrecipes.com/recipe/213226/tortilla-espanola/",
-    "picture_url": "https://www.allrecipes.com/thmb/c3hfuAqyyQogBkBW-_7hX-ZoSs0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/c3hfuAqyyQogBkBW-_7hX-ZoSs0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg",
+    "ingredTag": [154, 135, 71],
+    "dietTag": [2]
   },
   {
     "name": "Fruit and Yogurt Smoothie",
@@ -1714,13 +1756,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "146",
+      "carbs": "31g",
+      "fat": "1g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/215189/fruit-and-yogurt-smoothie/",
-    "picture_url": "https://www.allrecipes.com/thmb/PyaGs3cCEWAYbbeL8MMLfIFzZm8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-215189-fruit-and-yogurt-smoothie-DDMFS-Step-01-e4ea8b0e8ace446892c2b2a59fc0dea4.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/PyaGs3cCEWAYbbeL8MMLfIFzZm8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-215189-fruit-and-yogurt-smoothie-DDMFS-Step-01-e4ea8b0e8ace446892c2b2a59fc0dea4.jpg",
+    "ingredTag": [78, 15, 212, 7, 136, 1],
+    "dietTag": [2, 4]
   },
   {
     "name": "Spanish Omelette",
@@ -1777,13 +1821,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "252",
+      "carbs": "11g",
+      "fat": "22g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/20198/spanish-potato-omelet/",
-    "picture_url": "https://www.allrecipes.com/thmb/Mc1AxKeF9rLNdy70qhMrA8vfYA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/Mc1AxKeF9rLNdy70qhMrA8vfYA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg",
+    "ingredTag": [154, 135, 71, 198, 93],
+    "dietTag": [2]
   },
   {
     "name": "Shrimp Chow Mein",
@@ -1895,13 +1941,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "477",
+      "carbs": "44g",
+      "fat": "23g",
+      "protein": "25g"
     },
     "url": "https://www.allrecipes.com/recipe/285627/shrimp-chow-mein/",
-    "picture_url": "https://www.allrecipes.com/thmb/gcRreh0oOOR75BsmqJ-Azjw7Fxg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/EAsy-Shrimp-Chow-Mein-lutzflcat-1x1-1-2000-b81091c4d5a046cf8fe3f87ee9aa670e.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/gcRreh0oOOR75BsmqJ-Azjw7Fxg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/EAsy-Shrimp-Chow-Mein-lutzflcat-1x1-1-2000-b81091c4d5a046cf8fe3f87ee9aa670e.jpg",
+    "ingredTag": [49, 43, 70, 139, 176, 39, 135, 41, 81, 130, 19, 93, 10],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Easy Chicken Primavera",
@@ -1987,16 +2035,18 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "302",
+      "carbs": "19g",
+      "fat": "13g",
+      "protein": "26g"
     },
     "url": "https://www.allrecipes.com/recipe/274784/easy-skillet-chicken-primavera/",
-    "picture_url": "https://www.allrecipes.com/thmb/SLttlbLoaUhqMuQGYy4oDWxoXaI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/7455959-07504ed8369644dba42c4817178981d0.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/SLttlbLoaUhqMuQGYy4oDWxoXaI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/7455959-07504ed8369644dba42c4817178981d0.jpg",
+    "ingredTag": [2, 43, 81, 43, 131, 88, 93, 214, 183],
+    "dietTag": [2, 3]
   },
   {
-    "name": "Tortilla Espa\u00F1ola (Spanish Tortilla)",
+    "name": "Tortilla Espa\u00f1ola (Spanish Tortilla)",
     "meta": {
       "cook_time": "45 mins",
       "bake_time": null,
@@ -2061,13 +2111,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "477",
+      "carbs": "36g",
+      "fat": "32g",
+      "protein": "13g"
     },
     "url": "https://www.allrecipes.com/recipe/147109/tortilla-espanola-spanish-tortilla/",
-    "picture_url": "https://www.allrecipes.com/thmb/Ex4Bk4HxqDr6ECFJdd8eKvgx4ko=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2304509-6cb28a93470a47b29dfbf3926970910a.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/Ex4Bk4HxqDr6ECFJdd8eKvgx4ko=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2304509-6cb28a93470a47b29dfbf3926970910a.jpg",
+    "ingredTag": [154, 135, 71, 97],
+    "dietTag": [2, 3]
   },
   {
     "name": "Tortilla de Patatas",
@@ -2111,22 +2163,24 @@
       }
     ],
     "steps": [
-      " Heat oil in a deep stockpot over medium-high heat until almost smoking, 2 to 4 minutes. Add potatoes and onion; they should be mostly covered with oil. Season with 1 \u00BD teaspoons salt. Cook, stirring occasionally and maintaining a gentle simmer, until potatoes are just fork-tender, 8 to 12 minutes; do not overcook.\n",
+      " Heat oil in a deep stockpot over medium-high heat until almost smoking, 2 to 4 minutes. Add potatoes and onion; they should be mostly covered with oil. Season with 1 \u00bd teaspoons salt. Cook, stirring occasionally and maintaining a gentle simmer, until potatoes are just fork-tender, 8 to 12 minutes; do not overcook.\n",
       " Drain potato-onion mixture in a colander; reserve oil for another use or discard. Allow to cool for a few minutes, then taste and season with more salt, if needed.\n",
       " Meanwhile, crack eggs into a large bowl and season with remaining 1/2 teaspoon salt; whisk until well beaten. Add potato-onion mixture and toss to coat.\n",
-      " Heat a 10-inch nonstick skillet over high heat. Add 1 teaspoon olive oil, then pour in egg-potato mixture. Level it with a spatula and cook for 1 minute. Reduce heat to medium-low and cook for about 5 minutes. Run a rubber spatula around the outer edges to make sure it\u0027s not sticking and to help it form its shape.\n",
+      " Heat a 10-inch nonstick skillet over high heat. Add 1 teaspoon olive oil, then pour in egg-potato mixture. Level it with a spatula and cook for 1 minute. Reduce heat to medium-low and cook for about 5 minutes. Run a rubber spatula around the outer edges to make sure it's not sticking and to help it form its shape.\n",
       " Once it starts to firm up around the edges and in the center (although it will still be a little runny), place a large plate over the skillet. Flip the omelet onto the plate, then slide it back into the skillet. Use the spatula to help press the edges in and under, to maintain a rounded edge. Cook over high heat for 1 minute, then reduce to low and cook until it feels set in the center and a knife inserted in the center comes out clean, 2 to 3 more minutes.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "Nutrition data for this recipe includes the full amount of olive oil The actual amount of olive oil consumed will vary.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "439",
+      "carbs": "15g",
+      "fat": "40g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/285671/tortilla-de-patatas/",
-    "picture_url": "https://www.allrecipes.com/thmb/c3hfuAqyyQogBkBW-_7hX-ZoSs0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/c3hfuAqyyQogBkBW-_7hX-ZoSs0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/2200867-6e284848d4bb43b48eae523719651676.jpg",
+    "ingredTag": [81, 154, 135, 71],
+    "dietTag": [2]
   },
   {
     "name": "Chicken Katsu Curry",
@@ -2164,7 +2218,7 @@
         "unit": "cups"
       },
       {
-        "name": "curry sauce mix (such as S\u0026B Golden Curry)",
+        "name": "curry sauce mix (such as S&B Golden Curry)",
         "quantity": "1",
         "unit": "(3.5 ounce) container"
       },
@@ -2237,13 +2291,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "613",
+      "carbs": "79g",
+      "fat": "18g",
+      "protein": "42g"
     },
     "url": "https://www.allrecipes.com/recipe/282973/chicken-katsu-curry/",
-    "picture_url": "https://www.allrecipes.com/thmb/1QBeWwi34jv_lkKgDJh-p4-AkPs=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282973chicken-katsu-currySkyLord4x3-a8f223946ea143929510c5947461b16d.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/1QBeWwi34jv_lkKgDJh-p4-AkPs=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282973chicken-katsu-currySkyLord4x3-a8f223946ea143929510c5947461b16d.jpg",
+    "ingredTag": [135, 154, 39, 114, 210, 8, 176, 43, 2, 71, 28],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Oreo Cheesecake",
@@ -2301,13 +2357,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "386",
+      "carbs": "33g",
+      "fat": "27g",
+      "protein": "6g"
     },
     "url": "https://www.allrecipes.com/recipe/180603/easy-philly-oreo-cheesecake/",
-    "picture_url": "https://www.allrecipes.com/thmb/51Xc5HSWzNCAC4O0iUTp-jq1VGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-180603-easy-philly-oreo-cheesecake-DDMFS-Step-01-155c7f5652124b9d956fdc7b54ed0e17.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/51Xc5HSWzNCAC4O0iUTp-jq1VGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-180603-easy-philly-oreo-cheesecake-DDMFS-Step-01-155c7f5652124b9d956fdc7b54ed0e17.jpg",
+    "ingredTag": [138, 32, 64, 55, 108, 71],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Copycat V8 Juice",
@@ -2381,7 +2439,7 @@
       },
       {
         "name": "ground black pepper",
-        "quantity": "\u215B",
+        "quantity": "\u215b",
         "unit": "teaspoon"
       },
       {
@@ -2411,13 +2469,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "61",
+      "carbs": "14g",
+      "fat": "0g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/235433/copycat-v8-juice/",
-    "picture_url": "https://www.allrecipes.com/thmb/LqlDxfaQpdwlJm3PLbXuNgFyyfc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/235433-CopyCatV8Juice-ddmfs-step1-4x3-0168-859a1ed9133a48b1be1b0559cad7293a.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/LqlDxfaQpdwlJm3PLbXuNgFyyfc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/235433-CopyCatV8Juice-ddmfs-step1-4x3-0168-859a1ed9133a48b1be1b0559cad7293a.jpg",
+    "ingredTag": [198, 93, 41, 24, 117, 103, 210],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Vietnamese Grilled Lemongrass Chicken",
@@ -2480,13 +2540,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "308",
+      "carbs": "4g",
+      "fat": "19g",
+      "protein": "29g"
     },
     "url": "https://www.allrecipes.com/recipe/241607/vietnamese-grilled-lemongrass-chicken/",
-    "picture_url": "https://www.allrecipes.com/thmb/PG-9pw2wEpEp2BuNgX2AQ_uEIwU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-241607-Vietnamese-Grilled-Lemongrass-Chicken-DDMFS-Step-01a-e7f07adcd63946d3a1651c52d98e87a1.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/PG-9pw2wEpEp2BuNgX2AQ_uEIwU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-241607-Vietnamese-Grilled-Lemongrass-Chicken-DDMFS-Step-01a-e7f07adcd63946d3a1651c52d98e87a1.jpg",
+    "ingredTag": [117, 117, 176, 74, 43],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "The Best Caramel Apples",
@@ -2548,13 +2610,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "799",
+      "carbs": "142g",
+      "fat": "28g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/228210/the-best-caramel-apples/",
-    "picture_url": "https://www.allrecipes.com/thmb/lVgc8iTWWS69lQpQTSvEoS40WW0=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228210-the-best-caramel-apples-DDMFS-4x3-3bbc584f3fa943f385bd8e4b818be428.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/lVgc8iTWWS69lQpQTSvEoS40WW0=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228210-the-best-caramel-apples-DDMFS-4x3-3bbc584f3fa943f385bd8e4b818be428.jpg",
+    "ingredTag": [192, 188, 56, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Buttery Cinnamon Cake",
@@ -2654,13 +2718,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "321",
+      "carbs": "41g",
+      "fat": "16g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/7540/buttery-cinnamon-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/1nhEnl4eguPa-i-05pt4zK2pXhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-7540-buttery-cinnamon-cake-DDMFS-step-01a-60f2127b9ae44dd9855afda29aa5d157.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/1nhEnl4eguPa-i-05pt4zK2pXhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-7540-buttery-cinnamon-cake-DDMFS-step-01a-60f2127b9ae44dd9855afda29aa5d157.jpg",
+    "ingredTag": [2, 172, 71, 1, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Peanut Clusters",
@@ -2697,16 +2763,18 @@
     "cooks_note": "You can use roasted salted peanuts if you prefer a more salty-sweet flavor.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "150",
+      "carbs": "12g",
+      "fat": "10g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/16281/peanut-clusters/",
-    "picture_url": "https://www.allrecipes.com/thmb/ZoBJNAotCtKn1e71oLva7QYTyto=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/16281-Peanut-Clusters-Step1-ddmfs-4x3-0779-b8b3dcb692444e3dae65d3c13a1c0448.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/ZoBJNAotCtKn1e71oLva7QYTyto=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/16281-Peanut-Clusters-Step1-ddmfs-4x3-0779-b8b3dcb692444e3dae65d3c13a1c0448.jpg",
+    "ingredTag": [169, 32, 144],
+    "dietTag": [2, 4, 5]
   },
   {
-    "name": "\u0027Chinese Buffet\u0027 Green Beans",
+    "name": "'Chinese Buffet' Green Beans",
     "meta": {
       "cook_time": "10 mins",
       "bake_time": null,
@@ -2756,13 +2824,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "55",
+      "carbs": "8g",
+      "fat": "2g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/158854/chinese-buffet-green-beans/",
-    "picture_url": "https://www.allrecipes.com/thmb/nt2gQG795QbyvoChiHPf5Eq_kLg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-158854-Chinese-Buffet-Green-Beans-DDMFS-Step-01-0b2aa1376d714c4f9a2b541b8b5f0062.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/nt2gQG795QbyvoChiHPf5Eq_kLg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-158854-Chinese-Buffet-Green-Beans-DDMFS-Step-01-0b2aa1376d714c4f9a2b541b8b5f0062.jpg",
+    "ingredTag": [89, 139, 176],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Yummy Honey Mustard Dipping Sauce",
@@ -2807,13 +2877,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "159",
+      "carbs": "7g",
+      "fat": "15g",
+      "protein": "0g"
     },
     "url": "https://www.allrecipes.com/recipe/173697/yummy-honey-mustard-dipping-sauce/",
-    "picture_url": "https://www.allrecipes.com/thmb/-Hv3I-52YKtitgy8d_6q5CUpOqo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/173697-yummy-honey-mustard-dipping-sauce-soup-loving-nicole-dfb24caf7d2f43c78c60c0f46f6e2543.jpeg"
+    "picture_url": "https://www.allrecipes.com/thmb/-Hv3I-52YKtitgy8d_6q5CUpOqo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/173697-yummy-honey-mustard-dipping-sauce-soup-loving-nicole-dfb24caf7d2f43c78c60c0f46f6e2543.jpeg",
+    "ingredTag": [129, 102, 134, 69, 117],
+    "dietTag": [2]
   },
   {
     "name": "Easy Chocolate Haystacks",
@@ -2876,16 +2948,18 @@
       " Stir oats, chocolate chips, coconut, and almonds together in a large bowl.\n",
       " Whisk sugar, milk, butter, and salt together in a saucepan; bring mixture to a boil, add vanilla, and remove from heat. Pour milk mixture over chocolate chips mixture; stir until well-combined. Drop spoonfuls of chocolate mixture onto prepared baking sheet. Chill in the refrigerator until haystacks are set, 15 to 20 minutes.\n"
     ],
-    "cooks_note": "Ingredients can be switched up with great results. It\u0027s also great with white chocolate and cranberries or crushed peppermints. You can use any nuts in place of the almonds.",
+    "cooks_note": "Ingredients can be switched up with great results. It's also great with white chocolate and cranberries or crushed peppermints. You can use any nuts in place of the almonds.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "315",
+      "carbs": "37g",
+      "fat": "19g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/236971/easy-chocolate-haystacks/",
-    "picture_url": "https://www.allrecipes.com/thmb/XvOLUq9IdglPHM_WjXxJyOE7vUA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/236971easy-chocolate-haystacksAimeeB4x3-ae7d2cfd2bcc4230ba3f3fcedb555ce6.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/XvOLUq9IdglPHM_WjXxJyOE7vUA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/236971easy-chocolate-haystacksAimeeB4x3-ae7d2cfd2bcc4230ba3f3fcedb555ce6.jpg",
+    "ingredTag": [163, 52, 3, 1, 32],
+    "dietTag": [2, 4, 5]
   },
   {
     "name": "Lemon Garlic Salmon",
@@ -2930,13 +3004,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "323",
+      "carbs": "7g",
+      "fat": "24g",
+      "protein": "23g"
     },
     "url": "https://www.allrecipes.com/recipe/12727/lemon-garlic-salmon/",
-    "picture_url": "https://www.allrecipes.com/thmb/vvU0B_bUjZlasZAg058rLZYGVR4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/12727lemon-garlic-salmonFranceCvideonicole4x3-636a0799d4104b778e489460db9838f9.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/vvU0B_bUjZlasZAg058rLZYGVR4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/12727lemon-garlic-salmonFranceCvideonicole4x3-636a0799d4104b778e489460db9838f9.jpg",
+    "ingredTag": [32, 117, 166, 117],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Sauteed Cabbage and Apples",
@@ -2996,13 +3072,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "130",
+      "carbs": "17g",
+      "fat": "6g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/282639/sauteed-cabbage-and-apples/",
-    "picture_url": "https://www.allrecipes.com/thmb/BamMSTanSQbUDPiDrfUN8rmXkZw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282639sauteed-cabbage-and-appleslutzflcat4x3-c8ec6662d4b14806a0c5178582dc00ee.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/BamMSTanSQbUDPiDrfUN8rmXkZw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282639sauteed-cabbage-and-appleslutzflcat4x3-c8ec6662d4b14806a0c5178582dc00ee.jpg",
+    "ingredTag": [32, 158, 87, 135, 161, 6],
+    "dietTag": [2, 4]
   },
   {
     "name": "Bacon and Cranberry Bean Ragout",
@@ -3103,13 +3181,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "273",
+      "carbs": "34g",
+      "fat": "9g",
+      "protein": "15g"
     },
     "url": "https://www.allrecipes.com/recipe/228644/bacon-and-cranberry-bean-ragout/",
-    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg",
+    "ingredTag": [11, 11, 170, 171, 43, 117, 117, 81, 104],
+    "dietTag": [2, 3]
   },
   {
     "name": "Rye Bread Party Pizzas",
@@ -3163,13 +3243,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "193",
+      "carbs": "2g",
+      "fat": "17g",
+      "protein": "9g"
     },
     "url": "https://www.allrecipes.com/recipe/25531/rye-bread-party-pizzas/",
-    "picture_url": "https://www.allrecipes.com/thmb/jLXHAjhFfcRyyc5sTbfypavlkSw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RyeBreadPartyPizzas_25531_ingredients_0283-1e84f1838b304bf3b14f23c404681efa.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/jLXHAjhFfcRyyc5sTbfypavlkSw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RyeBreadPartyPizzas_25531_ingredients_0283-1e84f1838b304bf3b14f23c404681efa.jpg",
+    "ingredTag": [95, 153, 210, 114, 28],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Honey Mustard Dressing",
@@ -3210,13 +3292,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "157",
+      "carbs": "7g",
+      "fat": "15g",
+      "protein": "0g"
     },
     "url": "https://www.allrecipes.com/recipe/16129/honey-mustard-dressing-ii/",
-    "picture_url": "https://www.allrecipes.com/thmb/fQNDAuAcGH9f8jno7L9Fhk9NCkM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/16129-honey-mustard-dressing-DDMFS-beauty-4x3-BG-1437-cf20861791ad45f19b874b079e4cd3cb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/fQNDAuAcGH9f8jno7L9Fhk9NCkM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/16129-honey-mustard-dressing-DDMFS-beauty-4x3-BG-1437-cf20861791ad45f19b874b079e4cd3cb.jpg",
+    "ingredTag": [129, 134, 102, 117],
+    "dietTag": [2]
   },
   {
     "name": "Pesto Pasta with Chicken",
@@ -3266,19 +3350,21 @@
     ],
     "steps": [
       " Bring a large pot of lightly salted water to a boil. Add pasta and cook until al dente, 8 to 10 minutes; drain.\n",
-      " Heat oil in a large skillet over medium heat. Saut\u00E9 garlic until tender, then stir in chicken and season with red pepper flakes. Cook until chicken is golden and cooked through.\n",
+      " Heat oil in a large skillet over medium heat. Saut\u00e9 garlic until tender, then stir in chicken and season with red pepper flakes. Cook until chicken is golden and cooked through.\n",
       " Combine pasta, chicken, pesto, and sun-dried tomatoes in a large bowl; toss to coat evenly.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "328",
+      "carbs": "43g",
+      "fat": "10g",
+      "protein": "17g"
     },
     "url": "https://www.allrecipes.com/recipe/46982/pesto-pasta-with-chicken/",
-    "picture_url": "https://www.allrecipes.com/thmb/6iHSDzy1OmmWbzdCVUlrTb3ouJo=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-46982-pesto-pasta-with-chicken-DDMFS-4x3-5e043df9d5174cf4ac53612ee0f5b56e.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/6iHSDzy1OmmWbzdCVUlrTb3ouJo=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-46982-pesto-pasta-with-chicken-DDMFS-4x3-5e043df9d5174cf4ac53612ee0f5b56e.jpg",
+    "ingredTag": [27, 43, 147, 184],
+    "dietTag": [1, 2, 3, 4, 5]
   },
   {
     "name": "Boilermaker Tailgate Chili",
@@ -3441,13 +3527,18 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "600",
+      "carbs": "55g",
+      "fat": "30g",
+      "protein": "31g"
     },
     "url": "https://www.allrecipes.com/recipe/78299/boilermaker-tailgate-chili/",
-    "picture_url": "https://www.allrecipes.com/thmb/gCEQh7WS-TeEiY8L1rfPO_9PcXQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/78299-boilermaker-tailgate-chili-ddmfs-hero-3x4-1195-670ba950f0e14209aa304c1dbf2b874f.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/gCEQh7WS-TeEiY8L1rfPO_9PcXQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/78299-boilermaker-tailgate-chili-ddmfs-hero-3x4-1195-670ba950f0e14209aa304c1dbf2b874f.jpg",
+    "ingredTag": [
+      95, 109, 46, 46, 198, 196, 41, 135, 90, 157, 91, 11, 20, 23, 210, 105, 56,
+      42
+    ],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Chop Suey",
@@ -3491,7 +3582,7 @@
       },
       {
         "name": "ground black pepper",
-        "quantity": "\u215B",
+        "quantity": "\u215b",
         "unit": "teaspoon"
       },
       {
@@ -3523,7 +3614,7 @@
     "steps": [
       " Gather all ingredients.\n",
       " Heat shortening in a large, deep skillet over medium-high meat. Add pork and sear until it turns white.\n",
-      " Add onion and saut\u00E9 for 5 minutes. Stir in celery, hot water, salt, and pepper. Cover skillet and simmer for 5 minutes.\n",
+      " Add onion and saut\u00e9 for 5 minutes. Stir in celery, hot water, salt, and pepper. Cover skillet and simmer for 5 minutes.\n",
       " Add sprouts and bring mixture to a boil.\n",
       " Combine cold water, cornstarch, soy sauce, and sugar in a small bowl.\n",
       " Add to skillet mixture and cook until thickened to desired consistency, about 5 minutes.\n"
@@ -3531,13 +3622,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "270",
+      "carbs": "12g",
+      "fat": "18g",
+      "protein": "16g"
     },
     "url": "https://www.allrecipes.com/recipe/25136/chop-suey/",
-    "picture_url": "https://www.allrecipes.com/thmb/b8BjfCGuFysKtDzjlF-eAmauQaE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25136-Chop-Suey-DDMFS-Step-1-0357-769dcc98e6d24ccd853c5ce89186149b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/b8BjfCGuFysKtDzjlF-eAmauQaE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25136-Chop-Suey-DDMFS-Step-1-0357-769dcc98e6d24ccd853c5ce89186149b.jpg",
+    "ingredTag": [172, 152, 135, 41, 19, 56, 176],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Greek Lemon Chicken and Potatoes",
@@ -3626,13 +3719,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "1139",
+      "carbs": "35g",
+      "fat": "75g",
+      "protein": "80g"
     },
     "url": "https://www.allrecipes.com/recipe/242352/greek-lemon-chicken-and-potatoes/",
-    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg",
+    "ingredTag": [43, 154, 117, 43],
+    "dietTag": [2, 3]
   },
   {
     "name": "Scrumptious Salmon Cakes",
@@ -3685,12 +3780,12 @@
         "unit": "tablespoons"
       },
       {
-        "name": "creamy salad dressing (such as Miracle Whip\u00AE)",
+        "name": "creamy salad dressing (such as Miracle Whip\u00ae)",
         "quantity": "2",
         "unit": "tablespoons"
       },
       {
-        "name": "seafood seasoning (such as Old Bay\u00AE)",
+        "name": "seafood seasoning (such as Old Bay\u00ae)",
         "quantity": "2",
         "unit": "teaspoons"
       },
@@ -3720,13 +3815,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "263",
+      "carbs": "11g",
+      "fat": "12g",
+      "protein": "28g"
     },
     "url": "https://www.allrecipes.com/recipe/240130/scrumptious-salmon-cakes/",
-    "picture_url": "https://www.allrecipes.com/thmb/vbFOLEOKYdXinpdfD8BmgAw6Or4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-240130-scrumptious-salmon-cakes-DDMFS-4x3-d3a4c962e2eb4dba861dc00d4c66dbd2.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/vbFOLEOKYdXinpdfD8BmgAw6Or4=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-240130-scrumptious-salmon-cakes-DDMFS-4x3-d3a4c962e2eb4dba861dc00d4c66dbd2.jpg",
+    "ingredTag": [166, 28, 71, 93, 210, 140, 69],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Nutella Bread Pudding",
@@ -3789,7 +3886,7 @@
         "unit": "tablespoons"
       },
       {
-        "name": "chocolate-hazelnut spread (such as Nutella\u00AE)",
+        "name": "chocolate-hazelnut spread (such as Nutella\u00ae)",
         "quantity": "\u2153",
         "unit": "cup"
       },
@@ -3810,13 +3907,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "337",
+      "carbs": "35g",
+      "fat": "19g",
+      "protein": "9g"
     },
     "url": "https://www.allrecipes.com/recipe/270231/nutella-bread-pudding/",
-    "picture_url": "https://www.allrecipes.com/thmb/GS1eZPFNzQbvyUy5W9MnAkmW1xc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/270231nutella-bread-puddinglutzflcat4x3-f1dddfd7e5eb4d8caedf961dcd8dcaeb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/GS1eZPFNzQbvyUy5W9MnAkmW1xc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/270231nutella-bread-puddinglutzflcat4x3-f1dddfd7e5eb4d8caedf961dcd8dcaeb.jpg",
+    "ingredTag": [32, 28, 73, 68, 71, 32, 48, 202],
+    "dietTag": [1, 2, 4, 5]
   },
   {
     "name": "Ginger-Turmeric Herbal Tea",
@@ -3869,13 +3968,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "37",
+      "carbs": "10g",
+      "fat": "0g",
+      "protein": "0g"
     },
     "url": "https://www.allrecipes.com/recipe/242148/ginger-turmeric-herbal-tea/",
-    "picture_url": "https://www.allrecipes.com/thmb/M91ELmi3_I5DVVCesGQ22JI1tps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-242148-Ginger-Turmeric-Herbal-Tea-Step-1-5150660dad084f10a7a204c2a1c18acd.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/M91ELmi3_I5DVVCesGQ22JI1tps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-242148-Ginger-Turmeric-Herbal-Tea-Step-1-5150660dad084f10a7a204c2a1c18acd.jpg",
+    "ingredTag": [81, 102, 117],
+    "dietTag": [2]
   },
   {
     "name": "Santa Maria Grilled Tri-Tip Beef",
@@ -3959,13 +4060,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "452",
+      "carbs": "4g",
+      "fat": "24g",
+      "protein": "53g"
     },
     "url": "https://www.allrecipes.com/recipe/236992/santa-maria-grilled-tri-tip-beef/",
-    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg",
+    "ingredTag": [135, 22, 161, 69],
+    "dietTag": [2, 3]
   },
   {
     "name": "Homemade Pita Chips",
@@ -4019,13 +4122,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "125",
+      "carbs": "18g",
+      "fat": "5g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/14827/pita-chips/",
-    "picture_url": "https://www.allrecipes.com/thmb/oCLkL4EmdegalOvw18bDzkYburA=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-14827-Pita-Chips-DDMFS-4x3-2d820a34bd2044b3a89ecd724591858b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/oCLkL4EmdegalOvw18bDzkYburA=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-14827-Pita-Chips-DDMFS-4x3-2d820a34bd2044b3a89ecd724591858b.jpg",
+    "ingredTag": [28],
+    "dietTag": [1]
   },
   {
     "name": "Fresh Strawberry Scones",
@@ -4099,13 +4204,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "232",
+      "carbs": "34g",
+      "fat": "9g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/143360/fresh-strawberry-scones/",
-    "picture_url": "https://www.allrecipes.com/thmb/8jP9CEBvZDzyywWcV4TpTYc1qRY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/3812115-04c611be8671427bb1337e7cd53a54bd.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/8jP9CEBvZDzyywWcV4TpTYc1qRY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/3812115-04c611be8671427bb1337e7cd53a54bd.jpg",
+    "ingredTag": [180, 121, 2, 117, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Basic British Scones",
@@ -4144,7 +4251,7 @@
       },
       {
         "name": "white sugar",
-        "quantity": "\u215B",
+        "quantity": "\u215b",
         "unit": "cup"
       },
       {
@@ -4168,13 +4275,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "124",
+      "carbs": "19g",
+      "fat": "4g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/7086/basic-british-scones/",
-    "picture_url": "https://www.allrecipes.com/thmb/rczpfeaoa_R7ZuBuCjDplxl4_yk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/9147990-english-royalty-chocolate-chip-scones-Sarah-Loffreda-4x3-1-c8781a79e4e04c0789a7be7c59c2a183.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/rczpfeaoa_R7ZuBuCjDplxl4_yk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/9147990-english-royalty-chocolate-chip-scones-Sarah-Loffreda-4x3-1-c8781a79e4e04c0789a7be7c59c2a183.jpg",
+    "ingredTag": [2, 65, 32, 1],
+    "dietTag": [2, 4]
   },
   {
     "name": "Easy Vanilla Ice Cream",
@@ -4213,18 +4322,20 @@
       }
     ],
     "steps": [
-      " Combine half-and-half, sugar, cream, vanilla, and salt in the freezer container of an ice cream maker. Freeze according to the manufacturer\u0027s instructions, about 20 minutes. Transfer to an airtight container and freeze until firm, about 4 hours.\n"
+      " Combine half-and-half, sugar, cream, vanilla, and salt in the freezer container of an ice cream maker. Freeze according to the manufacturer's instructions, about 20 minutes. Transfer to an airtight container and freeze until firm, about 4 hours.\n"
     ],
     "cooks_note": "This recipe is designed for an old-fashioned ice cream maker that yields one gallon; scale the recipe down if you have a countertop model.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "142",
+      "carbs": "12g",
+      "fat": "10g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/19812/vanilla-ice-cream-v/",
-    "picture_url": "https://www.allrecipes.com/thmb/bQASGthWP8MTg4RQAr9hDyjgZ2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1032706-e931aa86daf046098d43f3195aef5b93.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/bQASGthWP8MTg4RQAr9hDyjgZ2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1032706-e931aa86daf046098d43f3195aef5b93.jpg",
+    "ingredTag": [99],
+    "dietTag": [2, 4]
   },
   {
     "name": "Shandy",
@@ -4257,7 +4368,9 @@
       "protein": null
     },
     "url": "https://www.allrecipes.com/recipe/149943/shandy/",
-    "picture_url": "https://www.allrecipes.com/thmb/7IAzpkYWrvBGw1RU2Lz47IsF0ac=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/9086674-45c11440f8a24f0993c712700859611c.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/7IAzpkYWrvBGw1RU2Lz47IsF0ac=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/9086674-45c11440f8a24f0993c712700859611c.jpg",
+    "ingredTag": [23, 117],
+    "dietTag": [1]
   },
   {
     "name": "Lemon Poppy Seed Bundt Cake",
@@ -4313,13 +4426,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "215",
+      "carbs": "29g",
+      "fat": "10g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/26033/lemon-poppy-seed-bundt-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/pHIKWuzPsx67hEWLEYlFX5LJvRM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/7710270-82c2b5ff366d45628886c0a8833503ce.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/pHIKWuzPsx67hEWLEYlFX5LJvRM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/7710270-82c2b5ff366d45628886c0a8833503ce.jpg",
+    "ingredTag": [1, 36, 108, 71],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Agua Fresca",
@@ -4358,13 +4473,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "180",
+      "carbs": "46g",
+      "fat": "0g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/230153/agua-fresca/",
-    "picture_url": "https://www.allrecipes.com/thmb/UyQdtepAo5-AY_URK5N5yml8LJM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/214367-Watermelon-Agua-Fresca-Sherbear-1_5525363_original-1x1-1-789796e102bc4b96b2b7a14d8753724b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/UyQdtepAo5-AY_URK5N5yml8LJM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/214367-Watermelon-Agua-Fresca-Sherbear-1_5525363_original-1x1-1-789796e102bc4b96b2b7a14d8753724b.jpg",
+    "ingredTag": [38],
+    "dietTag": [6]
   },
   {
     "name": "Lemon Poppy Seed Cake",
@@ -4442,13 +4559,15 @@
     "cooks_note": "You can also make this in two (9x5-inch) loaf pans or two (9-inch) cake pans. If you use loaf pans, bake for 50 to 55 minutes.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "539",
+      "carbs": "75g",
+      "fat": "24g",
+      "protein": "8g"
     },
     "url": "https://www.allrecipes.com/recipe/278375/lemon-poppy-seed-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/sfRjKvmNUqCdSvWnbk7kBXL_0S4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/963817-7bec84d5711b43e9bb16826bd7420c76.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/sfRjKvmNUqCdSvWnbk7kBXL_0S4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/963817-7bec84d5711b43e9bb16826bd7420c76.jpg",
+    "ingredTag": [32, 71, 117, 2, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Easy Bunny Cake",
@@ -4506,20 +4625,22 @@
       " Beat cake mix, water, vegetable oil, and eggs in a large bowl with an electric mixer on low speed until moistened, about 30 seconds. Increase to medium speed and beat for 2 minutes. Pour into the prepared pans.\n",
       " Bake in the preheated oven until a toothpick inserted in the centers comes out clean, 23 to 28 minutes.\n",
       " Cool in the pan for 15 minutes, then remove cakes from the springform pans and cool completely, about 20 more minutes.\n",
-      " Place one cake on a serving tray, forming the bunny\u0027s head.\n",
+      " Place one cake on a serving tray, forming the bunny's head.\n",
       " Cut 2 convex-shaped ears from each side of the second cake, and place them on each side of the head to form ears. Place the remaining concave-shaped piece about 1/2 inch below the head for the bowtie.\n",
       " Frost the entire bunny cake with vanilla frosting; pat the cup coconut evenly over top and sides. Decorate the bunny face and bowtie with jellybeans and use licorice to make whiskers.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "457",
+      "carbs": "69g",
+      "fat": "20g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/18356/easy-bunny-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/qXd8Lf_YSPgqzRNhNaoU9nXsW6c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18356-easy-bunny-cake-ddmfs-1445-4x3-1-c0bf4a6d3bea41cfba597c38ef652714.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/qXd8Lf_YSPgqzRNhNaoU9nXsW6c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18356-easy-bunny-cake-ddmfs-1445-4x3-1-c0bf4a6d3bea41cfba597c38ef652714.jpg",
+    "ingredTag": [36, 71, 200, 52, 113, 160],
+    "dietTag": [1, 2, 4, 5]
   },
   {
     "name": "Cheesy Roasted Brussels Sprouts Soup",
@@ -4591,13 +4712,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "322",
+      "carbs": "12g",
+      "fat": "28g",
+      "protein": "10g"
     },
     "url": "https://www.allrecipes.com/recipe/263703/cheesy-roasted-brussels-sprouts-soup/",
-    "picture_url": "https://www.allrecipes.com/thmb/_XrL1cX_izg6y4xVREpKAUjxu8E=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/263703cheesy-roasted-brussels-sprouts-soupKim4x3-5fb6897faaec4a8d8bf5c35ca481ab81.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/_XrL1cX_izg6y4xVREpKAUjxu8E=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/263703cheesy-roasted-brussels-sprouts-soupKim4x3-5fb6897faaec4a8d8bf5c35ca481ab81.jpg",
+    "ingredTag": [31, 135, 32, 43, 1, 99, 42],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Creamy Gorgonzola Spinach Pasta",
@@ -4653,13 +4776,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "730",
+      "carbs": "89g",
+      "fat": "34g",
+      "protein": "21g"
     },
     "url": "https://www.allrecipes.com/recipe/263551/creamy-gorgonzola-spinach-pasta/",
-    "picture_url": "https://www.allrecipes.com/thmb/9GSB-LA0bSBAytBO17GXIk2NGbc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/263551creamy-gorgonzola-spinach-pastafabeveryday4x3-a129ddafcaac485eae824192a861ead7.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/9GSB-LA0bSBAytBO17GXIk2NGbc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/263551creamy-gorgonzola-spinach-pastafabeveryday4x3-a129ddafcaac485eae824192a861ead7.jpg",
+    "ingredTag": [79, 32, 170, 100, 179, 84],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Really Real Strawberry Cupcakes",
@@ -4737,13 +4862,15 @@
     "cooks_note": "You can grind freeze-dried strawberries into a fine powder using a coffee grinder, Magic Bullet, or food processor.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "145",
+      "carbs": "22g",
+      "fat": "6g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/233538/really-real-strawberry-cupcakes/",
-    "picture_url": "https://www.allrecipes.com/thmb/CmRERJEnibUipH2U_T6QOxlyl_U=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/586455-aef5e626514f4ffc808cf726ed31e14b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/CmRERJEnibUipH2U_T6QOxlyl_U=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/586455-aef5e626514f4ffc808cf726ed31e14b.jpg",
+    "ingredTag": [78, 2, 35, 32, 71, 209],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Banana Wake-Up Bars",
@@ -4814,16 +4941,18 @@
     "cooks_note": "If you are not a banana fan, substitute 1/2 cup unsweetened applesauce for the banana.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "102",
+      "carbs": "12g",
+      "fat": "5g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/214695/banana-wake-up-bars/",
-    "picture_url": "https://www.allrecipes.com/thmb/aS3Vx15IIJ34W85dNuaKoacCjm4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/5847546-6241d3c2a40a4572a27c28d679162216.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/aS3Vx15IIJ34W85dNuaKoacCjm4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/5847546-6241d3c2a40a4572a27c28d679162216.jpg",
+    "ingredTag": [32, 68, 32, 71, 15, 163, 2, 203],
+    "dietTag": [1, 2, 4]
   },
   {
-    "name": "Richard and Suzanne\u0027s Louisiana Crawfish Pasta",
+    "name": "Richard and Suzanne's Louisiana Crawfish Pasta",
     "meta": {
       "cook_time": "20 mins",
       "bake_time": null,
@@ -4887,13 +5016,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "1505",
+      "carbs": "100g",
+      "fat": "110g",
+      "protein": "38g"
     },
     "url": "https://www.allrecipes.com/recipe/159720/richard-and-suzannes-louisiana-crawfish-pasta/",
-    "picture_url": "https://www.allrecipes.com/thmb/rw7MyobfClJ6H-hbW7lF6AjjG6o=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Louisiana-Crawfish-Ya-Ya-Pasta-carmicjam-1x1-1-2000-268503da672f40979c7460a30ca54271.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/rw7MyobfClJ6H-hbW7lF6AjjG6o=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Louisiana-Crawfish-Ya-Ya-Pasta-carmicjam-1x1-1-2000-268503da672f40979c7460a30ca54271.jpg",
+    "ingredTag": [27, 32, 135, 63, 99, 93],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Spring Vegetable Frittata for Mother",
@@ -4926,7 +5057,7 @@
         "unit": "cups"
       },
       {
-        "name": "jalape\u00F1o pepper, seeded and diced",
+        "name": "jalape\u00f1o pepper, seeded and diced",
         "quantity": "1",
         "unit": "unknown"
       },
@@ -4968,20 +5099,22 @@
     ],
     "steps": [
       " Preheat the oven to 350 degrees F (175 degrees C).\n",
-      " Heat olive oil in a heavy 10-inch skillet over medium heat. Cook leek in hot oil with a pinch of salt, stirring occasionally, until leeks soften and start to turn translucent, 5 to 6 minutes. Add zucchini and jalape\u00F1o; season with a pinch of salt. Cook until zucchini starts to get tender and pale green, about 5 minutes. Add asparagus and cook until bright green, about 1 minute. Add spinach and another pinch of salt; cook until wilted, about 1 minute. Stir in cooked potatoes and heat through, about 5 minutes.\n",
+      " Heat olive oil in a heavy 10-inch skillet over medium heat. Cook leek in hot oil with a pinch of salt, stirring occasionally, until leeks soften and start to turn translucent, 5 to 6 minutes. Add zucchini and jalape\u00f1o; season with a pinch of salt. Cook until zucchini starts to get tender and pale green, about 5 minutes. Add asparagus and cook until bright green, about 1 minute. Add spinach and another pinch of salt; cook until wilted, about 1 minute. Stir in cooked potatoes and heat through, about 5 minutes.\n",
       " Crack eggs into a bowl; add salt, black pepper, and cayenne. Whisk until well combined, at least 30 seconds. Pour eggs over vegetables in the skillet over medium heat. Add 3 ounces feta cheese; stir lightly until evenly distributed. Top with remaining 1 ounce feta cheese. Remove from heat.\n",
       " Bake in the preheated oven until eggs are set, 12 to 15 minutes. When nearly set, turn on the oven broiler. Broil frittata until the top browns, 1 to 2 minutes. Cool slightly; serve warm.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "315",
+      "carbs": "19g",
+      "fat": "19g",
+      "protein": "18g"
     },
     "url": "https://www.allrecipes.com/recipe/242351/spring-vegetable-frittata-for-mother/",
-    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg",
+    "ingredTag": [116, 214, 9, 10, 154, 71, 83],
+    "dietTag": [2, 4]
   },
   {
     "name": "French Strawberry Cake",
@@ -5054,13 +5187,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "294",
+      "carbs": "42g",
+      "fat": "13g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/273169/french-strawberry-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/40Y8BxjIHWu1fzfBKFK5PcsDNck=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/280458frozen-strawberry-cakeLela-2f67090f70aa4db2986e86e8b3ad9464.jpeg"
+    "picture_url": "https://www.allrecipes.com/thmb/40Y8BxjIHWu1fzfBKFK5PcsDNck=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/280458frozen-strawberry-cakeLela-2f67090f70aa4db2986e86e8b3ad9464.jpeg",
+    "ingredTag": [32, 71, 2, 174, 180],
+    "dietTag": [2, 4]
   },
   {
     "name": "Super Strawberry Trifle",
@@ -5123,13 +5258,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "446",
+      "carbs": "86g",
+      "fat": "10g",
+      "protein": "7g"
     },
     "url": "https://www.allrecipes.com/recipe/233667/super-strawberry-trifle/",
-    "picture_url": "https://www.allrecipes.com/thmb/JYqXHCqG0SaRqLcum_-rmjST2YQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/809683-b664d8c5afc74505843546beb44f1518.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/JYqXHCqG0SaRqLcum_-rmjST2YQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/809683-b664d8c5afc74505843546beb44f1518.jpg",
+    "ingredTag": [180, 108, 204, 5, 181, 26],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Roasted Brussels Sprouts with Bacon and Apples",
@@ -5215,13 +5352,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "176",
+      "carbs": "19g",
+      "fat": "11g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/282853/roasted-brussels-sprouts-with-bacon-and-apples/",
-    "picture_url": "https://www.allrecipes.com/thmb/nWCm57-OL2nJvXNgJZw4aJsWibY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282853roasted-brussels-sprouts-with-bacon-and-appleslutzflcat4x3-560047b0b2954d639c988320eb1d7e87.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/nWCm57-OL2nJvXNgJZw4aJsWibY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/282853roasted-brussels-sprouts-with-bacon-and-appleslutzflcat4x3-560047b0b2954d639c988320eb1d7e87.jpg",
+    "ingredTag": [31, 87, 11, 127],
+    "dietTag": [2, 3]
   },
   {
     "name": "3-Ingredient Cheesecake",
@@ -5259,13 +5398,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "151",
+      "carbs": "9g",
+      "fat": "11g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/263685/3-ingredient-cheesecake/",
-    "picture_url": "https://www.allrecipes.com/thmb/qLGsE2pkguXJRj7WwT66w928E9s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5285001-e345c5a1975c4e4d9af06cf955c8bf54.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/qLGsE2pkguXJRj7WwT66w928E9s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5285001-e345c5a1975c4e4d9af06cf955c8bf54.jpg",
+    "ingredTag": [205, 64, 71],
+    "dietTag": [2, 4]
   },
   {
     "name": "Grilled Sweet Potatoes",
@@ -5318,13 +5459,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "274",
+      "carbs": "53g",
+      "fat": "6g",
+      "protein": "4g"
     },
     "url": "https://www.allrecipes.com/recipe/214743/grilled-sweet-potatoes/",
-    "picture_url": "https://www.allrecipes.com/thmb/KfDJjCpFffq_zUPGQzVcrX0GpKw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-214743-grilled-sweet-potatoes-VAT-step-01-f4f228e986cf4f92aa648ec2c086de81.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/KfDJjCpFffq_zUPGQzVcrX0GpKw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-214743-grilled-sweet-potatoes-VAT-step-01-f4f228e986cf4f92aa648ec2c086de81.jpg",
+    "ingredTag": [154, 32, 68],
+    "dietTag": [2, 4]
   },
   {
     "name": "Grilled Teriyaki Salmon",
@@ -5383,13 +5526,15 @@
     "cooks_note": "unknown",
     "editors_note": "Nutrition data for this recipe includes the full amount of marinade ingredients. The actual amount of marinade consumed will vary.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "345",
+      "carbs": "36g",
+      "fat": "6g",
+      "protein": "35g"
     },
     "url": "https://www.allrecipes.com/recipe/283976/grilled-teriyaki-salmon/",
-    "picture_url": "https://www.allrecipes.com/thmb/x7wFIBX_UTIw3AbBdBklfZVrbUg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/997347-d2ff07998f4e45dd96a2c3b9a128c74e.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/x7wFIBX_UTIw3AbBdBklfZVrbUg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/997347-d2ff07998f4e45dd96a2c3b9a128c74e.jpg",
+    "ingredTag": [194, 7, 166],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Fruit Punch Salad",
@@ -5438,13 +5583,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "69",
+      "carbs": "17g",
+      "fat": "0g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/242309/fruit-punch-salad/",
-    "picture_url": "https://www.allrecipes.com/thmb/gaesKgbGuk5t9YN5AaedqIEP-Ps=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/1003504-faf9fb343b2d467bb143cef9f505b671.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/gaesKgbGuk5t9YN5AaedqIEP-Ps=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/1003504-faf9fb343b2d467bb143cef9f505b671.jpg",
+    "ingredTag": [92, 180, 141, 26, 87, 136],
+    "dietTag": [6]
   },
   {
     "name": "Easy Pasta Sauce for One",
@@ -5498,13 +5645,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "286",
+      "carbs": "10g",
+      "fat": "28g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/281377/easy-pasta-sauce-for-one/",
-    "picture_url": "https://www.allrecipes.com/thmb/w0z10zOO-Jvoul10cKglktw2LQU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/281377easy-pasta-sauce-for-oneSoupLovingNicole4x3-fa54c72d302448f0ad895752b16b2a53.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/w0z10zOO-Jvoul10cKglktw2LQU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/281377easy-pasta-sauce-for-oneSoupLovingNicole4x3-fa54c72d302448f0ad895752b16b2a53.jpg",
+    "ingredTag": [],
+    "dietTag": []
   },
   {
     "name": "Thai Sweet Sticky Rice With Mango (Khao Neeo Mamuang)",
@@ -5572,13 +5721,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "817",
+      "carbs": "144g",
+      "fat": "26g",
+      "protein": "8g"
     },
     "url": "https://www.allrecipes.com/recipe/150313/thai-sweet-sticky-rice-with-mango-khao-neeo-mamuang/",
-    "picture_url": "https://www.allrecipes.com/thmb/zSsV7Fam3if0b0_VWw6rkIPw2BM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-150313-thai-sweet-sticky-rice-with-mango-khao-neeo-mamuang-ddmfs-4x3-hero-0da7a9b26cce4d07aea44f2f2b6abd95.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/zSsV7Fam3if0b0_VWw6rkIPw2BM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-150313-thai-sweet-sticky-rice-with-mango-khao-neeo-mamuang-ddmfs-4x3-hero-0da7a9b26cce4d07aea44f2f2b6abd95.jpg",
+    "ingredTag": [173, 52, 126, 195],
+    "dietTag": [5]
   },
   {
     "name": "Creamy Asparagus Potato Soup",
@@ -5612,7 +5763,7 @@
       },
       {
         "name": "ground nutmeg",
-        "quantity": "\u215B",
+        "quantity": "\u215b",
         "unit": "teaspoon"
       },
       {
@@ -5639,13 +5790,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "364",
+      "carbs": "25g",
+      "fat": "28g",
+      "protein": "7g"
     },
     "url": "https://www.allrecipes.com/recipe/272890/creamy-asparagus-potato-soup/",
-    "picture_url": "https://www.allrecipes.com/thmb/NYr1oQD3KWhZ9wJsyVOnfljSrkQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/ar_defaultPlaceHolderImage-01ff595bb5c043819991b30b49bbb057.png"
+    "picture_url": "https://www.allrecipes.com/thmb/NYr1oQD3KWhZ9wJsyVOnfljSrkQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/ar_defaultPlaceHolderImage-01ff595bb5c043819991b30b49bbb057.png",
+    "ingredTag": [154, 43, 135, 9, 99, 64],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Broccoli and Mushroom Salad",
@@ -5715,13 +5868,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "322",
+      "carbs": "18g",
+      "fat": "28g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/283938/broccoli-and-mushroom-salad/",
-    "picture_url": "https://www.allrecipes.com/thmb/k2vXH8XplJkpxEErN4-ZjfrMXEM=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/283938broccoli-and-mushroom-saladSoupLovingNicole4x3-a25a1a80d7cb42e1b89aabdd09375f9f.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/k2vXH8XplJkpxEErN4-ZjfrMXEM=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/283938broccoli-and-mushroom-saladSoupLovingNicole4x3-a25a1a80d7cb42e1b89aabdd09375f9f.jpg",
+    "ingredTag": [6, 41, 135, 30, 133, 93],
+    "dietTag": [6]
   },
   {
     "name": "Strawberry Poke Cake",
@@ -5769,7 +5924,7 @@
         "unit": "(10 ounce) jar"
       },
       {
-        "name": "confectioners\u0027 sugar",
+        "name": "confectioners' sugar",
         "quantity": "1",
         "unit": "tablespoon"
       },
@@ -5783,20 +5938,22 @@
       " Preheat the oven to 350 degrees F (175 degrees C). Grease and lightly flour a 9x13-inch baking pan.\n",
       " Blend together cake mix plus extender, water, egg whites, and oil in a large bowl with an electric mixer until just moistened. Pour batter into the prepared pan.\n",
       " Bake in the preheated oven until a toothpick inserted into the center of cake comes out clean, 26 to 32 minutes.\n",
-      " Meanwhile, combine pureed strawberries and strawberry preserves in a medium bowl. Stir in confectioners\u0027 sugar and lemon juice until incorporated. Refrigerate sauce until ready to use.\n",
+      " Meanwhile, combine pureed strawberries and strawberry preserves in a medium bowl. Stir in confectioners' sugar and lemon juice until incorporated. Refrigerate sauce until ready to use.\n",
       " Transfer cake to a wire rack and let cool to room temperature, at least 25 minutes.\n",
       " Using the handle of a wooden spoon, poke holes into cake about 1 inch apart. Slowly spread sauce over cake, letting it fill the holes. Refrigerate until completely chilled.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "311",
+      "carbs": "51g",
+      "fat": "11g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/274313/strawberry-poke-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/-E0JS9lsm4c4bOMqazgKUoHxFek=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/6745171-48e6144789ed4d8d8c0218b5c5df899e.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/-E0JS9lsm4c4bOMqazgKUoHxFek=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/6745171-48e6144789ed4d8d8c0218b5c5df899e.jpg",
+    "ingredTag": [36, 36, 71, 180, 117],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Hash Brown Crust Quiche",
@@ -5861,22 +6018,24 @@
     ],
     "steps": [
       " Preheat the oven to 425 degrees F (220 degrees C).\n",
-      " Place hash browns in a medium bowl.\u00A0Melt 5 tablespoons butter and pour over hash browns, season with seasoning salt or garlic powder as desired.\u00A0Add 1 egg, mix well\u00A0and press mixture onto the bottom and sides of a 9-inch spring\u00A0form pan or pie dish.\n",
-      " Bake in preheated oven until potatoes are golden brown and crispy around the edges, about 25 to 30 minutes.\u00A0\n",
-      " While crust bakes, melt remaining tablespoon of butter in a medium skillet over medium-high heat.\u00A0Add ham, pepper, and green onion; cook and stir until bell pepper slightly softens, about 4 minutes.\u00A0Remove from heat.\n",
-      " When crust is ready, spread ham mixture over the bottom; sprinkle cheese evenly on top.\u00A0Whisk remaining 5 eggs and cream in a medium bowl; add salt and pepper to taste and mix until well blended.\u00A0Pour mixture evenly over ham and cheese mixture.\u00A0\n",
+      " Place hash browns in a medium bowl.\u00a0Melt 5 tablespoons butter and pour over hash browns, season with seasoning salt or garlic powder as desired.\u00a0Add 1 egg, mix well\u00a0and press mixture onto the bottom and sides of a 9-inch spring\u00a0form pan or pie dish.\n",
+      " Bake in preheated oven until potatoes are golden brown and crispy around the edges, about 25 to 30 minutes.\u00a0\n",
+      " While crust bakes, melt remaining tablespoon of butter in a medium skillet over medium-high heat.\u00a0Add ham, pepper, and green onion; cook and stir until bell pepper slightly softens, about 4 minutes.\u00a0Remove from heat.\n",
+      " When crust is ready, spread ham mixture over the bottom; sprinkle cheese evenly on top.\u00a0Whisk remaining 5 eggs and cream in a medium bowl; add salt and pepper to taste and mix until well blended.\u00a0Pour mixture evenly over ham and cheese mixture.\u00a0\n",
       " Reduce oven temperature to 350 degrees F (175 degrees C.) Bake in the preheated oven until filling is puffed and quiche is lightly browned around the edges, about 35 minutes.\n"
     ],
     "cooks_note": "If you are using a springform pan, grease it well and wrap the bottom of the pan with foil to catch any butter drips.",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "624",
+      "carbs": "35g",
+      "fat": "48g",
+      "protein": "16g"
     },
     "url": "https://www.allrecipes.com/recipe/43475/hash-brown-quiche/",
-    "picture_url": "https://www.allrecipes.com/thmb/S3Ad4_Sb3ykTO_BPhNmLFfKa8yQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/43475HashbrownCrustQuiche-2a980c4fab5c44c9b20b29b82f42c378.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/S3Ad4_Sb3ykTO_BPhNmLFfKa8yQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/43475HashbrownCrustQuiche-2a980c4fab5c44c9b20b29b82f42c378.jpg",
+    "ingredTag": [98, 32, 71, 97, 157, 93, 42, 99],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Camp Breakfast",
@@ -5928,13 +6087,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "561",
+      "carbs": "49g",
+      "fat": "29g",
+      "protein": "28g"
     },
     "url": "https://www.allrecipes.com/recipe/258358/camp-breakfast/",
-    "picture_url": "https://www.allrecipes.com/thmb/o-XqcRFpUd-IadL-xgzD6Ua1Tvw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/4468324-bacon-potato-and-egg-taco-ole-mommyluvs2cook-4x3-1-5d2c5cde26574dba9e710fe32410ca4f.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/o-XqcRFpUd-IadL-xgzD6Ua1Tvw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/4468324-bacon-potato-and-egg-taco-ole-mommyluvs2cook-4x3-1-5d2c5cde26574dba9e710fe32410ca4f.jpg",
+    "ingredTag": [11, 154, 135, 71],
+    "dietTag": [2, 3]
   },
   {
     "name": "Grilled Asian Chicken",
@@ -5987,13 +6148,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "217",
+      "carbs": "11g",
+      "fat": "8g",
+      "protein": "26g"
     },
     "url": "https://www.allrecipes.com/recipe/8919/grilled-asian-chicken/",
-    "picture_url": "https://www.allrecipes.com/thmb/op3JPGyQq5WOa08FSLv1ZULvEIQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8919-Grilled-Asian-Chicken-DDMFS-Step-01a-30eaf72277084732820dbd7c60f6afc5.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/op3JPGyQq5WOa08FSLv1ZULvEIQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8919-Grilled-Asian-Chicken-DDMFS-Step-01a-30eaf72277084732820dbd7c60f6afc5.jpg",
+    "ingredTag": [176, 102, 81, 43],
+    "dietTag": [1, 2, 3]
   },
   {
     "name": "Loaded Breakfast Skillet",
@@ -6069,13 +6232,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "418",
+      "carbs": "43g",
+      "fat": "18g",
+      "protein": "22g"
     },
     "url": "https://www.allrecipes.com/recipe/260471/loaded-breakfast-skillet/",
-    "picture_url": "https://www.allrecipes.com/thmb/IeVPv9lDHL-vLXHdYFEQrlJxx38=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-260471-loaded-breakfast-skillet-Keepers-3X4-e7bd39de082d4f79844bee07f01dc559.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/IeVPv9lDHL-vLXHdYFEQrlJxx38=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-260471-loaded-breakfast-skillet-Keepers-3X4-e7bd39de082d4f79844bee07f01dc559.jpg",
+    "ingredTag": [11, 135, 154, 93, 71, 42],
+    "dietTag": [2, 3, 4]
   },
   {
     "name": "Caprese Salad with Balsamic Reduction",
@@ -6137,16 +6302,18 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "580",
+      "carbs": "35g",
+      "fat": "39g",
+      "protein": "22g"
     },
     "url": "https://www.allrecipes.com/recipe/228126/caprese-salad-with-balsamic-reduction/",
-    "picture_url": "https://www.allrecipes.com/thmb/mTisFoqI0-J64LkI6GewpOYTy5M=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228126-caprese-salad-with-balsamic-reduction-ddmfs-2644-4x3-f32ac2b2fb9d4234884a752490fb015b.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/mTisFoqI0-J64LkI6GewpOYTy5M=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228126-caprese-salad-with-balsamic-reduction-ddmfs-2644-4x3-f32ac2b2fb9d4234884a752490fb015b.jpg",
+    "ingredTag": [102, 198, 132, 16, 81],
+    "dietTag": [2, 4]
   },
   {
-    "name": "Pig Pickin\u0027 Cake",
+    "name": "Pig Pickin' Cake",
     "meta": {
       "cook_time": "25 mins",
       "bake_time": null,
@@ -6202,13 +6369,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "524",
+      "carbs": "71g",
+      "fat": "25g",
+      "protein": "6g"
     },
     "url": "https://www.allrecipes.com/recipe/8043/pig-pickin-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/h5teYGrg2DEwBElUAuZ9ybAhBWQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/8043-pig-pickin-cake-VAT-4x3-2ffa6b1a46064116adf04e4a6b41022d.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/h5teYGrg2DEwBElUAuZ9ybAhBWQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/8043-pig-pickin-cake-VAT-4x3-2ffa6b1a46064116adf04e4a6b41022d.jpg",
+    "ingredTag": [36, 125, 71, 204, 148, 108],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Salsa Chicken",
@@ -6258,13 +6427,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "287",
+      "carbs": "7g",
+      "fat": "12g",
+      "protein": "36g"
     },
     "url": "https://www.allrecipes.com/recipe/16700/salsa-chicken/",
-    "picture_url": "https://www.allrecipes.com/thmb/P_rCA62s6jF4c7_mJiyQ5PuZ6l0=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-16700-salsa-chicken-DDMFS-4x3-0e54b044a6c9451e9e52bdc7118feefa.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/P_rCA62s6jF4c7_mJiyQ5PuZ6l0=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-16700-salsa-chicken-DDMFS-4x3-0e54b044a6c9451e9e52bdc7118feefa.jpg",
+    "ingredTag": [43, 190, 167, 42, 174],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "Philly Cheesesteak",
@@ -6365,13 +6536,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "641",
+      "carbs": "40g",
+      "fat": "38g",
+      "protein": "35g"
     },
     "url": "https://www.allrecipes.com/recipe/36621/philly-steak-sandwich/",
-    "picture_url": "https://www.allrecipes.com/thmb/PdHrQzlNiFPWD9OSgf2U9upJ5rE=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-36621-philly-steak-sandwich-DDMFS-4x3-0375c25e8e554626a87131ee6f063655.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/PdHrQzlNiFPWD9OSgf2U9upJ5rE=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-36621-philly-steak-sandwich-DDMFS-4x3-0375c25e8e554626a87131ee6f063655.jpg",
+    "ingredTag": [135, 21, 135, 90, 189, 101],
+    "dietTag": [1, 2, 3, 4]
   },
   {
     "name": "American Flag Cake",
@@ -6447,7 +6620,7 @@
     "steps": [
       " Preheat oven to 350 degrees F (175 degrees C). Grease and line four 8-inch round cake pans with parchment paper.\n",
       " Combine white cake mix, egg whites, vegetable oil, milk, and vanilla extract in a large mixing bowl. Beat for 30 seconds using an electric mixer on low speed. Increase mixer speed to medium and beat for 2 more minutes. The batter will still be slightly lumpy.\n",
-      " To make the red cakes: Measure \u00BD of the cake batter into a separate bowl and whisk in red food coloring. Evenly transfer red cake batter into two of the 8-inch prepared cake pans; smooth tops with a spatula. Transfer \u00BD of the remaining uncolored batter into a 3rd prepared cake pan; smooth top as before. This will be the white cake portion.\n",
+      " To make the red cakes: Measure \u00bd of the cake batter into a separate bowl and whisk in red food coloring. Evenly transfer red cake batter into two of the 8-inch prepared cake pans; smooth tops with a spatula. Transfer \u00bd of the remaining uncolored batter into a 3rd prepared cake pan; smooth top as before. This will be the white cake portion.\n",
       " Add blue food coloring to the remaining uncolored batter in the large mixing bowl; fold 1 cup white chocolate chips into blue batter until combined. Transfer batter to remaining prepared 8-inch cake pan; smooth top of batter with a spatula.\n",
       " Bake all 4 cakes in the preheated oven until a toothpick inserted into the center of each cake comes out clean, about 30 minutes. Remove the cakes from oven and place onto cooling racks until cooled completely.\n",
       " Run a knife around edge of each cooled cake. Invert cakes, remove pans, and peel off parchment paper. Use a sharp knife to trim tops of cakes flat and even.\n",
@@ -6457,20 +6630,22 @@
       " To assemble cake, place one 8-inch thin red cake layer on a cake pan and frost the top generously with white frosting. Place the thin 8-inch white cake layer on top of the red one, and frost the top. Place remaining 8-inch thin red cake layer atop the white one. Frost the red layer.\n",
       " Place the blue ring cake on top of the 2nd red cake layer and carefully frost the inside of the blue cake ring. Gently fit the 4-inch white cake layer into the blue cake ring. Frost the top of the 4-inch white center. Place the 4-inch red cake layer on top of the white one. Gently press small cake circles flush with the top of the blue ring.\n",
       " Frost the entire outside of the cake generously with the remaining frosting.\n",
-      " Crumble red and blue pieces of leftover cake into 2 separate bowls. Score lines into the top of the cake\u0027s frosting with a kitchen knife to make a flag design on top of the cake. It should have a 2-inch square at the upper left for blue field and white stars, and 7 thick horizontal stripes about 1 inch wide.\n",
-      " Fill the square field at the upper left with blue crumbs and press 1 tablespoon white chocolate chips upside-down into the blue crumbs to make \u0027stars.\u0027 Fill the bottom stripe and every other stripe with red crumbs to make red stripes. Sprinkle white sugar generously into the white stripes to make them stand out.\n",
+      " Crumble red and blue pieces of leftover cake into 2 separate bowls. Score lines into the top of the cake's frosting with a kitchen knife to make a flag design on top of the cake. It should have a 2-inch square at the upper left for blue field and white stars, and 7 thick horizontal stripes about 1 inch wide.\n",
+      " Fill the square field at the upper left with blue crumbs and press 1 tablespoon white chocolate chips upside-down into the blue crumbs to make 'stars.' Fill the bottom stripe and every other stripe with red crumbs to make red stripes. Sprinkle white sugar generously into the white stripes to make them stand out.\n",
       " To serve, cut cake into wedges. The inside of the cake will reveal its layers of red and white stripes and blue field with white chocolate chip stars in every slice.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "1110",
+      "carbs": "215g",
+      "fat": "26g",
+      "protein": "11g"
     },
     "url": "https://www.allrecipes.com/recipe/232909/american-flag-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/icYCaM7oTC4JjCCoNYb9XPVbQtE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2368098-8b0c463bcbcf4131900900f6dda50b8d.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/icYCaM7oTC4JjCCoNYb9XPVbQtE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2368098-8b0c463bcbcf4131900900f6dda50b8d.jpg",
+    "ingredTag": [36, 71, 209, 205, 207, 205],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Best Burger Sauce",
@@ -6509,7 +6684,7 @@
       },
       {
         "name": "white vinegar",
-        "quantity": "\u215B",
+        "quantity": "\u215b",
         "unit": "teaspoon"
       },
       {
@@ -6533,13 +6708,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "87",
+      "carbs": "2g",
+      "fat": "9g",
+      "protein": "0g"
     },
     "url": "https://www.allrecipes.com/recipe/155191/best-burger-sauce/",
-    "picture_url": "https://www.allrecipes.com/thmb/SLeh2UNBJEA5Yuu-NlEAdcICVHY=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/155191-best-burger-sauce-DDMFS-4x3-223-d306ef9989b34dcfa5e1653a22f61fcd.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/SLeh2UNBJEA5Yuu-NlEAdcICVHY=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/155191-best-burger-sauce-DDMFS-4x3-223-d306ef9989b34dcfa5e1653a22f61fcd.jpg",
+    "ingredTag": [129, 114, 134, 135, 106],
+    "dietTag": [2]
   },
   {
     "name": "Easy Pineapple Cake",
@@ -6602,7 +6779,7 @@
         "unit": "cup"
       },
       {
-        "name": "confectioners\u0027 sugar",
+        "name": "confectioners' sugar",
         "quantity": "0.5",
         "unit": "cups"
       },
@@ -6619,20 +6796,22 @@
       " Pour into the prepared baking dish.\n",
       " Bake in the preheated oven until top is deeply browned and a toothpick inserted into the center of the cake comes out clean, about 35 minutes. Let cake cool in the dish on a wire rack, 1 to 2 hours.\n",
       " To make the frosting: Combine cream cheese and butter for frosting in a mixing bowl; beat with an electric mixer until smooth, about 1 minute.\n",
-      " Add confectioners\u0027 sugar and vanilla; beat until creamy, about 1 or 2 minutes more.\n",
+      " Add confectioners' sugar and vanilla; beat until creamy, about 1 or 2 minutes more.\n",
       " Spread frosting on cooled cake.\n",
       " Serve and enjoy!\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "This recipe was tested in our test kitchen in November 2023 and updated to reduce the amount of sugar and baking soda based on user feedback.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "201",
+      "carbs": "32g",
+      "fat": "8g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/15857/easy-pineapple-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/sTsPxodwPumuFWR-8iuhAK5sCtU=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-15857-Easy-Pineapple-Cake-DDMFS-4x3-6127575ad6c941a28038561637003450.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/sTsPxodwPumuFWR-8iuhAK5sCtU=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-15857-Easy-Pineapple-Cake-DDMFS-4x3-6127575ad6c941a28038561637003450.jpg",
+    "ingredTag": [2, 71, 148, 64, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Chocolate Frosty",
@@ -6661,18 +6840,20 @@
       }
     ],
     "steps": [
-      " Mix chocolate milk, sweetened condensed milk, and whipped topping in a large bowl. Pour mixture into an ice cream maker and freeze according to manufacturer\u0027s instructions.\n"
+      " Mix chocolate milk, sweetened condensed milk, and whipped topping in a large bowl. Pour mixture into an ice cream maker and freeze according to manufacturer's instructions.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "228",
+      "carbs": "32g",
+      "fat": "9g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/233003/chocolate-frosty/",
-    "picture_url": "https://www.allrecipes.com/thmb/2RnMy2Gxmuw2QnGFFYsQulmn6_s=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/1341303-8dea8f49706a4a5db7e91de8389a7308.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/2RnMy2Gxmuw2QnGFFYsQulmn6_s=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/1341303-8dea8f49706a4a5db7e91de8389a7308.jpg",
+    "ingredTag": [47, 188, 204],
+    "dietTag": [2, 4]
   },
   {
     "name": "Watermelon Lime Agua Fresca",
@@ -6712,13 +6893,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "64",
+      "carbs": "16g",
+      "fat": "0g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/246117/watermelon-lime-agua-fresca/",
-    "picture_url": "https://www.allrecipes.com/thmb/sB0F39W5il_7MWUY2hnSX90GjCw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/3822171-6577c23f6e864efea0bb756b8fd74cd5.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/sB0F39W5il_7MWUY2hnSX90GjCw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/3822171-6577c23f6e864efea0bb756b8fd74cd5.jpg",
+    "ingredTag": [123],
+    "dietTag": [6]
   },
   {
     "name": "Best Grilled Corn On The Cob ",
@@ -6769,13 +6952,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "228",
+      "carbs": "30g",
+      "fat": "13g",
+      "protein": "3g"
     },
     "url": "https://www.allrecipes.com/recipe/214644/juicy-grilled-corn-on-the-cob/",
-    "picture_url": "https://www.allrecipes.com/thmb/RHJdTWiHQ5QOo_OPJ58vqHqnNLg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/20724-grilled-corn-on-the-cob-DDMFS-4x3-c4b6679bc6994cac98e6459eec2cc60c.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/RHJdTWiHQ5QOo_OPJ58vqHqnNLg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/20724-grilled-corn-on-the-cob-DDMFS-4x3-c4b6679bc6994cac98e6459eec2cc60c.jpg",
+    "ingredTag": [56, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Blueberry Zucchini Bread",
@@ -6855,13 +7040,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "461",
+      "carbs": "67g",
+      "fat": "20g",
+      "protein": "5g"
     },
     "url": "https://www.allrecipes.com/recipe/74657/blueberry-zucchini-bread/",
-    "picture_url": "https://www.allrecipes.com/thmb/C9md_qaY0IgiCgdg9d4XuuppX90=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-74657-blueberry-zucchini-bread-DDMFS-4x3-f247949e36464a6da9f58a6e625334d6.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/C9md_qaY0IgiCgdg9d4XuuppX90=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-74657-blueberry-zucchini-bread-DDMFS-4x3-f247949e36464a6da9f58a6e625334d6.jpg",
+    "ingredTag": [71, 214, 2, 26],
+    "dietTag": [2]
   },
   {
     "name": "Mai Tai",
@@ -6919,10 +7106,12 @@
       "protein": null
     },
     "url": "https://www.allrecipes.com/recipe/73287/mai-tai/",
-    "picture_url": "https://www.allrecipes.com/thmb/A7LHvCqyNEXWviW8RxjTvOP2Fno=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/73287-mai-tai-ddmfs-hero-3x4-1001-44ffd41d2ea94e15ba63bac042cffac2.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/A7LHvCqyNEXWviW8RxjTvOP2Fno=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/73287-mai-tai-ddmfs-hero-3x4-1001-44ffd41d2ea94e15ba63bac042cffac2.jpg",
+    "ingredTag": [7, 136, 178, 52, 94],
+    "dietTag": [5]
   },
   {
-    "name": "Chef John\u0027s Cr\u00E8me Fra\u00EEche",
+    "name": "Chef John's Cr\u00e8me Fra\u00eeche",
     "meta": {
       "cook_time": null,
       "bake_time": null,
@@ -6949,13 +7138,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "52",
+      "carbs": "1g",
+      "fat": "6g",
+      "protein": "0g"
     },
     "url": "https://www.allrecipes.com/recipe/222387/chef-johns-creme-fraiche/",
-    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/r5zhVQDa55-8JF6F-Z6c4dd1uyM=/75x75/filters:no_upscale():max_bytes(150000):strip_icc()/chef-john-c50f1c2cb23f4e7786d66c30bddf8bcb.jpg",
+    "ingredTag": [99, 32],
+    "dietTag": [2, 4]
   },
   {
     "name": "Easy Italian Chicken",
@@ -6987,13 +7178,15 @@
     "cooks_note": "unknown",
     "editors_note": "The nutrition data for this recipe includes information for the full amount of the marinade ingredients. Depending on marinating time, ingredients, cooking method, etc., the actual amount of the marinade consumed will vary.",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "344",
+      "carbs": "8g",
+      "fat": "22g",
+      "protein": "28g"
     },
     "url": "https://www.allrecipes.com/recipe/17745/easy-italian-chicken-ii/",
-    "picture_url": "https://www.allrecipes.com/thmb/9T12oAz4ZQkvXDoz76Qj_vUVcaM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-17745-Italian-Chicken-ii-DDMFS-4x3-346814609e884ecaa1e1b6f8c396c818.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/9T12oAz4ZQkvXDoz76Qj_vUVcaM=/160x90/filters:no_upscale():max_bytes(150000):strip_icc()/AR-17745-Italian-Chicken-ii-DDMFS-4x3-346814609e884ecaa1e1b6f8c396c818.jpg",
+    "ingredTag": [43, 111],
+    "dietTag": [2, 3]
   },
   {
     "name": "Texas Twinkies",
@@ -7006,7 +7199,7 @@
     },
     "ingredients": [
       {
-        "name": "jalape\u00F1o peppers",
+        "name": "jalape\u00f1o peppers",
         "quantity": "12",
         "unit": "medium"
       },
@@ -7038,26 +7231,28 @@
     ],
     "steps": [
       " Preheat the oven to 300 degrees F (150 degrees C).\n",
-      " Slice jalape\u00F1os in the shape of a \u0022T.\u0022 Cut a straight vertical line from top to bottom with a crosscut directly under the stem, making sure to cut only halfway through the jalape\u00F1os. Use a spoon to remove and discard all seeds and membranes. Place jalape\u00F1os on a baking sheet.\n",
+      " Slice jalape\u00f1os in the shape of a \"T.\" Cut a straight vertical line from top to bottom with a crosscut directly under the stem, making sure to cut only halfway through the jalape\u00f1os. Use a spoon to remove and discard all seeds and membranes. Place jalape\u00f1os on a baking sheet.\n",
       " Bake in the preheated oven for 10 minutes.\n",
-      " Transfer jalape\u00F1os to a bowl of ice water for a few minutes to extract the rest of the seeds\u0027 oil. Blot dry with a paper towel.\n",
+      " Transfer jalape\u00f1os to a bowl of ice water for a few minutes to extract the rest of the seeds' oil. Blot dry with a paper towel.\n",
       " Increase oven temperature to 350 degrees F (175 degrees C).\n",
-      " Spread 1 tablespoon cream cheese inside each jalape\u00F1o. Place about 2 ounces brisket inside each, then wrap with a slice of bacon. Place poppers on a baking sheet and season with salt and pepper.\n",
+      " Spread 1 tablespoon cream cheese inside each jalape\u00f1o. Place about 2 ounces brisket inside each, then wrap with a slice of bacon. Place poppers on a baking sheet and season with salt and pepper.\n",
       " Bake in the preheated oven for 30 minutes. Remove from the oven and brush the tops with BBQ sauce. Return to the oven and bake 5 more minutes.\n"
     ],
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "212",
+      "carbs": "7g",
+      "fat": "18g",
+      "protein": "6g"
     },
     "url": "https://www.allrecipes.com/recipe/281688/texas-twinkies/",
-    "picture_url": "https://www.allrecipes.com/thmb/00-959BqnxTEb-4XUGbIUJJLsvE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/281688-texas-twinkies-ddmfs-step1-0417-99a1bb99f19a444a84ff103f6e3a6e48.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/00-959BqnxTEb-4XUGbIUJJLsvE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/281688-texas-twinkies-ddmfs-step1-0417-99a1bb99f19a444a84ff103f6e3a6e48.jpg",
+    "ingredTag": [64, 29, 11, 18],
+    "dietTag": [1, 2, 3, 4]
   },
   {
-    "name": "S\u0027mores Cake",
+    "name": "S'mores Cake",
     "meta": {
       "cook_time": "25 mins",
       "bake_time": null,
@@ -7142,7 +7337,7 @@
       " Preheat the oven to 350 degrees F (175 degrees C). Line the bottom of two 9-inch cake pans with parchment paper, lightly spray with baking spray.\n",
       " Combine cake mix, eggs, milk, and butter in a large bowl. Beat with an electric mixer until well combined. Mix in espresso powder and 2 teaspoons vanilla extract. Divide batter evenly between prepared pans, spreading into even layers.\n",
       " Bake in the preheated oven until toothpick inserted into the center of cakes comes out clean, 25 to 30 minutes. Cool cakes in pans on a wire rack for 20 minutes, then remove cakes from pans and let cool completely on a wire rack.\n",
-      " While cakes are baking, place chocolate chips into a heatproof bowl. Bring cream in a small saucepan to a gentle simmer over medium-low heat, stirring constantly, about 6 minutes. Pour hot cream over chocolate chips and let stand for 5 minutes. Gently stir together in a circular motion to evenly blend chocolate into cream, without adding a lot of air. Let chocolate mixture cool, uncovered, at room temperature, stirring occasionally, until thickened to a spreadable consistency, about 1 \u00BD\u00A0hours.\n",
+      " While cakes are baking, place chocolate chips into a heatproof bowl. Bring cream in a small saucepan to a gentle simmer over medium-low heat, stirring constantly, about 6 minutes. Pour hot cream over chocolate chips and let stand for 5 minutes. Gently stir together in a circular motion to evenly blend chocolate into cream, without adding a lot of air. Let chocolate mixture cool, uncovered, at room temperature, stirring occasionally, until thickened to a spreadable consistency, about 1 \u00bd\u00a0hours.\n",
       " Meanwhile, bring a small saucepan filled with 2 inches water to a simmer over medium-low heat. Beat egg whites, sugar, and cream of tartar together in a work bowl of a stand mixer fitted with a whisk attachment on medium speed until well combined, about 1 minute.\n",
       " Place mixer bowl over simmering saucepan, ensuring the bottom of the mixing bowl does not touch the water. Cook egg white mixture, whisking constantly, until a candy thermometer reaches 160 degrees F (70 degrees C) and the sugar crystals have dissolved, 8 to 10 minutes. Remove bowl from heat, and return to stand mixer.\n",
       " Beat on high speed, gradually adding remaining 1 teaspoon vanilla. Beat until stiff peaks form, 6 to 7 minutes.\n",
@@ -7151,7 +7346,7 @@
       " Place 1 cake layer on a cake stand or plate, cut-side up. Spread reserved 2 cups marshmallow cream in an even layer on cake top.\n",
       " Sprinkle 1/2 cup of the graham cracker crumbs evenly over top.\n",
       " Top with remaining cake layer, cut-side down. Fill in any empty spots in seams of cake layers using marshmallow cream in piping bag; smooth sides using an offset spatula. Refrigerate stacked cake, uncovered, for 30 minutes.\n",
-      " Spoon 1 \u00BC cups cooled chocolate mixture over top of the stacked cake. Spread into an even layer using a large cake spatula, allowing excess to extend over the sides. Frost sides of cake using remaining chocolate mixture, smoothing into an even layer.\n",
+      " Spoon 1 \u00bc cups cooled chocolate mixture over top of the stacked cake. Spread into an even layer using a large cake spatula, allowing excess to extend over the sides. Frost sides of cake using remaining chocolate mixture, smoothing into an even layer.\n",
       " Using marshmallow cream in piping bag, pipe 10 large rosettes along the top, outside edge of the cake.\n",
       " Sprinkle center of the cake with remaining 1/4 cup graham cracker crumbs.\n",
       " Arrange graham cracker rectangles upright on the long sides of each rectangle in a spoke-wheel design inside rosette rings on top of cake. Pipe 1 large rosette in center of graham cracker spoke-wheel design. Refrigerate, uncovered, until ready to serve, at least 30 minutes or up to 48 hours.\n",
@@ -7160,13 +7355,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "631",
+      "carbs": "82g",
+      "fat": "33g",
+      "protein": "9g"
     },
     "url": "https://www.allrecipes.com/recipe/8495814/smores-cake/",
-    "picture_url": "https://www.allrecipes.com/thmb/iEgKNZmPzSXl6PrqdQXiJ7fQiVg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Smores-Cake-ddmfs-Step-1-0001-3x4-b35d5a96d7c24690a807b9a3fd16e752.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/iEgKNZmPzSXl6PrqdQXiJ7fQiVg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Smores-Cake-ddmfs-Step-1-0001-3x4-b35d5a96d7c24690a807b9a3fd16e752.jpg",
+    "ingredTag": [14, 36, 71, 209, 32, 107, 169, 100, 71, 65, 85, 85],
+    "dietTag": [1, 2, 4]
   },
   {
     "name": "Grateful Dead Cocktail",
@@ -7220,16 +7417,18 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
+      "calories": "403",
+      "carbs": "19g",
+      "fat": "0g",
       "protein": null
     },
     "url": "https://www.allrecipes.com/recipe/222886/grateful-dead-cocktail/",
-    "picture_url": "https://www.allrecipes.com/thmb/vZuZdVn8xKvyQK5UOfffS5Mgoxc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/968620-grateful-dead-cocktail-lovestohost-1x1-1-852e179bbfee400e872324219e241275.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/vZuZdVn8xKvyQK5UOfffS5Mgoxc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/968620-grateful-dead-cocktail-lovestohost-1x1-1-852e179bbfee400e872324219e241275.jpg",
+    "ingredTag": [193, 201, 122, 81, 97, 7, 175],
+    "dietTag": [2, 3]
   },
   {
-    "name": "Grandma\u0027s Harvard Beets",
+    "name": "Grandma's Harvard Beets",
     "meta": {
       "cook_time": "35 mins",
       "bake_time": null,
@@ -7286,13 +7485,15 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "185",
+      "carbs": "34g",
+      "fat": "6g",
+      "protein": "1g"
     },
     "url": "https://www.allrecipes.com/recipe/92773/grandmas-harvard-beets/",
-    "picture_url": "https://www.allrecipes.com/thmb/1EW5B246MzO0phR_rmgDQGK8MZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-92773-Grandmas-Harvard-Beets-DDMFS-Step-01-923125ae29bc45c8b32e1b3f0652cd01.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/1EW5B246MzO0phR_rmgDQGK8MZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-92773-Grandmas-Harvard-Beets-DDMFS-Step-01-923125ae29bc45c8b32e1b3f0652cd01.jpg",
+    "ingredTag": [56, 24, 32, 90],
+    "dietTag": [2, 4]
   },
   {
     "name": "Sock it to Me Cake",
@@ -7350,7 +7551,7 @@
         "unit": "cup"
       },
       {
-        "name": "confectioners\u0027 sugar",
+        "name": "confectioners' sugar",
         "quantity": "1",
         "unit": "cup"
       },
@@ -7371,12 +7572,14 @@
     "cooks_note": "unknown",
     "editors_note": "unknown",
     "nutrition_facts": {
-      "calories": null,
-      "carbs": null,
-      "fat": null,
-      "protein": null
+      "calories": "366",
+      "carbs": "48g",
+      "fat": "19g",
+      "protein": "2g"
     },
     "url": "https://www.allrecipes.com/recipe/7505/sock-it-to-me-cake-iii/",
-    "picture_url": "https://www.allrecipes.com/thmb/_J0Qf23Jq97nG-KLxOPU8g_VTvY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/141300-db78647702ac4d3da2806ba8c0395b6c.jpg"
+    "picture_url": "https://www.allrecipes.com/thmb/_J0Qf23Jq97nG-KLxOPU8g_VTvY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/141300-db78647702ac4d3da2806ba8c0395b6c.jpg",
+    "ingredTag": [32, 145, 68, 71, 174, 1],
+    "dietTag": [2, 4, 5]
   }
 ]

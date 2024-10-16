@@ -8,6 +8,8 @@ export class Recipe {
   instructions: string[];
   url: string;
   image: string | null; //(base64)
+  ingredTag: number[];
+  dietTag: number[];
 
   public constructor(
     id: number,
@@ -18,7 +20,9 @@ export class Recipe {
     nutrition: Nutrition,
     instructions: string[],
     url: string,
-    image: string | null
+    image: string | null,
+    ingredTag: number[],
+    dietTag: number[]
   ) {
     this.id = id;
     this.name = name;
@@ -29,6 +33,8 @@ export class Recipe {
     this.instructions = instructions;
     this.url = url;
     this.image = image;
+    this.ingredTag = ingredTag;
+    this.dietTag = dietTag;
   } // Recipe ctor
 } //Recipe class
 
@@ -74,7 +80,7 @@ export class Ingredient {
     id: number,
     name: string | null,
     quantity: number,
-    unit: string | null,
+    unit: string | null
   ) {
     this.id = id;
     this.name = name;
