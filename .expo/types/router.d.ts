@@ -10,6 +10,7 @@ declare module "expo-router" {
       StaticRoutes:
         | `/`
         | `/(tabs)`
+        | `/(tabs)/`
         | `/(tabs)/pantry`
         | `/(tabs)/recipes`
         | `/_sitemap`
