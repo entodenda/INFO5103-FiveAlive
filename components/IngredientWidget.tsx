@@ -1,42 +1,76 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 import { Ingredient } from "./Ingredient";
 import { Nutrition } from "./Recipe";
 
 interface IngredientWidgetProps {
-    name: string;
-    macros: Nutrition;
+    ingredient: Ingredient;
 }
 
-const IngredientWidget: React.FC<IngredientWidgetProps> = ({
-    name,
-    macros,
-}) => {
+const IngredientWidget: React.FC<IngredientWidgetProps> = ({ ingredient }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.ingredientNameTxt}>{name}</Text>
-            <Text style={styles.servingTxt}>Per Serving</Text>
-            <View>
-                <View style={styles.row}>
-                    <View style={styles.column}>
-                        <Text style={styles.listTxt}>
-                            • {macros.calories} Calories
-                        </Text>
-                    </View>
-                    <View style={styles.column}>
-                        <Text style={styles.listTxt}>• {macros.fat}g Fat</Text>
+            <View style={styles.row}>
+                <View style={styles.column}>
+                    <Text style={styles.ingredientNameTxt}>
+                        {ingredient.name}
+                    </Text>
+                </View>
+                <View style={styles.column}>
+                    <View style={styles.tagContainer}>
+                        {!ingredient.dietTag?.includes(1) ? (
+                            <Image
+                                style={styles.tinyLogo}
+                                source={require("../assets/images/glutenfree.png")}
+                            />
+                        ) : null}
+                        {!ingredient.dietTag?.includes(2) ? (
+                            <Image
+                                style={styles.tinyLogo}
+                                source={require("../assets/images/veganpro.png")}
+                            />
+                        ) : null}
+                        {!ingredient.dietTag?.includes(4) ? (
+                            <Image
+                                style={styles.tinyLogo}
+                                source={require("../assets/images/dairyfree.png")}
+                            />
+                        ) : null}
+                        {!ingredient.dietTag?.includes(5) ? (
+                            <Image
+                                style={styles.tinyLogo}
+                                source={require("../assets/images/nutfree.png")}
+                            />
+                        ) : null}
                     </View>
                 </View>
-                <View style={styles.row}>
-                    <View style={styles.column}>
-                        <Text style={styles.listTxt}>
-                            • {macros.protein}g Protein
-                        </Text>
+            </View>
+            <View style={styles.nutritionContainer}>
+                <Text style={styles.servingTxt}>Per Serving</Text>
+                <View>
+                    <View style={styles.row}>
+                        <View style={styles.column}>
+                            <Text style={styles.listTxt}>
+                                • {ingredient.macros!.calories} Calories
+                            </Text>
+                        </View>
+                        <View style={styles.column}>
+                            <Text style={styles.listTxt}>
+                                • {ingredient.macros!.fat}g Fat
+                            </Text>
+                        </View>
                     </View>
-                    <View style={styles.column}>
-                        <Text style={styles.listTxt}>
-                            • {macros.carbs}g Carbs
-                        </Text>
+                    <View style={styles.row}>
+                        <View style={styles.column}>
+                            <Text style={styles.listTxt}>
+                                • {ingredient.macros!.protein}g Protein
+                            </Text>
+                        </View>
+                        <View style={styles.column}>
+                            <Text style={styles.listTxt}>
+                                • {ingredient.macros!.carbs}g Carbs
+                            </Text>
+                        </View>
                     </View>
                 </View>
             </View>
@@ -61,6 +95,15 @@ const styles = StyleSheet.create({
     column: {
         flex: 1,
     },
+    tagContainer: {
+        flexDirection: "row-reverse",
+    },
+    nutritionContainer: {
+        position: "absolute",
+        top: 40,
+        left: 20,
+        width: "100%",
+    },
     ingredientNameTxt: {
         fontWeight: "bold",
         fontSize: 18,
@@ -68,6 +111,10 @@ const styles = StyleSheet.create({
     servingTxt: {
         fontSize: 18,
         paddingLeft: 10,
+    },
+    tinyLogo: {
+        width: 45,
+        height: 45,
     },
     listTxt: {
         fontSize: 18,
