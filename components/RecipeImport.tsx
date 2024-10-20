@@ -8,9 +8,9 @@ export function RecipeImport(): Recipe[] {
   let recipefile = require("../assets/recipeNew_V2.json");
   recipefile.forEach(
     (element: {
-      //id: number;
+      id: number;
       name: string;
-      rating:string;
+      rating: string;
       meta: {
         cook_time: number;
         bake_time: number;
@@ -87,35 +87,31 @@ export function RecipeImport(): Recipe[] {
   return recipes;
 }
 
-function ConvertMinsToHours(time:number) : string{
+function ConvertMinsToHours(time: number): string {
   let mins = time;
   let hour = 0;
- while(mins > 60){
+  while (mins > 60) {
     mins -= 60;
     hour++;
   }
   let formatedTime = "";
-    if(hour === 0){
-      formatedTime = `${mins} mins`;
-    }
-    else{
-      formatedTime = `${hour} h: ${mins} mins`
-    }
+  if (hour === 0) {
+    formatedTime = `${mins} mins`;
+  } else {
+    formatedTime = `${hour} h: ${mins} mins`;
+  }
   return formatedTime;
 }
 
- 
-
-
-export function AllRecipesToStringSorted(recipes:Recipe[]): string[] {
- // const recipes: Recipe[] = RecipeImport();
+export function AllRecipesToStringSorted(recipes: Recipe[]): string[] {
+  // const recipes: Recipe[] = RecipeImport();
   const recipeString: string[] = [];
 
   recipes.forEach(
     (recipe: {
       id: number;
       name: string;
-      rating:string;
+      rating: string;
       time: Time;
       serving: Serving;
       recipeIngredients: RecipeIngredient[];
@@ -145,20 +141,20 @@ export function AllRecipesToStringSorted(recipes:Recipe[]): string[] {
           recipe.id.toString() +
           ": " +
           recipe.name +
-          "\n\tRating: " + 
+          "\n\tRating: " +
           recipe.rating +
           "\n\tSource: " +
           recipe.url +
           "\n\tImage: " +
           recipe.image +
           "\n\tBake time: " +
-          ConvertMinsToHours(recipe.time.bakeTime??0) +
+          ConvertMinsToHours(recipe.time.bakeTime ?? 0) +
           "\n\tCook time: " +
-          ConvertMinsToHours(recipe.time.cookTime??0) +
+          ConvertMinsToHours(recipe.time.cookTime ?? 0) +
           "\n\tPrep time: " +
-          ConvertMinsToHours(recipe.time.prepTime??0) +
+          ConvertMinsToHours(recipe.time.prepTime ?? 0) +
           "\n\tTotal time: " +
-          ConvertMinsToHours(recipe.time.totalTime??0) +
+          ConvertMinsToHours(recipe.time.totalTime ?? 0) +
           "\n\tServings: " +
           recipe.serving.servings +
           "\n\tNutritional Information: " +
@@ -195,7 +191,7 @@ export function AllRecipesToString(): string[] {
     (recipe: {
       id: number;
       name: string;
-      rating:string;
+      rating: string;
       time: Time;
       serving: Serving;
       recipeIngredients: RecipeIngredient[];
@@ -225,20 +221,20 @@ export function AllRecipesToString(): string[] {
           recipe.id.toString() +
           ": " +
           recipe.name +
-          "\n\tRating: " + 
+          "\n\tRating: " +
           recipe.rating +
           "\n\tSource: " +
           recipe.url +
           "\n\tImage: " +
           recipe.image +
           "\n\tBake time: " +
-          ConvertMinsToHours(recipe.time.bakeTime??0) +
+          ConvertMinsToHours(recipe.time.bakeTime ?? 0) +
           "\n\tCook time: " +
-          ConvertMinsToHours(recipe.time.cookTime??0) +
+          ConvertMinsToHours(recipe.time.cookTime ?? 0) +
           "\n\tPrep time: " +
-          ConvertMinsToHours(recipe.time.prepTime??0) +
+          ConvertMinsToHours(recipe.time.prepTime ?? 0) +
           "\n\tTotal time: " +
-          ConvertMinsToHours(recipe.time.totalTime??0) +
+          ConvertMinsToHours(recipe.time.totalTime ?? 0) +
           "\n\tServings: " +
           recipe.serving.servings +
           "\n\tNutritional Information: " +
