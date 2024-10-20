@@ -8,7 +8,7 @@ export function RecipeImport(): Recipe[] {
   let recipefile = require("../assets/recipesUpdated.json");
   recipefile.forEach(
     (element: {
-      //id: number;
+      id: number;
       name: string;
       meta: {
         cook_time: string;
@@ -85,80 +85,80 @@ export function RecipeImport(): Recipe[] {
   return recipes;
 }
 
-export function AllRecipesToString(): string[] {
-  const recipes: Recipe[] = RecipeImport();
-  const recipeString: string[] = [];
+// export function AllRecipesToString(): string[] {
+//   const recipes: Recipe[] = RecipeImport();
+//   const recipeString: string[] = [];
 
-  recipes.forEach(
-    (recipe: {
-      id: number;
-      name: string;
-      time: Time;
-      serving: Serving;
-      recipeIngredients: RecipeIngredient[];
-      nutrition: Nutrition;
-      instructions: string[];
-      url: string;
-      image: string | null;
-      ingredTag: number[];
-      dietTag: DietTag[];
-    }) => {
-      let ingstring: string[] = [];
-      recipe.recipeIngredients.forEach((ing: RecipeIngredient) => {
-        ingstring.push(
-          "\n\t\t" +
-            ing.id +
-            ": \t" +
-            ing.quantity +
-            " " +
-            ing.unit +
-            " " +
-            ing.name
-        );
-      });
+//   recipes.forEach(
+//     (recipe: {
+//       id: number;
+//       name: string;
+//       time: Time;
+//       serving: Serving;
+//       recipeIngredients: RecipeIngredient[];
+//       nutrition: Nutrition;
+//       instructions: string[];
+//       url: string;
+//       image: string | null;
+//       ingredTag: number[];
+//       dietTag: DietTag[];
+//     }) => {
+//       let ingstring: string[] = [];
+//       recipe.recipeIngredients.forEach((ing: RecipeIngredient) => {
+//         ingstring.push(
+//           "\n\t\t" +
+//             ing.id +
+//             ": \t" +
+//             ing.quantity +
+//             " " +
+//             ing.unit +
+//             " " +
+//             ing.name
+//         );
+//       });
 
-      recipeString.push(
-        "\n" +
-          recipe.id.toString() +
-          ": " +
-          recipe.name +
-          "\n" +
-          "\n\tSource: " +
-          recipe.url +
-          "\n\tImage: " +
-          recipe.image +
-          "\n\tBake time: " +
-          recipe.time.bakeTime +
-          "\n\tCook time: " +
-          recipe.time.cookTime +
-          "\n\tPrep time: " +
-          recipe.time.prepTime +
-          "\n\tTotal time: " +
-          recipe.time.totalTime +
-          "\n\tServings: " +
-          recipe.serving.servings +
-          "\n\tNutritional Information: " +
-          "\n\t\tCalories: " +
-          recipe.nutrition.calories +
-          "\n\t\tCarbs: " +
-          recipe.nutrition.carbs +
-          "\n\t\tFat: " +
-          recipe.nutrition.fat +
-          "\n\t\tProtein: " +
-          recipe.nutrition.protein +
-          //   "\n\tYield: " +
-          //   recipe.serving.ryield +
-          "\n\n\tIngredients: " +
-          ingstring +
-          "\n\n\tInstructions: \n" +
-          recipe.instructions +
-          "\n\nIngredient Tags: \n" +
-          recipe.ingredTag +
-          "\n\nDiet Tags: \n" +
-          recipe.dietTag +
-          "\n"
-      );
-    }
-  );
-  return recipeString;
-}
+//       recipeString.push(
+//         "\n" +
+//           recipe.id.toString() +
+//           ": " +
+//           recipe.name +
+//           "\n" +
+//           "\n\tSource: " +
+//           recipe.url +
+//           "\n\tImage: " +
+//           recipe.image +
+//           "\n\tBake time: " +
+//           recipe.time.bakeTime +
+//           "\n\tCook time: " +
+//           recipe.time.cookTime +
+//           "\n\tPrep time: " +
+//           recipe.time.prepTime +
+//           "\n\tTotal time: " +
+//           recipe.time.totalTime +
+//           "\n\tServings: " +
+//           recipe.serving.servings +
+//           "\n\tNutritional Information: " +
+//           "\n\t\tCalories: " +
+//           recipe.nutrition.calories +
+//           "\n\t\tCarbs: " +
+//           recipe.nutrition.carbs +
+//           "\n\t\tFat: " +
+//           recipe.nutrition.fat +
+//           "\n\t\tProtein: " +
+//           recipe.nutrition.protein +
+//           //   "\n\tYield: " +
+//           //   recipe.serving.ryield +
+//           "\n\n\tIngredients: " +
+//           ingstring +
+//           "\n\n\tInstructions: \n" +
+//           recipe.instructions +
+//           "\n\nIngredient Tags: \n" +
+//           recipe.ingredTag +
+//           "\n\nDiet Tags: \n" +
+//           recipe.dietTag +
+//           "\n"
+//       );
+//     }
+//   );
+//   return recipeString;
+// }
