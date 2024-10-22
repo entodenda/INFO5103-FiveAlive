@@ -1,5 +1,5 @@
 import { Ingredient, DietTag } from "./Ingredient";
-import { Nutrition } from "./Recipe";
+import { Nutrition , Recipe } from "./Recipe";
 
 //get enum name from tag
 export function GetDietTagName(num: number): string {
@@ -82,4 +82,47 @@ export function FindMatchingIngredIds(
     }
   );
   return ingredient;
+}
+ 
+
+// Recipes Search Functions 
+
+// This Function retrun list of recipes that have the same name as the search string
+export function FindMatchingRecipeByName(name:string): Recipe[]
+{
+  const recipesFile: Recipe[] = require("../assets/recipesUpdated.json");
+
+  return recipesFile.filter((recipe) =>
+    recipe.name.toLowerCase().includes(name.toLowerCase())
+  );
+}
+
+
+// This function returns list of recipes based on the diet tags and ingredient list
+export function FindMatchingRecipe(
+  excludedDietTags: number[],
+  ingredientIds: number[]
+) : Recipe[]
+{
+  const recipesFile: Recipe[] = require("../assets/recipesUpdated.json"); 
+
+  // getting all the recipes that does not have dietry tags
+  const filteredRecipes = recipesFile.filter((recipe) =>
+    recipe.dietTag.every((tag) => !excludedDietTags.includes(tag))
+  );
+
+  // getting all the recipes based on the ingredients passed on to the function 
+  const sortedRecipes = filteredRecipes
+  .map((recipe) => ({
+    recipe,
+    matchCount: recipe.ingredTag.filter((id) =>
+      ingredientIds.includes(id)
+    ).length,
+  }))
+  .filter(({ matchCount }) => matchCount > 0) 
+  .sort((a, b) => b.matchCount - a.matchCount) 
+  .map(({ recipe }) => recipe); 
+
+
+  return sortedRecipes;
 }
