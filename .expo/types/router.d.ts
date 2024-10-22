@@ -13,6 +13,10 @@ declare module "expo-router" {
         | `/(tabs)/`
         | `/(tabs)/pantry`
         | `/(tabs)/recipes`
+        | `/(tabs)\pantry`
+        | `/(tabs)\recipes`
+        | `/..\components\IngredientInput`
+        | `/..\components\RecipeModal`
         | `/_sitemap`
         | `/pantry`
         | `/recipes`;

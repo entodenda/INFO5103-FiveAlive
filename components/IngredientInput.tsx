@@ -13,38 +13,18 @@ import { Ingredient } from "@/components/Ingredient";
 import { FindMatchingIngredients } from "./Searches";
 import IngredientWidget from "./IngredientWidget";
 
-// done - enter ingredient name
-// done - search ingredient database based on name entered
-// done - show matching ingredient widgets
-// todo - on click, add selected ingredient - pull existing ingredient list, add this ing, return list, call on savePantryIngredients function
-// todo - toast message for ingredient added
-
 const IngredientInput = (props: {
   onAddItem: (ingredient: Ingredient) => void;
   visible: boolean;
   onCancel: (event: GestureResponderEvent) => void;
 }) => {
   const [enteredIngredientName, setIngredientName] = useState<string>("");
-  // const [selectedIngredientName, setIngredientSelectionName] = useState<string>("");
-  // const [selectedIngredientId, setIngredientId] = useState<number>(0);
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
 
   const IngredientNameHandler = (name: string) => {
     setIngredientName(name);
     setIngredients(FindMatchingIngredients(name));
   };
-  // const IngredientIdHandler = (id: number) => {
-  //   setIngredientId(id);
-  // };
-  // const addItemHandler = (ingredient: Ingredient) => {
-  //   // ingredient = {
-
-  //   //   id: this.id,
-  //   //   name: this.name
-  //   // };
-  //   props.onAddItem(ingredient);
-  //   setIngredientName("");
-  // };
 
   return (
     <Modal visible={props.visible} animationType="slide">
