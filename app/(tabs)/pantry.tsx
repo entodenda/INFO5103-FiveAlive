@@ -59,7 +59,7 @@ export default function PantryScreen() {
   useEffect(() => {
     //use this to create pantry json if not exists, or to reset if problems
     //savePantryIngredients(testIngredients);
-    loadIngredients();
+    loadIngredients;
   }, []);
   useEffect(() => {
     console.log(nutFreeFilter);
