@@ -19,6 +19,12 @@ import {
   savePantryIngredients,
 } from "@/components/PantryIngredients";
 
+// Problems
+// on page refresh (ie saved code change) - last item saved to pantry ingredients list seems to get dropped
+// checking if ingredient is already there doesn't seem to be working
+
+// todo - make second ingredient list - one for all in pantry, one for list to show
+
 export default function PantryScreen() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [filtersVisible, setFiltersVisible] = useState<boolean>(false);
@@ -59,6 +65,7 @@ export default function PantryScreen() {
   useEffect(() => {
     //use this to create pantry json if not exists, or to reset if problems
     //savePantryIngredients(testIngredients);
+
     loadIngredients;
   }, []);
   useEffect(() => {
@@ -113,14 +120,16 @@ export default function PantryScreen() {
     setIngredients(filteredIngredients); // Return the filtered list
   };
 
-  const addIngredientHandler = (ingredient: Ingredient) => {
+  const addIngredientHandler = async (ingredient: Ingredient) => {
     // check if already on list
-    loadIngredients;
-    if (!ingredients.includes(ingredient)) {
+    //loadIngredients;
+    if (ingredients.includes(ingredient, 0)) {
+      console.log("Ingredient already in pantry.");
+    } else {
       setIngredients((ingredients) => [...ingredients, ingredient]);
     }
     // save ingredients list to json
-    savePantryIngredients(ingredients);
+    await savePantryIngredients(ingredients);
     const toastString: string = ingredient.name + " added";
     Toast.show({
       type: "info",
@@ -129,8 +138,7 @@ export default function PantryScreen() {
     });
 
     //apply any filters still checked
-    //seems to cause problems with key, won't generate list properly
-    //filterList;
+    filterList;
     // close add ingredient modal
     setIsAddMode(false);
   };
@@ -138,11 +146,6 @@ export default function PantryScreen() {
   const handleAddClick = () => {
     // call add ingredient modal
     setIsAddMode(true);
-    // Toast.show({
-    //   type: "info",
-    //   text1: "Add button clicked!",
-    //   position: "bottom",
-    // });
   };
 
   return (

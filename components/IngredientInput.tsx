@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   View,
   StyleSheet,
@@ -12,6 +12,9 @@ import {
 import { Ingredient } from "@/components/Ingredient";
 import { FindMatchingIngredients } from "./Searches";
 import IngredientWidget from "./IngredientWidget";
+import { ListItem } from "react-native-elements";
+
+// todo - reset search string on modal re-open
 
 const IngredientInput = (props: {
   onAddItem: (ingredient: Ingredient) => void;
@@ -43,9 +46,10 @@ const IngredientInput = (props: {
           onChangeText={IngredientNameHandler}
           value={enteredIngredientName}
         />
+
         <ScrollView>
           {ingredients.map((ingredient) => (
-            <>
+            <ListItem key={ingredient.id}>
               <View style={styles.widgetContainer}>
                 <IngredientWidget key={ingredient.id} ingredient={ingredient} />
                 <View style={styles.addButtonContainer}>
@@ -57,7 +61,7 @@ const IngredientInput = (props: {
                   </Pressable>
                 </View>
               </View>
-            </>
+            </ListItem>
           ))}
         </ScrollView>
       </View>
@@ -102,13 +106,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     color: "white",
-    textAlign: "center",
   },
   addbutton: {
     alignItems: "flex-end",
-    width: "5%",
+    width: 30,
+    height: 30,
     justifyContent: "center",
-    paddingHorizontal: 3,
+    paddingHorizontal: 9,
     borderRadius: 50,
     elevation: 3,
     backgroundColor: "#1F51FF",
@@ -116,7 +120,7 @@ const styles = StyleSheet.create({
   addButtonContainer: {
     flexDirection: "row",
     justifyContent: "flex-end",
-    width: "95%",
+    width: "100%",
     marginTop: -50,
   },
   head: {
@@ -127,7 +131,8 @@ const styles = StyleSheet.create({
     color: "black",
   },
   widgetContainer: {
-    marginBottom: 20,
+    marginBottom: 10,
+    paddingBottom: 10,
   },
 });
 
