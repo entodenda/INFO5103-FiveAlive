@@ -5,16 +5,17 @@ export function RecipeImport(): Recipe[] {
   const recipes: Recipe[] = [];
   let recNum: number = 0;
 
-  let recipefile = require("../assets/recipesUpdated.json");
+  let recipefile = require("../assets/recipeNew_V2.json");
   recipefile.forEach(
     (element: {
       //id: number;
       name: string;
+      rating:string;
       meta: {
-        cook_time: string;
-        bake_time: string;
-        prep_time: string;
-        total_time: string;
+        cook_time: number;
+        bake_time: number;
+        prep_time: number;
+        total_time: number;
         servings: string;
         //yield: string;
       };
@@ -68,6 +69,7 @@ export function RecipeImport(): Recipe[] {
         new Recipe(
           recNum,
           element.name,
+          element.rating,
           time,
           servings,
           recipeIngredients,
@@ -85,14 +87,35 @@ export function RecipeImport(): Recipe[] {
   return recipes;
 }
 
-export function AllRecipesToString(): string[] {
-  const recipes: Recipe[] = RecipeImport();
+function ConvertMinsToHours(time:number) : string{
+  let mins = time;
+  let hour = 0;
+ while(mins > 60){
+    mins -= 60;
+    hour++;
+  }
+  let formatedTime = "";
+    if(hour === 0){
+      formatedTime = `${mins} mins`;
+    }
+    else{
+      formatedTime = `${hour} h: ${mins} mins`
+    }
+  return formatedTime;
+}
+
+ 
+
+
+export function AllRecipesToStringSorted(recipes:Recipe[]): string[] {
+ // const recipes: Recipe[] = RecipeImport();
   const recipeString: string[] = [];
 
   recipes.forEach(
     (recipe: {
       id: number;
       name: string;
+      rating:string;
       time: Time;
       serving: Serving;
       recipeIngredients: RecipeIngredient[];
@@ -122,19 +145,100 @@ export function AllRecipesToString(): string[] {
           recipe.id.toString() +
           ": " +
           recipe.name +
-          "\n" +
+          "\n\tRating: " + 
+          recipe.rating +
           "\n\tSource: " +
           recipe.url +
           "\n\tImage: " +
           recipe.image +
           "\n\tBake time: " +
-          recipe.time.bakeTime +
+          ConvertMinsToHours(recipe.time.bakeTime??0) +
           "\n\tCook time: " +
-          recipe.time.cookTime +
+          ConvertMinsToHours(recipe.time.cookTime??0) +
           "\n\tPrep time: " +
-          recipe.time.prepTime +
+          ConvertMinsToHours(recipe.time.prepTime??0) +
           "\n\tTotal time: " +
-          recipe.time.totalTime +
+          ConvertMinsToHours(recipe.time.totalTime??0) +
+          "\n\tServings: " +
+          recipe.serving.servings +
+          "\n\tNutritional Information: " +
+          "\n\t\tCalories: " +
+          recipe.nutrition.calories +
+          "\n\t\tCarbs: " +
+          recipe.nutrition.carbs +
+          "\n\t\tFat: " +
+          recipe.nutrition.fat +
+          "\n\t\tProtein: " +
+          recipe.nutrition.protein +
+          //   "\n\tYield: " +
+          //   recipe.serving.ryield +
+          "\n\n\tIngredients: " +
+          ingstring +
+          "\n\n\tInstructions: \n" +
+          recipe.instructions +
+          "\n\nIngredient Tags: \n" +
+          recipe.ingredTag +
+          "\n\nDiet Tags: \n" +
+          recipe.dietTag +
+          "\n"
+      );
+    }
+  );
+  return recipeString;
+}
+
+export function AllRecipesToString(): string[] {
+  const recipes: Recipe[] = RecipeImport();
+  const recipeString: string[] = [];
+
+  recipes.forEach(
+    (recipe: {
+      id: number;
+      name: string;
+      rating:string;
+      time: Time;
+      serving: Serving;
+      recipeIngredients: RecipeIngredient[];
+      nutrition: Nutrition;
+      instructions: string[];
+      url: string;
+      image: string | null;
+      ingredTag: number[];
+      dietTag: DietTag[];
+    }) => {
+      let ingstring: string[] = [];
+      recipe.recipeIngredients.forEach((ing: RecipeIngredient) => {
+        ingstring.push(
+          "\n\t\t" +
+            ing.id +
+            ": \t" +
+            ing.quantity +
+            " " +
+            ing.unit +
+            " " +
+            ing.name
+        );
+      });
+
+      recipeString.push(
+        "\n" +
+          recipe.id.toString() +
+          ": " +
+          recipe.name +
+          "\n\tRating: " + 
+          recipe.rating +
+          "\n\tSource: " +
+          recipe.url +
+          "\n\tImage: " +
+          recipe.image +
+          "\n\tBake time: " +
+          ConvertMinsToHours(recipe.time.bakeTime??0) +
+          "\n\tCook time: " +
+          ConvertMinsToHours(recipe.time.cookTime??0) +
+          "\n\tPrep time: " +
+          ConvertMinsToHours(recipe.time.prepTime??0) +
+          "\n\tTotal time: " +
+          ConvertMinsToHours(recipe.time.totalTime??0) +
           "\n\tServings: " +
           recipe.serving.servings +
           "\n\tNutritional Information: " +
