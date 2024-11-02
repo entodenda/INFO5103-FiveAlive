@@ -3,6 +3,7 @@ import { DietTag } from "./Ingredient";
 export class Recipe {
   id: number;
   name: string;
+  rating:string;
   time: Time;
   serving: Serving;
   recipeIngredients: RecipeIngredient[];
@@ -16,6 +17,7 @@ export class Recipe {
   public constructor(
     id: number,
     name: string,
+    rating:string,
     time: Time,
     serving: Serving,
     ingredients: RecipeIngredient[],
@@ -28,6 +30,7 @@ export class Recipe {
   ) {
     this.id = id;
     this.name = name;
+    this.rating = rating;
     this.time = time;
     this.serving = serving;
     this.recipeIngredients = ingredients;
@@ -41,16 +44,16 @@ export class Recipe {
 } //Recipe class
 
 export class Time {
-  bakeTime: string | null;
-  cookTime: string | null;
-  prepTime: string | null;
-  totalTime: string | null;
+  bakeTime: number | null;
+  cookTime: number | null;
+  prepTime: number | null;
+  totalTime: number | null;
 
   public constructor(
-    bakeTime: string | null,
-    cookTime: string | null,
-    prepTime: string | null,
-    totalTime: string | null
+    bakeTime: number | null,
+    cookTime: number | null,
+    prepTime: number | null,
+    totalTime: number | null
   ) {
     this.bakeTime = bakeTime;
     this.cookTime = cookTime;
