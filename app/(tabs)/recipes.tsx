@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
   recipeTitle: {
     color: "#fff",
     fontSize: 20,
-    fontWeight: "500",
+    fontWeight: "300",
     marginBottom: 10,
     marginLeft: 5,
   },
