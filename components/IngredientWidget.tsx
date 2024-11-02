@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 import { Ingredient } from "./Ingredient";
+import { ImageSourcePropType } from "react-native";
 import { Nutrition } from "./Recipe";
 
 interface IngredientWidgetProps {
@@ -8,6 +9,20 @@ interface IngredientWidgetProps {
 }
 
 const IngredientWidget: React.FC<IngredientWidgetProps> = ({ ingredient }) => {
+    let iconCount = 0;
+    const iconSourceFiles: { [key: number]: ImageSourcePropType } = {
+        1: require("../assets/images/glutenfree.png"),
+        2: require("../assets/images/veganpro.png"),
+        3: require("../assets/images/vegetarian.png"),
+        4: require("../assets/images/dairyfree.png"),
+        5: require("../assets/images/nutfree.png"),
+    };
+
+    const renderIcon = (tag: number) => {
+        const imageSource = iconSourceFiles[tag];
+        return <Image style={styles.tinyLogo} source={imageSource} />;
+    };
+
     return (
         <View style={styles.container}>
             <View style={styles.row}>
@@ -18,30 +33,12 @@ const IngredientWidget: React.FC<IngredientWidgetProps> = ({ ingredient }) => {
                 </View>
                 <View style={styles.column}>
                     <View style={styles.tagContainer}>
-                        {!ingredient.dietTag?.includes(1) ? (
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require("../assets/images/glutenfree.png")}
-                            />
-                        ) : null}
-                        {!ingredient.dietTag?.includes(2) ? (
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require("../assets/images/veganpro.png")}
-                            />
-                        ) : null}
-                        {!ingredient.dietTag?.includes(4) ? (
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require("../assets/images/dairyfree.png")}
-                            />
-                        ) : null}
-                        {!ingredient.dietTag?.includes(5) ? (
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require("../assets/images/nutfree.png")}
-                            />
-                        ) : null}
+                        {Object.entries(iconSourceFiles).map(([key]) => {
+                            const tag = Number(key);
+                            return !ingredient.dietTag?.includes(tag)
+                                ? renderIcon(tag)
+                                : null;
+                        })}
                     </View>
                 </View>
             </View>
@@ -113,8 +110,8 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
     },
     tinyLogo: {
-        width: 45,
-        height: 45,
+        width: 35,
+        height: 35,
     },
     listTxt: {
         fontSize: 18,
