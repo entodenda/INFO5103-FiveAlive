@@ -2,49 +2,59 @@ import { Ingredient, DietTag } from "./Ingredient";
 import { Nutrition } from "./Recipe";
 
 //to import all ingredients
-export function AllIngredientsImport(): Ingredient[] {
-  const ingredients: Ingredient[] = [];
+export async function AllIngredientsImport(): Promise<Ingredient[]> {
+  try {
+    const ingredients: Ingredient[] = [];
 
-  let ingredfile = require("../assets/ingredientsUpdated.json");
-  ingredfile.forEach(
-    (ingred: {
-      id: number;
-      name: string;
-      dietTag: DietTag[];
-      macros: Nutrition;
-    }) => {
-      let nutrition: Nutrition = new Nutrition(
-        ingred.macros.calories,
-        ingred.macros.carbs,
-        ingred.macros.fat,
-        ingred.macros.protein
-      );
-      ingredients.push(
-        new Ingredient(ingred.id, ingred.name, ingred.dietTag, nutrition)
-      );
-    }
-  );
+    let ingredfile = require("../assets/ingredientsUpdated.json");
+    ingredfile.forEach(
+      (ingred: {
+        id: number;
+        name: string;
+        dietTag: DietTag[];
+        macros: Nutrition;
+      }) => {
+        let nutrition: Nutrition = new Nutrition(
+          ingred.macros.calories,
+          ingred.macros.carbs,
+          ingred.macros.fat,
+          ingred.macros.protein
+        );
+        ingredients.push(
+          new Ingredient(ingred.id, ingred.name, ingred.dietTag, nutrition)
+        );
+      }
+    );
 
-  return ingredients;
+    return ingredients;
+  } catch (error) {
+    console.error("Error loading ingredients:", error);
+    return [];
+  }
 }
 
 //to import just name and ids if we want this for ingredient autocomplete
-export function IngredientNamesImport(): Ingredient[] {
-  const ingredients: Ingredient[] = [];
+export async function IngredientNamesImport(): Promise<Ingredient[]> {
+  try {
+    const ingredients: Ingredient[] = [];
 
-  let ingredfile = require("../assets/ingredientsUpdated.json");
-  ingredfile.forEach(
-    (ingred: {
-      id: number;
-      name: string;
-      dietTag?: DietTag[];
-      macros?: Nutrition;
-    }) => {
-      ingredients.push(new Ingredient(ingred.id, ingred.name));
-    }
-  );
+    let ingredfile = require("../assets/ingredientsUpdated.json");
+    ingredfile.forEach(
+      (ingred: {
+        id: number;
+        name: string;
+        dietTag?: DietTag[];
+        macros?: Nutrition;
+      }) => {
+        ingredients.push(new Ingredient(ingred.id, ingred.name));
+      }
+    );
 
-  return ingredients;
+    return ingredients;
+  } catch (error) {
+    console.error("Error loading ingredients:", error);
+    return [];
+  }
 }
 
 //for testing
