@@ -10,6 +10,7 @@ import {
   Pressable,
 } from "react-native";
 import { Ingredient } from "@/components/Ingredient";
+import { AllIngredientsImport } from "./IngredientImport";
 import { FindMatchingIngredients } from "./Searches";
 import IngredientWidget from "./IngredientWidget";
 import { ListItem } from "react-native-elements";
@@ -22,11 +23,41 @@ const IngredientInput = (props: {
   onCancel: (event: GestureResponderEvent) => void;
 }) => {
   const [enteredIngredientName, setIngredientName] = useState<string>("");
-  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
+  const [allIngredients, setAllIngredients] = useState<Ingredient[]>([]);
+  const [matchedIngredients, setMatchedIngredients] = useState<Ingredient[]>(
+    []
+  );
+
+  // to ensure app functionality while loading
+  useEffect(() => {
+    const getIngredients = async () => {
+      try {
+        const ingredImport: Ingredient[] = await AllIngredientsImport();
+        setAllIngredients(ingredImport);
+      } catch (error) {
+        console.error("Error fetching recipes", error);
+      }
+    };
+    getIngredients();
+  }, []);
+
+  // speeds up ingred search
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      if (enteredIngredientName) {
+        setMatchedIngredients(
+          FindMatchingIngredients(enteredIngredientName, allIngredients)
+        );
+      } else {
+        setMatchedIngredients([]);
+      }
+    }, 300);
+    return () => clearTimeout(delay);
+  }, [enteredIngredientName, allIngredients]);
 
   const IngredientNameHandler = (name: string) => {
     setIngredientName(name);
-    setIngredients(FindMatchingIngredients(name));
+    //setMatchedIngredients(FindMatchingIngredients(name, allIngredients));
   };
 
   return (
@@ -48,7 +79,7 @@ const IngredientInput = (props: {
         />
 
         <ScrollView>
-          {ingredients.map((ingredient) => (
+          {matchedIngredients.map((ingredient) => (
             <ListItem key={ingredient.id}>
               <View style={styles.widgetContainer}>
                 <IngredientWidget key={ingredient.id} ingredient={ingredient} />
