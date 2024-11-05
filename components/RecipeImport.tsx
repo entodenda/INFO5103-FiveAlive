@@ -1,11 +1,11 @@
 import { Recipe, Time, Serving, RecipeIngredient, Nutrition } from "./Recipe";
 import { DietTag } from "./Ingredient";
 
-export function RecipeImport(): Recipe[] {
+export async function RecipeImport(): Promise<Recipe[]> {
   const recipes: Recipe[] = [];
   let recNum: number = 0;
 
-  let recipefile = require("../assets/recipeNew_V2.json");
+  const recipefile = require("../assets/recipesUpdated.json");
   recipefile.forEach(
     (element: {
       id: number;
@@ -87,9 +87,10 @@ export function RecipeImport(): Recipe[] {
   return recipes;
 }
 
-function ConvertMinsToHours(time: number): string {
+export function ConvertMinsToHours(time: number): string {
   let mins = time;
   let hour = 0;
+  let hrString = "";
   while (mins > 60) {
     mins -= 60;
     hour++;
@@ -98,7 +99,8 @@ function ConvertMinsToHours(time: number): string {
   if (hour === 0) {
     formatedTime = `${mins} mins`;
   } else {
-    formatedTime = `${hour} h: ${mins} mins`;
+    hour > 1 ? (hrString = "hrs") : (hrString = "hr");
+    formatedTime = `${hour} ${hrString} ${mins} mins`;
   }
   return formatedTime;
 }
@@ -183,8 +185,8 @@ export function AllRecipesToStringSorted(recipes: Recipe[]): string[] {
   return recipeString;
 }
 
-export function AllRecipesToString(): string[] {
-  const recipes: Recipe[] = RecipeImport();
+export async function AllRecipesToString(): Promise<string[]> {
+  const recipes: Recipe[] = await RecipeImport();
   const recipeString: string[] = [];
 
   recipes.forEach(
