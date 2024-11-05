@@ -9,7 +9,6 @@ export async function RecipeImport(): Promise<Recipe[]> {
   recipefile.forEach(
     (element: {
       id: number;
-      id: number;
       name: string;
       rating: string;
       meta: {
