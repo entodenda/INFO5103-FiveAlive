@@ -63,11 +63,11 @@ export class Time {
 } // Time class
 
 export class Serving {
-  servings: string | null;
+  servings: Number | null;
   //ryield: string | null;
 
   public constructor(
-    servings: string | null
+    servings: Number | null
     //ryield: string | null
   ) {
     this.servings = servings;
