@@ -59,6 +59,18 @@ export default function TabLayout() {
                     ),
                 }}
             />
+                <Tabs.Screen
+                name="reminders"
+                options={{
+                    title: "Reminders",
+                    tabBarIcon: ({ color, focused }) => (
+                        <TabBarIcon
+                            name={focused ? "alert" : "timer"}
+                            color={color}
+                        />
+                    ),
+                }}
+            />
         </Tabs>
     );
 }
