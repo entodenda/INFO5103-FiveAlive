@@ -34,38 +34,7 @@ export default function PantryScreen() {
   const [veganFilter, setVeganFilter] = useState<boolean>(false);
   const [isAddMode, setIsAddMode] = useState<boolean>(false);
 
-  //Temp for shorter load time.
-  const testIngredients = [
-    new Ingredient(
-      2,
-      "all-purpose flour",
-      [1],
-      new Nutrition("364.0", "71.42", "2.49", "12.08")
-    ),
-    new Ingredient(
-      3,
-      "almonds",
-      [5],
-      new Nutrition("598.0", "21.01", "52.54", "20.96")
-    ),
-    new Ingredient(
-      4,
-      "amber ale",
-      [1],
-      new Nutrition("43.0", "3.55", "0.0", "0.46")
-    ),
-    new Ingredient(
-      5,
-      "angel food cake",
-      [1, 2],
-      new Nutrition("258.0", "57.8", "0.8", "5.9")
-    ),
-  ];
-
   useEffect(() => {
-    //use this to create pantry json if not exists, or to reset if problems
-    //savePantryIngredients(testIngredients);
-
     loadIngredients;
   }, []);
   useEffect(() => {
