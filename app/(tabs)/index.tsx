@@ -8,10 +8,33 @@ import {
     TouchableOpacity,
 } from "react-native";
 import ReminderWidget from "@/components/ReminderWidget";
+import ReminderModal from "@/components/ReminderModal";
+import {
+    Reminder,
+    saveReminder,
+    loadReminders,
+} from "@/components/ReminderFunctions";
 
 export default function IndexScreen() {
-    //TODO: Add Reminder funtion needs to be implemented here.
-    // I'd imagine you'd want to have a list of reminder objects stored here that are loaded from local storage (Similar to pantry page)
+    const [reminders, setReminders] = useState<Reminder[]>([]);
+    const [remindersDisplay, setRemindersDisplay] = useState<Reminder[]>([]);
+
+    const [addMode, setIsAddMode] = useState<boolean>(false);
+
+    useEffect(() => {
+        let test = loadReminders();
+        console.log(test);
+    }, []);
+    useEffect(() => {
+        setRemindersDisplay(reminders);
+    }, [reminders]);
+
+    const handleAddClick = () => {
+        setIsAddMode(true);
+    };
+    const handleAddReminder = (reminder: Reminder) => {
+        setReminders((reminders) => [...reminders, reminder]);
+    };
 
     return (
         <View style={styles.container}>
@@ -25,12 +48,23 @@ export default function IndexScreen() {
             <View style={styles.content}>
                 <View style={styles.contentHeader}>
                     <Text style={styles.title}>Reminders</Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={handleAddClick}>
                         <Text style={styles.hyperText}>Add reminder</Text>
                     </TouchableOpacity>
                 </View>
-                <ReminderWidget></ReminderWidget>
-                <ReminderWidget></ReminderWidget>
+                <ReminderModal
+                    visible={addMode}
+                    onCancel={() => setIsAddMode(false)}
+                    onAddItem={handleAddReminder}
+                />
+                <ScrollView>
+                    {remindersDisplay.map((reminder) => (
+                        <ReminderWidget
+                            key={reminder.title}
+                            reminder={reminder}
+                        />
+                    ))}
+                </ScrollView>
             </View>
             <View style={styles.content}>
                 <View style={styles.contentHeader}>

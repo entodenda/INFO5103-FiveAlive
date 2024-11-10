@@ -1,34 +1,50 @@
-import {
-    Modal,
-    View,
-    Text,
-    StyleSheet,
-    TouchableOpacity,
-    Platform,
-    Image,
-    ScrollView,
-} from "react-native";
-import { Button } from "react-native-elements/dist/buttons/Button";
+import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
+import { Reminder, deleteAllReminders } from "@/components/ReminderFunctions";
+import React, { useState } from "react";
 
-const ReminderWidget: React.FC = () => {
-    //TODO: Functions for Deleting/setting inactive reminders should be added here.
-    // Reminder widget should also * Take in a Reminder object * to then populate the title, dates, status, etc.
+interface ReminderWidgetProps {
+    reminder: Reminder;
+}
+
+const ReminderWidget: React.FC<ReminderWidgetProps> = ({ reminder }) => {
+    const [isActive, setIsActive] = useState(true);
+
+    // Function to handle toggling the active/inactive status
+    const toggleStatus = () => {
+        setIsActive(!isActive);
+    };
+
+    const handleDeleteReminder = () => {
+        deleteAllReminders();
+    };
 
     return (
         <View style={styles.container}>
             <View style={styles.widgetRow}>
-                <Text style={styles.reminderTitle}>Dinner time!</Text>
-                <TouchableOpacity style={styles.widgetButton}>
-                    <Text style={styles.activeText}>Active</Text>
+                <Text style={styles.reminderTitle}>{reminder.title}</Text>
+                <TouchableOpacity
+                    style={styles.widgetButton}
+                    onPress={toggleStatus}
+                >
+                    <Text style={styles.activeText}>
+                        {isActive ? "Active" : "Inactive"}
+                    </Text>
                     <Image
-                        source={require("../assets/images/check.png")}
+                        source={
+                            isActive
+                                ? require("../assets/images/check.png")
+                                : require("../assets/images/x.png")
+                        }
                         style={styles.tinyLogo}
                     />
                 </TouchableOpacity>
             </View>
             <View style={styles.widgetRow}>
-                <Text>7pm Everyday</Text>
-                <TouchableOpacity style={styles.widgetButton}>
+                <Text>{reminder.date}</Text>
+                <TouchableOpacity
+                    style={styles.widgetButton}
+                    onPress={handleDeleteReminder}
+                >
                     <Text style={styles.deleteText}>Delete</Text>
                     <Image
                         source={require("../assets/images/bin.png")}
@@ -46,7 +62,7 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         padding: 10,
         marginBottom: 15,
-        elevation: 5, //Shadow
+        elevation: 5, // Shadow
     },
     reminderTitle: {
         fontWeight: "bold",
