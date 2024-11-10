@@ -52,7 +52,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
     initialExpandedSections
   );
 
-  let [servings, setServings] = useState(0);
+  let [servings, setServings] = useState(recipe?.serving.servings);
   let [thisRecipe , setThisRecipe] = useState(recipe);
 
   const toggleSection = (section: SectionKey) => {
@@ -65,15 +65,17 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
   };
 
   const onScaleChange = (serv: any) => {
-      setServings(serv);
 
     if (recipe != null && recipe.serving.servings) 
       {
+        setServings(serv);
+
+        if (!serv){
+          serv = recipe.serving.servings;
+        }
         thisRecipe = ChangeInfoScale(recipe, (serv/+recipe.serving.servings));
         setThisRecipe(thisRecipe)
       }
-
-
   };
 
   if (!recipe) return null;
@@ -157,7 +159,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                     <View style={{ flexDirection: "row" }}>
                       <Text style={styles.sectionText}>Servings: </Text>
                       <TextInput
-                        style={styles.sectionText}
+                        style={styles.inputText}
                         keyboardType="numeric"
                         value={String(servings)}
                         onChangeText={onScaleChange}
@@ -338,6 +340,15 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginLeft: 10, // Indent for subtext
     marginTop: 2,
+  },
+  inputText: {
+    fontSize: 16,
+    marginLeft: 10, // Indent for subtext
+    marginTop: 2,
+    padding: 3,
+    borderWidth: 1,
+    borderColor: "gray",
+    borderRadius: 5,
   },
 });
 
