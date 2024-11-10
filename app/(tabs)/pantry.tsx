@@ -66,7 +66,7 @@ export default function PantryScreen() {
     //use this to create pantry json if not exists, or to reset if problems
     //savePantryIngredients(testIngredients);
 
-    loadIngredients;
+    loadIngredients();
   }, []);
   useEffect(() => {
     filterList();
@@ -90,7 +90,7 @@ export default function PantryScreen() {
 
   const filterList = () => {
     // load all ingredients in saved file
-    loadIngredients;
+    loadIngredients();
     let unFilteredIngredients = ingredients;
 
     //let unFilteredIngredients = AllIngredientsImport();
