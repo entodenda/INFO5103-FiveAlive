@@ -14,6 +14,7 @@ import { ConvertMinsToHours } from "./RecipeImport";
 import Fraction from "fraction.js";
 
 import { Recipe } from "./Recipe";
+import Toast from "react-native-toast-message";
 
 interface RecipeModalProps {
   visible: boolean;
@@ -227,6 +228,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
           </View>
         </View>
       </View>
+      <Toast />
     </Modal>
   );
 };
