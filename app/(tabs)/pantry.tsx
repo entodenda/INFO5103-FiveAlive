@@ -19,12 +19,6 @@ import {
   savePantryIngredients,
 } from "@/components/PantryIngredients";
 
-// Problems
-// on page refresh (ie saved code change) - last item saved to pantry ingredients list seems to get dropped
-// checking if ingredient is already there doesn't seem to be working
-
-// todo - make second ingredient list - one for all in pantry, one for list to show
-
 export default function PantryScreen() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [filtersVisible, setFiltersVisible] = useState<boolean>(false);
@@ -34,43 +28,22 @@ export default function PantryScreen() {
   const [veganFilter, setVeganFilter] = useState<boolean>(false);
   const [isAddMode, setIsAddMode] = useState<boolean>(false);
 
-  //Temp for shorter load time.
-  const testIngredients = [
-    new Ingredient(
-      2,
-      "all-purpose flour",
-      [1],
-      new Nutrition("364.0", "71.42", "2.49", "12.08")
-    ),
-    new Ingredient(
-      3,
-      "almonds",
-      [5],
-      new Nutrition("598.0", "21.01", "52.54", "20.96")
-    ),
-    new Ingredient(
-      4,
-      "amber ale",
-      [1],
-      new Nutrition("43.0", "3.55", "0.0", "0.46")
-    ),
-    new Ingredient(
-      5,
-      "angel food cake",
-      [1, 2],
-      new Nutrition("258.0", "57.8", "0.8", "5.9")
-    ),
-  ];
-
   useEffect(() => {
-    //use this to create pantry json if not exists, or to reset if problems
-    //savePantryIngredients(testIngredients);
-
     loadIngredients();
   }, []);
+
   useEffect(() => {
     filterList();
   }, [glutenFreeFilter, nutFreeFilter, dairyFreeFilter, veganFilter]);
+
+  useEffect(() => {
+    console.log();
+    console.log("AFTER SET (Ingredients)");
+    console.log("_____________");
+    console.log(ingredients);
+    console.log(ingredients.length);
+    savePantryIngredients(ingredients);
+  }, [ingredients]);
 
   // load ingredients from saved pantry list
   const loadIngredients = () => {
@@ -88,12 +61,9 @@ export default function PantryScreen() {
       });
   };
 
-  const filterList = () => {
-    // load all ingredients in saved file
-    loadIngredients();
+  const filterList = async () => {
     let unFilteredIngredients = ingredients;
 
-    //let unFilteredIngredients = AllIngredientsImport();
     let filteredIngredients = new Array<Ingredient>();
 
     unFilteredIngredients.forEach((ingredient) => {
@@ -127,26 +97,17 @@ export default function PantryScreen() {
     console.log("_____________");
     console.log(filteredIngredients);
 
-    setIngredients(filteredIngredients); // Return the filtered list
+    setIngredients(filteredIngredients); 
   };
-  useEffect(() => {
-    console.log();
-    console.log("AFTER SET (Ingredients)");
-    console.log("_____________");
-    console.log(ingredients);
-    console.log(ingredients.length);
-  }, [ingredients]);
 
   const addIngredientHandler = async (ingredient: Ingredient) => {
     // check if already on list
-    //loadIngredients;
     if (ingredients.includes(ingredient, 0)) {
       console.log("Ingredient already in pantry.");
     } else {
       setIngredients((ingredients) => [...ingredients, ingredient]);
     }
-    // save ingredients list to json
-    await savePantryIngredients(ingredients);
+
     const toastString: string = ingredient.name + " added";
     Toast.show({
       type: "info",
