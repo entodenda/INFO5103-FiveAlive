@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect } from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import {
   Modal,
@@ -52,8 +52,15 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
     initialExpandedSections
   );
 
-  let [servings, setServings] = useState(recipe?.serving.servings);
-  let [thisRecipe , setThisRecipe] = useState(recipe);
+  let [servings, setServings] = useState(recipe ? recipe?.serving.servings : 4);
+  let [thisRecipe, setThisRecipe] = useState(recipe);
+
+  useEffect(() => {
+    if (recipe) {
+      setServings(recipe.serving.servings);
+      setThisRecipe(recipe);
+    }
+  }, [recipe]); 
 
   const toggleSection = (section: SectionKey) => {
     setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
@@ -65,17 +72,15 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
   };
 
   const onScaleChange = (serv: any) => {
+    if (recipe != null && recipe.serving.servings) {
+      setServings(serv);
 
-    if (recipe != null && recipe.serving.servings) 
-      {
-        setServings(serv);
-
-        if (!serv){
-          serv = recipe.serving.servings;
-        }
-        thisRecipe = ChangeInfoScale(recipe, (serv/+recipe.serving.servings));
-        setThisRecipe(thisRecipe)
+      if (!serv) {
+        serv = recipe.serving.servings;
       }
+      thisRecipe = ChangeInfoScale(recipe, serv / +recipe.serving.servings);
+      setThisRecipe(thisRecipe);
+    }
   };
 
   if (!recipe) return null;
