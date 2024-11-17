@@ -19,12 +19,6 @@ import {
   savePantryIngredients,
 } from "@/components/PantryIngredients";
 
-// Problems
-// on page refresh (ie saved code change) - last item saved to pantry ingredients list seems to get dropped
-// checking if ingredient is already there doesn't seem to be working
-
-// todo - make second ingredient list - one for all in pantry, one for list to show
-
 export default function PantryScreen() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [filtersVisible, setFiltersVisible] = useState<boolean>(false);
@@ -35,11 +29,21 @@ export default function PantryScreen() {
   const [isAddMode, setIsAddMode] = useState<boolean>(false);
 
   useEffect(() => {
-    loadIngredients;
+    loadIngredients();
   }, []);
+
   useEffect(() => {
     filterList();
   }, [glutenFreeFilter, nutFreeFilter, dairyFreeFilter, veganFilter]);
+
+  useEffect(() => {
+    console.log();
+    console.log("AFTER SET (Ingredients)");
+    console.log("_____________");
+    console.log(ingredients);
+    console.log(ingredients.length);
+    savePantryIngredients(ingredients);
+  }, [ingredients]);
 
   // load ingredients from saved pantry list
   const loadIngredients = () => {
@@ -57,12 +61,9 @@ export default function PantryScreen() {
       });
   };
 
-  const filterList = () => {
-    // load all ingredients in saved file
-    loadIngredients;
+  const filterList = async () => {
     let unFilteredIngredients = ingredients;
 
-    //let unFilteredIngredients = AllIngredientsImport();
     let filteredIngredients = new Array<Ingredient>();
 
     unFilteredIngredients.forEach((ingredient) => {
@@ -96,26 +97,17 @@ export default function PantryScreen() {
     console.log("_____________");
     console.log(filteredIngredients);
 
-    setIngredients(filteredIngredients); // Return the filtered list
+    setIngredients(filteredIngredients); 
   };
-  useEffect(() => {
-    console.log();
-    console.log("AFTER SET (Ingredients)");
-    console.log("_____________");
-    console.log(ingredients);
-    console.log(ingredients.length);
-  }, [ingredients]);
 
   const addIngredientHandler = async (ingredient: Ingredient) => {
     // check if already on list
-    //loadIngredients;
     if (ingredients.includes(ingredient, 0)) {
       console.log("Ingredient already in pantry.");
     } else {
       setIngredients((ingredients) => [...ingredients, ingredient]);
     }
-    // save ingredients list to json
-    await savePantryIngredients(ingredients);
+
     const toastString: string = ingredient.name + " added";
     Toast.show({
       type: "info",

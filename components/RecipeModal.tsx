@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect } from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import {
   Modal,
@@ -8,12 +8,14 @@ import {
   TouchableOpacity,
   Platform,
   Image,
+  TextInput,
   ScrollView,
 } from "react-native";
 import { ConvertMinsToHours } from "./RecipeImport";
 import Fraction from "fraction.js";
+import { ChangeInfoScale } from "./Scale";
 
-import { Recipe } from "./Recipe";
+import { Recipe, Serving } from "./Recipe";
 
 interface RecipeModalProps {
   visible: boolean;
@@ -50,6 +52,16 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
     initialExpandedSections
   );
 
+  let [servings, setServings] = useState(recipe ? recipe?.serving.servings : 4);
+  let [thisRecipe, setThisRecipe] = useState(recipe);
+
+  useEffect(() => {
+    if (recipe) {
+      setServings(recipe.serving.servings);
+      setThisRecipe(recipe);
+    }
+  }, [recipe]); 
+
   const toggleSection = (section: SectionKey) => {
     setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
   };
@@ -57,6 +69,18 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
   const handleClose = () => {
     setExpandedSections(initialExpandedSections);
     onClose();
+  };
+
+  const onScaleChange = (serv: any) => {
+    if (recipe != null && recipe.serving.servings) {
+      setServings(serv);
+
+      if (!serv) {
+        serv = recipe.serving.servings;
+      }
+      thisRecipe = ChangeInfoScale(recipe, serv / +recipe.serving.servings);
+      setThisRecipe(thisRecipe);
+    }
   };
 
   if (!recipe) return null;
@@ -137,9 +161,16 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                         Total time: {ConvertMinsToHours(recipe.time.totalTime)}
                       </Text>
                     )}
-                    <Text style={styles.sectionText}>
-                      Servings: {recipe.serving.servings}
-                    </Text>
+                    <View style={{ flexDirection: "row" }}>
+                      <Text style={styles.sectionText}>Servings: </Text>
+                      <TextInput
+                        style={styles.inputText}
+                        keyboardType="numeric"
+                        value={String(servings)}
+                        onChangeText={onScaleChange}
+                        placeholder={String(recipe.serving.servings)}
+                      />
+                    </View>
                   </>
                 )}
               </TouchableOpacity>
@@ -193,7 +224,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                 <Text style={styles.sectionTitle}>Ingredients:</Text>
                 {expandedSections.ingredients && (
                   <>
-                    {recipe.recipeIngredients.map((ing) => (
+                    {thisRecipe?.recipeIngredients.map((ing) => (
                       <Text key={ing.id} style={styles.sectionText}>
                         {ing.unit != null ? (
                           <>
@@ -314,6 +345,15 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginLeft: 10, // Indent for subtext
     marginTop: 2,
+  },
+  inputText: {
+    fontSize: 16,
+    marginLeft: 10, // Indent for subtext
+    marginTop: 2,
+    padding: 3,
+    borderWidth: 1,
+    borderColor: "gray",
+    borderRadius: 5,
   },
 });
 

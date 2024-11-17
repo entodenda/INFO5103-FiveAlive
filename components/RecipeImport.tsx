@@ -41,7 +41,7 @@ export async function RecipeImport(): Promise<Recipe[]> {
         element.meta.total_time
       );
       let servings: Serving = new Serving(
-        element.meta.servings
+        +element.meta.servings
         // element.meta.yield
       );
       let nutrition: Nutrition = new Nutrition(
