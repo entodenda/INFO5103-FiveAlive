@@ -90,21 +90,21 @@ export function FindMatchingRecipeByName(name: string): Recipe[] {
 
 // This function returns list of recipes based on the diet tags and ingredient list
 export function FindMatchingRecipe(
-  excludedDietTags: number[],
-  ingredientIds: number[]
-): Recipe[] {
+  excludedDietTags: number[] | null,
+  ingredientIds: number[] | null
+): Recipe[] | null {
   const recipesFile: Recipe[] = require("../assets/recipesUpdated.json");
 
   // getting all the recipes that does not have dietry tags
   const filteredRecipes = recipesFile.filter((recipe) =>
-    recipe.dietTag.every((tag) => !excludedDietTags.includes(tag))
+    recipe.dietTag.every((tag) => !excludedDietTags?.includes(tag))
   );
 
   // getting all the recipes based on the ingredients passed on to the function
   const sortedRecipes = filteredRecipes
     .map((recipe) => ({
       recipe,
-      matchCount: recipe.ingredTag.filter((id) => ingredientIds.includes(id))
+      matchCount: recipe.ingredTag.filter((id) => ingredientIds?.includes(id))
         .length,
     }))
     .filter(({ matchCount }) => matchCount > 0)
