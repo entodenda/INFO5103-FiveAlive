@@ -6,13 +6,7 @@ import { Ingredient } from "@/components/Ingredient";
 import { Nutrition } from "@/components/Recipe";
 import IngredientWidget from "@/components/IngredientWidget";
 import IngredientInput from "@/components/IngredientInput";
-import {
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  TouchableOpacity,
-} from "react-native";
+import { StyleSheet, ScrollView, View, Text, Pressable } from "react-native";
 import { CheckBox } from "react-native-elements";
 import {
   loadPantryIngredients,
@@ -163,17 +157,17 @@ export default function PantryScreen() {
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.headerRow}>
-          <TouchableOpacity onPress={() => setFiltersVisible(!filtersVisible)}>
+          <Pressable onPress={() => setFiltersVisible(!filtersVisible)}>
             <Ionicons
               name={filtersVisible ? "filter" : "filter-outline"}
               size={24}
               color="black"
             />
-          </TouchableOpacity>
+          </Pressable>
           <Text style={styles.title}>~ My Pantry ~</Text>
-          <TouchableOpacity onPress={handleAddClick}>
+          <Pressable onPress={handleAddClick}>
             <Ionicons name="add" size={24} color="black" />
-          </TouchableOpacity>
+          </Pressable>
         </View>
         {filtersVisible && (
           <View>
