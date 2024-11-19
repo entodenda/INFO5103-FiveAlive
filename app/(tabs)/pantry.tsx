@@ -99,6 +99,7 @@ export default function PantryScreen() {
       console.log("_______________________________");
       console.log("glutenFreePass: " + glutenFreePass);
       console.log("veganPass: " + veganPass);
+      console.log("vegetarianPass: " + vegetarianPass);
       console.log("dairyFreePass: " + dairyFreePass);
       console.log("nutFreePass: " + nutFreePass);
 
@@ -120,7 +121,7 @@ export default function PantryScreen() {
     console.log("_____________");
     console.log(filteredIngredients);
 
-    setIngredients(filteredIngredients); // Return the filtered list
+    setIngredientsDisplay(filteredIngredients); // Return the filtered list
   };
   useEffect(() => {
     console.log();
