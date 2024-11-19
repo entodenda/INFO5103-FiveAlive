@@ -21,11 +21,15 @@ import {
 
 export default function PantryScreen() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
+  const [ingredientsDisplay, setIngredientsDisplay] = useState<Ingredient[]>(
+    []
+  );
   const [filtersVisible, setFiltersVisible] = useState<boolean>(false);
   const [glutenFreeFilter, setGFFilter] = useState<boolean>(false);
   const [nutFreeFilter, setNutFilter] = useState<boolean>(false);
   const [dairyFreeFilter, setDfFilter] = useState<boolean>(false);
   const [veganFilter, setVeganFilter] = useState<boolean>(false);
+  const [vegetarianFilter, setVegetarianFilter] = useState<boolean>(false);
   const [isAddMode, setIsAddMode] = useState<boolean>(false);
 
   useEffect(() => {
@@ -33,8 +37,17 @@ export default function PantryScreen() {
   }, []);
 
   useEffect(() => {
+    setIngredientsDisplay(ingredients);
+  }, [ingredients]);
+  useEffect(() => {
     filterList();
-  }, [glutenFreeFilter, nutFreeFilter, dairyFreeFilter, veganFilter]);
+  }, [
+    glutenFreeFilter,
+    nutFreeFilter,
+    dairyFreeFilter,
+    veganFilter,
+    vegetarianFilter,
+  ]);
 
   useEffect(() => {
     console.log();
@@ -52,6 +65,7 @@ export default function PantryScreen() {
       .then((value) => {
         if (value) {
           setIngredients(value);
+          setIngredientsDisplay(value);
         }
       })
       .catch((error) => {
@@ -71,6 +85,9 @@ export default function PantryScreen() {
         ? !ingredient.dietTag?.includes(1)
         : true;
       const veganPass = veganFilter ? !ingredient.dietTag?.includes(2) : true;
+      const vegetarianPass = vegetarianFilter
+        ? !ingredient.dietTag?.includes(3)
+        : true;
       const dairyFreePass = dairyFreeFilter
         ? !ingredient.dietTag?.includes(4)
         : true;
@@ -85,7 +102,13 @@ export default function PantryScreen() {
       console.log("dairyFreePass: " + dairyFreePass);
       console.log("nutFreePass: " + nutFreePass);
 
-      if (glutenFreePass && veganPass && dairyFreePass && nutFreePass) {
+      if (
+        glutenFreePass &&
+        veganPass &&
+        dairyFreePass &&
+        nutFreePass &&
+        vegetarianPass
+      ) {
         console.log("ingredient should appear");
         filteredIngredients.push(ingredient);
       } else {
@@ -97,17 +120,26 @@ export default function PantryScreen() {
     console.log("_____________");
     console.log(filteredIngredients);
 
-    setIngredients(filteredIngredients); 
+    setIngredients(filteredIngredients); // Return the filtered list
   };
+  useEffect(() => {
+    console.log();
+    console.log("AFTER SET (Ingredients)");
+    console.log("_____________");
+    console.log(ingredients);
+    console.log(ingredients.length);
+  }, [ingredients]);
 
   const addIngredientHandler = async (ingredient: Ingredient) => {
     // check if already on list
+    //loadIngredients;
     if (ingredients.includes(ingredient, 0)) {
       console.log("Ingredient already in pantry.");
     } else {
       setIngredients((ingredients) => [...ingredients, ingredient]);
     }
-
+    // save ingredients list to json
+    await savePantryIngredients(ingredients);
     const toastString: string = ingredient.name + " added";
     Toast.show({
       type: "info",
@@ -157,7 +189,12 @@ export default function PantryScreen() {
                 onPress={() => setVeganFilter(!veganFilter)}
                 containerStyle={styles.checkBox}
               />
-              <CheckBox title="Vegetarian" containerStyle={styles.checkBox} />
+              <CheckBox
+                title="Vegetarian"
+                checked={vegetarianFilter}
+                onPress={() => setVegetarianFilter(!vegetarianFilter)}
+                containerStyle={styles.checkBox}
+              />
             </View>
             <View style={styles.checkBoxRow}>
               <CheckBox
@@ -183,7 +220,7 @@ export default function PantryScreen() {
       />
 
       <ScrollView>
-        {ingredients.map((ingredient) => (
+        {ingredientsDisplay.map((ingredient) => (
           <IngredientWidget key={ingredient.id} ingredient={ingredient} />
         ))}
       </ScrollView>

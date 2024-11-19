@@ -1,4 +1,4 @@
-import React, { useState ,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import {
   Modal,
@@ -16,6 +16,7 @@ import Fraction from "fraction.js";
 import { ChangeInfoScale } from "./Scale";
 
 import { Recipe, Serving } from "./Recipe";
+import Toast from "react-native-toast-message";
 
 interface RecipeModalProps {
   visible: boolean;
@@ -60,7 +61,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
       setServings(recipe.serving.servings);
       setThisRecipe(recipe);
     }
-  }, [recipe]); 
+  }, [recipe]);
 
   const toggleSection = (section: SectionKey) => {
     setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
@@ -258,6 +259,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
           </View>
         </View>
       </View>
+      <Toast />
     </Modal>
   );
 };
