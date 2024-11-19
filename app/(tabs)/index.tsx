@@ -5,7 +5,6 @@ import {
   Image,
   View,
   Text,
-  TouchableOpacity,
   Modal,
   Alert,
   Pressable,
@@ -56,9 +55,9 @@ export default function IndexScreen() {
       <View style={styles.content}>
         <View style={styles.contentHeader}>
           <Text style={styles.title}>Reminders</Text>
-          <TouchableOpacity onPress={handleAddClick}>
+          <Pressable onPress={handleAddClick}>
             <Text style={styles.hyperText}>Add reminder</Text>
-          </TouchableOpacity>
+          </Pressable>
         </View>
         <ReminderModal
           visible={addMode}
