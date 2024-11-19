@@ -13,13 +13,13 @@ export const savePantryIngredients = async (ingredients: Ingredient[]) => {
 };
 
 // This function returns an object list of pantryIngredients from the json
-export const loadPantryIngredients = async (): Promise<Ingredient[] | null> => {
+export const loadPantryIngredients = async (): Promise<Ingredient[]> => {
   try {
     const jsonString = await AsyncStorage.getItem("pantryIngredients");
-    if (!jsonString) return null;
+    if (!jsonString) return [];
     return JSON.parse(jsonString);
   } catch (error) {
     console.error("Error loading ingredients:", error);
-    return null;
+    return [];
   }
 };
