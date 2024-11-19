@@ -16,6 +16,7 @@ import {
   Reminder,
   saveReminder,
   loadReminders,
+  deleteReminder,
 } from "@/components/ReminderFunctions";
 
 export default function IndexScreen() {
@@ -29,8 +30,7 @@ export default function IndexScreen() {
   const thistext = GetTip();
 
   useEffect(() => {
-    let test = loadReminders();
-    console.log(test);
+    loadSavedReminders();
   }, []);
   useEffect(() => {
     setRemindersDisplay(reminders);
@@ -39,8 +39,32 @@ export default function IndexScreen() {
   const handleAddClick = () => {
     setIsAddMode(true);
   };
-  const handleAddReminder = (reminder: Reminder) => {
+  const handleAddReminder = async (reminder: Reminder) => {
+    const reminderList = [...reminders, reminder];
     setReminders((reminders) => [...reminders, reminder]);
+    await saveReminder(reminderList);
+  };
+
+  // load ingredients from saved pantry list
+  const loadSavedReminders = () => {
+    const myPromise = loadReminders();
+    myPromise
+      .then((value) => {
+        if (value) {
+          setReminders(value);
+          setRemindersDisplay(value);
+        }
+      })
+      .catch((error) => {
+        console.error(
+          "loadSavedReminders Promise rejected with error: " + error
+        );
+      });
+  };
+
+  const handleDeleteReminder = async (reminder: Reminder) => {
+    await deleteReminder(reminder);
+    loadSavedReminders();
   };
 
   return (
@@ -65,8 +89,12 @@ export default function IndexScreen() {
           onAddItem={handleAddReminder}
         />
         <ScrollView>
-          {remindersDisplay.map((reminder) => (
-            <ReminderWidget key={reminder.title} reminder={reminder} />
+          {remindersDisplay.map((r) => (
+            <ReminderWidget
+              key={r.title}
+              reminder={r}
+              onDelete={() => handleDeleteReminder(r)}
+            />
           ))}
         </ScrollView>
       </View>
