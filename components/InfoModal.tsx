@@ -4,9 +4,9 @@ import {
   Modal,
   View,
   StyleSheet,
-  TouchableOpacity,
   Platform,
   ScrollView,
+  Pressable,
 } from "react-native";
 import { ThemedText } from "./ThemedText";
 
@@ -17,25 +17,15 @@ interface InfoModalProps {
 }
 
 export function GetTip(): string {
-    const tempTips: string[] = [];
-    const tipFile = require("../assets/tips.json");
-    tipFile.forEach(
-        (element: {
-            tip: string;
-        }) => {
-            tempTips.push(element.tip.toString())
-        }
-    )
-    return tempTips[Math.floor(Math.random() * tempTips.length)];
+  const tempTips: string[] = [];
+  const tipFile = require("../assets/tips.json");
+  tipFile.forEach((element: { tip: string }) => {
+    tempTips.push(element.tip.toString());
+  });
+  return tempTips[Math.floor(Math.random() * tempTips.length)];
 }
 
-
-const InfoModal: React.FC<InfoModalProps> = ({
-  visible,
-  text,
-  onClose,
-}) => {
-
+const InfoModal: React.FC<InfoModalProps> = ({ visible, text, onClose }) => {
   const handleClose = () => {
     onClose();
   };
@@ -46,20 +36,21 @@ const InfoModal: React.FC<InfoModalProps> = ({
         <View style={styles.modalContainer}>
           <View style={styles.translucentBackground}>
             <View style={styles.headerContainer}>
-              <ThemedText type="title">Tip:</ThemedText>
-              <TouchableOpacity
-                onPress={handleClose}
-                style={styles.closeButton}
-              >
+              <ThemedText type="title" style={styles.headerText}>
+                Tip:
+              </ThemedText>
+              <Pressable onPress={handleClose} style={styles.closeButton}>
                 <Ionicons name="close" size={24} color="black" />
-              </TouchableOpacity>
+              </Pressable>
             </View>
             <ScrollView
               contentContainerStyle={styles.scrollViewContent}
               showsVerticalScrollIndicator={false}
               showsHorizontalScrollIndicator={false}
             >
-            <ThemedText type="defaultSemiBold">{text}</ThemedText>
+              <ThemedText type="defaultSemiBold" style={styles.sectionText}>
+                {text}
+              </ThemedText>
             </ScrollView>
           </View>
         </View>
@@ -142,8 +133,12 @@ const styles = StyleSheet.create({
   },
   sectionText: {
     fontSize: 16,
-    marginLeft: 10, 
+    marginLeft: 10,
     marginTop: 2,
+    color: "black",
+  },
+  headerText: {
+    color: "black",
   },
 });
 
