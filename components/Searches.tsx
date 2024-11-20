@@ -1,5 +1,7 @@
 import { Ingredient, DietTag } from "./Ingredient";
-import { Nutrition, Recipe } from "./Recipe";
+import { Nutrition } from "./Recipe";
+import { Recipe } from "@/components/Recipe";
+import { RecipeImport } from "./RecipeImport";
 
 const DietTagDisplayNames: { [key in DietTag]: string } = {
   [DietTag.ContainsGluten]: "Gluten Free",
@@ -89,11 +91,11 @@ export function FindMatchingRecipeByName(name: string): Recipe[] {
 }
 
 // This function returns list of recipes based on the diet tags and ingredient list
-export function FindMatchingRecipe(
+export async function FindMatchingRecipe(
   excludedDietTags: number[] | null,
-  ingredientIds: number[] | null
-): Recipe[] | null {
-  const recipesFile: Recipe[] = require("../assets/recipesUpdated.json");
+  ingredientIds: number[] | null,
+): Promise<Recipe[] | null> {
+  const recipesFile: Recipe[] = await RecipeImport();
 
   // getting all the recipes that does not have dietry tags
   const filteredRecipes = recipesFile.filter((recipe) =>
