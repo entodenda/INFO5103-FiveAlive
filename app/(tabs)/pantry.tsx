@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import Toast from "react-native-toast-message";
-import { AllIngredientsImport } from "@/components/IngredientImport";
 import { Ingredient } from "@/components/Ingredient";
-import { Nutrition } from "@/components/Recipe";
 import IngredientWidget from "@/components/IngredientWidget";
 import IngredientInput from "@/components/IngredientInput";
 import { StyleSheet, ScrollView, View, Text, Pressable } from "react-native";

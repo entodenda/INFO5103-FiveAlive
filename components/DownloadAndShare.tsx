@@ -94,4 +94,41 @@ const sendMessageWithEmail = async (recipe: Recipe, email: string) => {
   }
 };
 
-export { sendMessageWithEmail };
+const sendFeedbackEmail = async (
+  name: string,
+  feedback: string,
+  email: string
+) => {
+  const isAvailable = await MailComposer.isAvailableAsync();
+
+  if (isAvailable) {
+    const options = {
+      recipients: ["reciperhapsody@outlook.com"],
+      subject: name + "'s Feedback",
+      body:
+        "Feedback:\n" + feedback + "\n\n" + "Preferred contact email: " + email,
+    };
+
+    MailComposer.composeAsync(options)
+      .then((result) => {
+        console.log(result.status);
+        Toast.show({
+          type: "info",
+          text1: "Success! Your email has been sent!",
+          position: "bottom",
+        });
+      })
+      .catch((error) => {
+        console.log(error);
+        Toast.show({
+          type: "error",
+          text1: "Failed to send email. Please try again.",
+          position: "bottom",
+        });
+      });
+  } else {
+    console.log("Email is not available on this device");
+  }
+};
+
+export { sendMessageWithEmail, sendFeedbackEmail };
