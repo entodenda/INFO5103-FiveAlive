@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import {
   StyleSheet,
   ScrollView,
@@ -6,10 +6,14 @@ import {
   View,
   Text,
   Pressable,
+  FlatList,
+  TouchableOpacity,
+  Platform,
 } from "react-native";
 import InfoModal, { GetTip } from "@/components/InfoModal";
 import ReminderWidget from "@/components/ReminderWidget";
 import ReminderModal from "@/components/ReminderModal";
+import RecipeModal from "@/components/RecipeModal";
 import {
   Reminder,
   saveReminder,
@@ -18,8 +22,14 @@ import {
 } from "@/components/ReminderFunctions";
 import { ContactFormModal } from "@/components/ContactFormModal";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import {GetWeeklyRecipe } from "@/components/RecipeImport";
+import { Recipe } from "@/components/Recipe";
+import { ThemedText } from "@/components/ThemedText";
+import { StarRatingDisplay } from "react-native-star-rating-widget";
 
 export default function IndexScreen() {
+  const [modalVisible, setModalVisible] = useState<boolean>(false);
+  const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
   const [reminders, setReminders] = useState<Reminder[]>([]);
   const [remindersDisplay, setRemindersDisplay] = useState<Reminder[]>([]);
   const [isModalVisible, setIsModalVisible] = useState(true);
@@ -32,6 +42,7 @@ export default function IndexScreen() {
 
   useEffect(() => {
     loadSavedReminders();
+    getRecipe();
   }, []);
   useEffect(() => {
     setRemindersDisplay(reminders);
@@ -68,6 +79,16 @@ export default function IndexScreen() {
     loadSavedReminders();
   };
 
+  const handleRecipePress = (recipe: Recipe) => {
+    setSelectedRecipe(recipe);
+    setModalVisible(true);
+};
+
+const getRecipe = async () => {
+  const tempRecipe = await GetWeeklyRecipe();
+  setSelectedRecipe(tempRecipe);
+};
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -99,6 +120,35 @@ export default function IndexScreen() {
         visible={contactModalVisible}
         onClose={() => setContactModalVisible(false)}
       ></ContactFormModal>
+
+<View style={styles.content}>
+        <View style={styles.contentHeader}>
+          <Text style={styles.title}>Top Recipe For This Week</Text>
+          </View>
+          </View>
+          <TouchableOpacity
+        onPress={() => handleRecipePress(selectedRecipe!)}
+        style={styles.recipeItem}
+    >
+        {selectedRecipe?.image && (
+            <Image
+                source={{ uri: selectedRecipe?.image }}
+                style={styles.recipeImage}
+            />
+        )}
+        <ThemedText style={styles.recipeTitle}>{selectedRecipe?.name}</ThemedText>
+        <View style={styles.recipeItemRow}>
+            <StarRatingDisplay
+                rating={parseFloat(selectedRecipe!?.rating)}
+                color="#f7931e"
+                starSize={20}
+            />
+            <ThemedText style={styles.recipeTitle}>
+                {selectedRecipe?.rating}
+            </ThemedText>
+        </View>
+    </TouchableOpacity>
+
       <View style={styles.content}>
         <View style={styles.contentHeader}>
           <Text style={styles.title}>Reminders</Text>
@@ -121,11 +171,13 @@ export default function IndexScreen() {
           ))}
         </ScrollView>
       </View>
-      <View style={styles.content}>
-        <View style={styles.contentHeader}>
-          <Text style={styles.title}>Top Recipes For This Week</Text>
-        </View>
-      </View>
+
+      <RecipeModal
+                visible={modalVisible}
+                recipe={selectedRecipe}
+                onClose={() => setModalVisible(false)}
+            />
+
       <InfoModal
         visible={isModalVisible}
         text={thistext}
@@ -220,4 +272,35 @@ const styles = StyleSheet.create({
   tooltipContainer: {
     position: "relative",
   },
+  recipeItem: {
+    width: Platform.OS === "web" ? "50%" : "100%",
+    alignSelf: "center",
+    margin: 10,
+    padding: 8,
+    borderRadius: 25,
+    backgroundColor: "#343434",
+    elevation: 3,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+},
+recipeImage: {
+    width: "100%",
+    height: Platform.OS === "web" ? 100 : 200,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginBottom: 10,
+},
+recipeTitle: {
+    color: "#fff",
+    fontSize: 20,
+    fontWeight: "300",
+    marginBottom: 10,
+    marginLeft: 5,
+},
+recipeItemRow: { flexDirection: "row" },
+recipeList: {
+  paddingBottom: 20,
+},
 });

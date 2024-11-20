@@ -402,3 +402,7 @@ FodyWeavers.xsd
 
 expo-env.d.ts
 # @end expo-cli
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
