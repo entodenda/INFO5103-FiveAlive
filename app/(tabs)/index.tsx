@@ -5,8 +5,6 @@ import {
   Image,
   View,
   Text,
-  Modal,
-  Alert,
   Pressable,
 } from "react-native";
 import InfoModal, { GetTip } from "@/components/InfoModal";
@@ -18,15 +16,18 @@ import {
   loadReminders,
   deleteReminder,
 } from "@/components/ReminderFunctions";
+import { ContactFormModal } from "@/components/ContactFormModal";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function IndexScreen() {
   const [reminders, setReminders] = useState<Reminder[]>([]);
   const [remindersDisplay, setRemindersDisplay] = useState<Reminder[]>([]);
   const [isModalVisible, setIsModalVisible] = useState(true);
   const [addMode, setIsAddMode] = useState<boolean>(false);
+  const [isHovered, setIsHovered] = useState<boolean>(false);
+  const [contactModalVisible, setContactModalVisible] =
+    useState<boolean>(false);
 
-  const text =
-    "hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!hello world!";
   const thistext = GetTip();
 
   useEffect(() => {
@@ -70,12 +71,34 @@ export default function IndexScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image
-          style={styles.logo}
-          source={require("../../assets/images/chef.png")}
-        />
-        <Text style={styles.title}>Recipe Rhapsody</Text>
+        <View style={styles.headerRow}>
+          <View style={styles.titleAndLogo}>
+            <Image
+              style={styles.logo}
+              source={require("../../assets/images/chef.png")}
+            />
+            <Text style={styles.title}>Recipe Rhapsody</Text>
+          </View>
+          <View style={styles.tooltipContainer}>
+            <Pressable
+              onPress={() => setContactModalVisible(true)}
+              onLongPress={() => setIsHovered(true)}
+              onPressOut={() => setIsHovered(false)}
+            >
+              <Ionicons name="mail" size={24} color="black" />
+            </Pressable>
+            {isHovered && (
+              <View style={styles.tooltip}>
+                <Text style={styles.tooltipText}>Contact Us</Text>
+              </View>
+            )}
+          </View>
+        </View>
       </View>
+      <ContactFormModal
+        visible={contactModalVisible}
+        onClose={() => setContactModalVisible(false)}
+      ></ContactFormModal>
       <View style={styles.content}>
         <View style={styles.contentHeader}>
           <Text style={styles.title}>Reminders</Text>
@@ -119,9 +142,6 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   header: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
     paddingTop: "10%",
   },
   content: {
@@ -137,13 +157,13 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     color: "black",
+    textAlign: "center",
   },
   hyperText: {
     fontSize: 16,
     color: "#3374FF",
     textDecorationLine: "underline",
   },
-
   logo: {
     width: 50,
     height: 50,
@@ -166,5 +186,38 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingLeft: 20,
     justifyContent: "center",
+  },
+  headerRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  titleAndLogo: {
+    flex: 1,
+    justifyContent: "center",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  tooltip: {
+    position: "absolute",
+    top: -30, // Move above the icon
+    right: 0, // Align to the right
+    backgroundColor: "#333",
+    padding: 8,
+    borderRadius: 5,
+    zIndex: 1,
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 5,
+    minWidth: 80,
+  },
+  tooltipText: {
+    color: "#fff",
+    fontSize: 12,
+    textAlign: "center",
+  },
+  tooltipContainer: {
+    position: "relative",
   },
 });

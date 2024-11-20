@@ -14,7 +14,7 @@ export const saveReminder = async (reminders: Reminder[]) => {
   try {
     const jsonString = JSON.stringify(reminders, null, 2);
     await AsyncStorage.setItem("reminders", jsonString);
-    console.log("Reminder saved: 'reminders'");
+    //console.log("Reminder saved: 'reminders'");
   } catch (error) {
     console.error("Error Saving A Single Reminder: ", error);
   }
@@ -38,7 +38,7 @@ export const deleteReminder = async (reminder: Reminder) => {
       (r) => r.title !== reminder.title || r.date !== reminder.date
     );
     await saveReminder(removedReminderList);
-    console.log(`Reminder ${reminder.title} deleted`);
+    //console.log(`Reminder ${reminder.title} deleted`);
   } catch (error) {
     console.log(`Unable to delete reminder ${reminder.title}: `, error);
   }
