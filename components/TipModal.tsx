@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { ThemedText } from "./ThemedText";
 
-interface InfoModalProps {
+interface TipModalProps {
   visible: boolean;
   text: string;
   onClose: () => void;
@@ -25,7 +25,7 @@ export function GetTip(): string {
   return tempTips[Math.floor(Math.random() * tempTips.length)];
 }
 
-const InfoModal: React.FC<InfoModalProps> = ({ visible, text, onClose }) => {
+const TipModal: React.FC<TipModalProps> = ({ visible, text, onClose }) => {
   const handleClose = () => {
     onClose();
   };
@@ -142,4 +142,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default InfoModal;
+export default TipModal;

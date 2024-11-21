@@ -402,3 +402,4 @@ FodyWeavers.xsd
 
 expo-env.d.ts
 # @end expo-cli
+.expo/types/router.d.ts

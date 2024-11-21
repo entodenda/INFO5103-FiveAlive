@@ -7,7 +7,7 @@ import {
   Text,
   Pressable,
 } from "react-native";
-import InfoModal, { GetTip } from "@/components/InfoModal";
+import TipModal, { GetTip } from "@/components/TipModal";
 import ReminderWidget from "@/components/ReminderWidget";
 import ReminderModal from "@/components/ReminderModal";
 import {
@@ -18,11 +18,14 @@ import {
 } from "@/components/ReminderFunctions";
 import { ContactFormModal } from "@/components/ContactFormModal";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import TipToggleComponent, {
+  CheckToggle,
+} from "@/components/TipToggleComponent";
 
 export default function IndexScreen() {
   const [reminders, setReminders] = useState<Reminder[]>([]);
   const [remindersDisplay, setRemindersDisplay] = useState<Reminder[]>([]);
-  const [isModalVisible, setIsModalVisible] = useState(true);
+  const [isModalVisible, setIsModalVisible] = useState(false);
   const [addMode, setIsAddMode] = useState<boolean>(false);
   const [isHovered, setIsHovered] = useState<boolean>(false);
   const [contactModalVisible, setContactModalVisible] =
@@ -36,6 +39,14 @@ export default function IndexScreen() {
   useEffect(() => {
     setRemindersDisplay(reminders);
   }, [reminders]);
+
+  useEffect(() => {
+    const initializeModalState = async () => {
+      const initialModalState = await CheckToggle();
+      setIsModalVisible(initialModalState);
+    };
+    initializeModalState();
+  }, []);
 
   const handleAddClick = () => {
     setIsAddMode(true);
@@ -72,6 +83,9 @@ export default function IndexScreen() {
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.headerRow}>
+          <View>
+            <TipToggleComponent />
+          </View>
           <View style={styles.titleAndLogo}>
             <Image
               style={styles.logo}
@@ -126,9 +140,9 @@ export default function IndexScreen() {
           <Text style={styles.title}>Top Recipes For This Week</Text>
         </View>
       </View>
-      <InfoModal
+      <TipModal
         visible={isModalVisible}
-        text={thistext}
+        text={GetTip()}
         onClose={() => setIsModalVisible(false)}
       />
     </View>
