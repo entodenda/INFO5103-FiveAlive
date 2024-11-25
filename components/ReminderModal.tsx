@@ -6,9 +6,8 @@ import {
   Modal,
   Text,
   Platform,
-  TouchableOpacity,
-  Image,
   Pressable,
+  Image,
 } from "react-native";
 import { Reminder } from "@/components/ReminderFunctions";
 import DateTimePicker from "@react-native-community/datetimepicker";
@@ -67,18 +66,18 @@ const ReminderModal = (props: {
             {date.toLocaleDateString()} {date.toLocaleTimeString()}
           </Text>
           <View style={styles.iconContainer}>
-            <TouchableOpacity onPress={() => showMode("date")}>
+            <Pressable onPress={() => showMode("date")}>
               <Image
                 source={require("@/assets/images/calendar.png")}
                 style={styles.icon}
               />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => showMode("time")}>
+            </Pressable>
+            <Pressable onPress={() => showMode("time")}>
               <Image
                 source={require("@/assets/images/clock.png")}
                 style={styles.icon}
               />
-            </TouchableOpacity>
+            </Pressable>
           </View>
         </View>
 
@@ -91,9 +90,9 @@ const ReminderModal = (props: {
           />
         )}
 
-        <TouchableOpacity style={styles.addButton} onPress={handleOnClick}>
+        <Pressable style={styles.addButton} onPress={handleOnClick}>
           <Text style={styles.addButtonText}>Add Reminder</Text>
-        </TouchableOpacity>
+        </Pressable>
       </View>
     </Modal>
   );

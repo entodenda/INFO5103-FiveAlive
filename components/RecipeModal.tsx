@@ -5,7 +5,7 @@ import {
   View,
   Text,
   StyleSheet,
-  TouchableOpacity,
+  Pressable,
   Platform,
   Image,
   TextInput,
@@ -105,12 +105,9 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
             )}
             <View style={styles.headerContainer}>
               <Text style={styles.modalTitle}>{recipe.name}</Text>
-              <TouchableOpacity
-                onPress={handleClose}
-                style={styles.closeButton}
-              >
+              <Pressable onPress={handleClose} style={styles.closeButton}>
                 <Ionicons name="close" size={24} color="black" />
-              </TouchableOpacity>
+              </Pressable>
             </View>
             <ScrollView
               contentContainerStyle={styles.scrollViewContent}
@@ -118,7 +115,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
               showsHorizontalScrollIndicator={false}
             >
               {/* Instructions Section */}
-              <TouchableOpacity
+              <Pressable
                 onPress={() => toggleSection("instructions")}
                 style={styles.card}
               >
@@ -132,10 +129,10 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                     ))}
                   </>
                 )}
-              </TouchableOpacity>
+              </Pressable>
 
               {/* Cooking Times Section */}
-              <TouchableOpacity
+              <Pressable
                 onPress={() => toggleSection("cookingTimes")}
                 style={styles.card}
               >
@@ -174,10 +171,10 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                     </View>
                   </>
                 )}
-              </TouchableOpacity>
+              </Pressable>
 
               {/* Nutritional Information Section */}
-              <TouchableOpacity
+              <Pressable
                 onPress={() => toggleSection("nutrition")}
                 style={styles.card}
               >
@@ -215,10 +212,10 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                     </Text>
                   </>
                 )}
-              </TouchableOpacity>
+              </Pressable>
 
               {/* Ingredients Section */}
-              <TouchableOpacity
+              <Pressable
                 onPress={() => toggleSection("ingredients")}
                 style={styles.card}
               >
@@ -244,9 +241,9 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                     ))}
                   </>
                 )}
-              </TouchableOpacity>
+              </Pressable>
               {/* Source Section */}
-              <TouchableOpacity
+              <Pressable
                 onPress={() => toggleSection("source")}
                 style={styles.card}
               >
@@ -254,7 +251,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
                 {expandedSections.source && (
                   <Text style={styles.sectionText}>{recipe.url}</Text>
                 )}
-              </TouchableOpacity>
+              </Pressable>
             </ScrollView>
           </View>
         </View>
