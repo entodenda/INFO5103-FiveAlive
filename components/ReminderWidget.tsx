@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
+import { View, Text, StyleSheet, Pressable, Image } from "react-native";
 import { Reminder, deleteReminder } from "@/components/ReminderFunctions";
 import React, { useState } from "react";
 
@@ -22,7 +22,7 @@ const ReminderWidget: React.FC<ReminderWidgetProps> = ({
     <View style={styles.container}>
       <View style={styles.widgetRow}>
         <Text style={styles.reminderTitle}>{reminder.title}</Text>
-        <TouchableOpacity style={styles.widgetButton} onPress={toggleStatus}>
+        <Pressable style={styles.widgetButton} onPress={toggleStatus}>
           <Text style={styles.activeText}>
             {isActive ? "Active" : "Inactive"}
           </Text>
@@ -34,17 +34,17 @@ const ReminderWidget: React.FC<ReminderWidgetProps> = ({
             }
             style={styles.tinyLogo}
           />
-        </TouchableOpacity>
+        </Pressable>
       </View>
       <View style={styles.widgetRow}>
         <Text>{reminder.date}</Text>
-        <TouchableOpacity style={styles.widgetButton} onPress={onDelete}>
+        <Pressable style={styles.widgetButton} onPress={onDelete}>
           <Text style={styles.deleteText}>Delete</Text>
           <Image
             source={require("../assets/images/bin.png")}
             style={styles.tinyLogo}
           />
-        </TouchableOpacity>
+        </Pressable>
       </View>
     </View>
   );

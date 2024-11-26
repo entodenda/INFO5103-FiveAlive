@@ -57,7 +57,7 @@ export default function IndexScreen() {
     await saveReminder(reminderList);
   };
 
-  // load ingredients from saved pantry list
+  // load reminders from saved preferences
   const loadSavedReminders = () => {
     const myPromise = loadReminders();
     myPromise

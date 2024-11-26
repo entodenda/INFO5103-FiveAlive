@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     backgroundColor: "#f9f9f9",
     marginBottom: 5,
-    textAlignVertical: "top",
+    verticalAlign: "top",
   },
   error: {
     color: "red",
