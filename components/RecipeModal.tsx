@@ -20,6 +20,7 @@ import { ImageSourcePropType } from "react-native";
 import { Recipe, Serving } from "./Recipe";
 import Toast from "react-native-toast-message";
 import ShareModal from "./ShareModal";
+import {saveRecipeToDevice} from '../components/DownloadAndShare'
 
 interface RecipeModalProps {
 	visible: boolean;
@@ -108,6 +109,10 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
 			setThisRecipe(thisRecipe);
 		}
 	};
+
+	const downloadRecipe = async () => {
+		await saveRecipeToDevice(thisRecipe!)
+	}
 
 	if (!recipe) return null;
 
@@ -353,9 +358,10 @@ const RecipeModal: React.FC<RecipeModalProps> = ({
 									size={24}
 									color="black"
 								/>
-							</Pressable>
+							</Pressable >
 							{/* Download Button */}
-							<Pressable
+
+							<Pressable onPress = {() => downloadRecipe()}
 							// todo - find download function and call it here
 							// onPress={() => }
 							>

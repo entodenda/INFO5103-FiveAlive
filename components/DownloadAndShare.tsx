@@ -1,4 +1,7 @@
 import * as MailComposer from "expo-mail-composer";
+import * as FileSystem from 'expo-file-system';
+import * as MediaLibrary from 'expo-media-library';
+import * as Permissions from 'expo-permissions';
 import Toast from "react-native-toast-message";
 import { Recipe } from "./Recipe";
 import { ConvertMinsToHours } from "./RecipeImport";
@@ -59,6 +62,23 @@ const getRecipeInfo = async (recipe: Recipe): Promise<string> => {
     return "";
   }
 };
+
+const saveRecipeToDevice = async (recipe:Recipe) => {
+const permissions = await FileSystem.StorageAccessFramework.requestDirectoryPermissionsAsync();
+if (!permissions.granted) {
+    return;
+}
+const recipeBody = await getRecipeInfo(recipe);
+try {
+    await FileSystem.StorageAccessFramework.createFileAsync(permissions.directoryUri, recipe.name, 'text/plain')
+    .then(async (r) => {
+      await FileSystem.writeAsStringAsync(r, recipeBody,{encoding: FileSystem.EncodingType.UTF8})
+    })
+    .catch((e) => {
+        console.log(e);
+    });
+} catch(error)  {console.log(error);}
+}
 
 const sendMessageWithEmail = async (recipe: Recipe, email: string) => {
   const isAvailable = await MailComposer.isAvailableAsync();
@@ -131,4 +151,4 @@ const sendFeedbackEmail = async (
   }
 };
 
-export { sendMessageWithEmail, sendFeedbackEmail };
+export { sendMessageWithEmail, sendFeedbackEmail , saveRecipeToDevice};
