@@ -94,9 +94,8 @@ export function FindMatchingRecipeByName(name: string): Recipe[] {
 export async function FindMatchingRecipe(
   excludedDietTags: number[] | null,
   ingredientIds: number[] | null,
+  recipesFile: Recipe[]
 ): Promise<Recipe[] | null> {
-  const recipesFile: Recipe[] = await RecipeImport();
-
   // getting all the recipes that does not have dietry tags
   const filteredRecipes = recipesFile.filter((recipe) =>
     recipe.dietTag.every((tag) => !excludedDietTags?.includes(tag))
