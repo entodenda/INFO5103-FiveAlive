@@ -324,6 +324,13 @@ const RecipesScreen: React.FC = () => {
                 </View>
             )}
 
+            <TouchableOpacity
+                onPress={loadIngredients}
+                style={styles.refreshBtn}
+            >
+                <Text style={styles.refreshBtnTxt}>{"Refresh"}</Text>
+            </TouchableOpacity>
+
             <FlatList
                 ref={listRef}
                 data={paginatedRecipes}
@@ -335,7 +342,9 @@ const RecipesScreen: React.FC = () => {
             <View style={styles.paginationContainer}>
                 {currentPage > 1 && (
                     <TouchableOpacity onPress={prev} style={styles.loadBtn}>
-                        <Text style={styles.loadRecipes}>{"Prev"}</Text>
+                        <Text style={styles.loadRecipes}>
+                            {"Previous Page"}
+                        </Text>
                     </TouchableOpacity>
                 )}
                 {currentPage < totalPages && (
@@ -346,15 +355,9 @@ const RecipesScreen: React.FC = () => {
                             { marginLeft: currentPage > 1 ? 50 : 0 },
                         ]}
                     >
-                        <Text style={styles.loadRecipes}>{"Next"}</Text>
+                        <Text style={styles.loadRecipes}>{"Next Page"}</Text>
                     </TouchableOpacity>
                 )}
-                <TouchableOpacity
-                    onPress={loadIngredients}
-                    style={[styles.loadBtn, { marginLeft: 50 }]}
-                >
-                    <Text style={styles.loadRecipes}>{"Reload recipes"}</Text>
-                </TouchableOpacity>
             </View>
 
             <RecipeModal
@@ -385,6 +388,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
+        marginBottom: 10,
     },
     recipeItemRow: { flexDirection: "row" },
     recipeItem: {
@@ -415,7 +419,7 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     recipeList: {
-        paddingBottom: 20,
+        paddingBottom: 100,
     },
     filtersContainer: {
         paddingVertical: 10,
@@ -455,15 +459,26 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     scroll: {
-        height: 158,
+        height: 140,
     },
     loadBtn: {
         padding: 10,
         backgroundColor: "#007BFF",
         borderRadius: 5,
         alignItems: "center",
+        width: 200,
         marginTop: 5,
         marginBottom: 40,
+    },
+    refreshBtn: {
+        position: "absolute",
+        top: 95,
+        right: 15,
+    },
+    refreshBtnTxt: {
+        fontSize: 16,
+        color: "#3374FF",
+        textDecorationLine: "underline",
     },
     loadRecipes: {
         color: "#fff",
@@ -471,10 +486,9 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     paginationContainer: {
-        flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: 10,
+        position: "absolute",
+        bottom: 20,
+        left: "27%",
     },
 });
 
